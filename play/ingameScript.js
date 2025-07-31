@@ -52,8 +52,9 @@ var achievements = [
 ///       GAME FRONT         ///
 ////////////////////////////////
 
-
 function unlockSeed() {
+  if (seed[1][0][7] == true) {
+  }
   const achContainer = document.createElement("li");
 
   const ach_h1 = document.createElement("h1");
