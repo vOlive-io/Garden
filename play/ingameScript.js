@@ -39,7 +39,26 @@ var Seeds = [
 var Soils = [
   ["2.1.1", "Soil Name", "Soil Description", 1, true],
   ["2.1.1", "Soil Name", "Soil Description", 1.5, false],
-  ["2.1.1", "Soil Name", "Soil Description", 2, false],
+  ["2.1.1", "Soil Name", "Soil Description", 2, false]
 ];
+
+////////////////////////////////
+///       GAME FRONT         ///
+////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
