@@ -11,7 +11,8 @@
 
 //Seeds array counts plants AND seeds in inventory
 //["<Seed ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <plants owned: int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
-//* <number of item class> . <number of subclass> . <item number>
+// ids * <number of item class> . <number of subclass> . <item number>
+
 var Seeds = [
   ["Starter Seeds", [
     ["1.1.1", "Seed Name", "Seed Description", 5, 0, 1.00, 0, true],
