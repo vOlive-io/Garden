@@ -1,16 +1,16 @@
 /*  BODY STUFF */
 
 /*  ACHIVMENT STUFF */
-.achievementUI {
+#achievementUI {
   display: none;
 }
-#lockedAch {
+.lockedAch {
   display: none;
 }
 
 
 
 /*  INVENTORY STUFF */
-#commonSeeds, #uncommonSeeds {
+.commonSeeds, .uncommonSeeds {
   display: none;
 }
