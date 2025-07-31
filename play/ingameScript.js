@@ -54,22 +54,20 @@ var achievements = [
 
 function unlockSeed() {
 	if (seed[1][0][7] == true) {
-		const achContainer = document.createElement("li");
+		const achContainer = document.createElement("div");
     
 		const ach_h1 = document.createElement("h1");
-		const ach_h1_text = document.createTextNode("Lemonaid");
+		const ach_h1_text = document.createTextNode("Grass");
 		ach_h1.appendChild(ach_h1_text);
 
 		const ach_p = document.createElement("p");
-		const ach_p_text = document.createTextNode("yum");
+		const ach_p_text = document.createTextNode("discription here");
 		ach_p.appendChild(ach_p_text);
 
 		achContainer.appendChild(ach_h1);
 		achContainer.appendChild(ach_p);
-		document.getElementById("myList").appendChild(achContainer);
-
-    
-  }
+		document.getElementById("seed-1.1.1.1").appendChild(achContainer);
+	}
   
 }
 
