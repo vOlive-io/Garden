@@ -1,4 +1,16 @@
+/*  BODY STUFF */
 
+/*  ACHIVMENT STUFF */
+.achContainer {
+  display: none;
+}
+#lockedAch {
+  display: none;
+}
+
+
+
+/*  INVENTORY STUFF */
 #commonSeeds, #uncommonSeeds {
   display: none;
 }
