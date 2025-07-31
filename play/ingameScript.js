@@ -56,21 +56,25 @@ var achievements = [
 
 
 /* 
-THANKS TO W3S FOR THIS CODE
 
 
-// Create an "li" node:
-const node = document.createElement("li");
-const node2 = document.createElement("h1");
-// Create a text node:
-const textnode = document.createTextNode("Sweet");
-const textnode2 = document.createTextNode("yum");
-// Append the text node to the "li" node:
-node.appendChild(textnode);
-node2.appendChild(textnode2);
-node.appendChild(node2);
-// Append the "li" node to the list:
-document.getElementById("myList").appendChild(node);
+
+
+
+const achContainer = document.createElement("li");
+
+const ach_h1 = document.createElement("h1");
+const ach_h1_text = document.createTextNode("Lemonaid");
+ach_h1.appendChild(ach_h1_text);
+
+const ach_p = document.createElement("p");
+const ach_p_text = document.createTextNode("yum");
+ach_p.appendChild(ach_p_text);
+
+achContainer.appendChild(ach_h1);
+achContainer.appendChild(ach_p);
+
+document.getElementById("myList").appendChild(achContainer);
 
 *\
 
