@@ -9,7 +9,7 @@
 ///        VARIABLES         ///
 ////////////////////////////////
 
-
+//Seeds array counts plants AND seeds in inventory
 var Seeds = [
   ["Starter Seeds", [
     ["1.1.1", "Seed Name", "Seed Description", true],
