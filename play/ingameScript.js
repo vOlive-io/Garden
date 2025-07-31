@@ -73,27 +73,30 @@ function unlockSeed() {
 
 
 function unlockSeed_2() {
-	for (let i = 0; i < seeds.length; i++) {
-		for (let i2 = 0; i < seeds[i].length; i++) {
-			if (seeds[i][i2][7]== true) {
-				const achContainer = document.createElement("div");
-    
-				const ach_h1 = document.createElement("h1");
-				const ach_h1_text = document.createTextNode("Grass");
-				ach_h1.appendChild(ach_h1_text);
+	for (let i = 1; i < seeds.length; i++) {
+		for (let i2 = 1; i < seeds[i].length; i++) {
+			for (let i3 = 0; i < seeds[i].length; i++) {
+				if (seeds[i][i2][i3][7]== true) {
+					const achContainer = document.createElement("div");
 
-				const ach_p = document.createElement("p");
-				const ach_p_text = document.createTextNode("discription here");
-				ach_p.appendChild(ach_p_text);
+					const ach_h1 = document.createElement("h1");
+					const ach_h1_text = document.createTextNode("Grass");
+					ach_h1.appendChild(ach_h1_text);
 
-				achContainer.appendChild(ach_h1);
-				achContainer.appendChild(ach_p);
-				document.getElementById("seed-1.1.1.1").appendChild(achContainer);
+					const ach_p = document.createElement("p");
+					const ach_p_text = document.createTextNode("discription here");
+					ach_p.appendChild(ach_p_text);
+
+					achContainer.appendChild(ach_h1);
+					achContainer.appendChild(ach_p);
+					const placement = "seed-" + seeds[i][i2][i3][0];
+					document.getElementById(placement).appendChild(achContainer);
+				}
 			}
 		}
 	}
 
-	if (seeds[1][0][7] == true) {
+	if (seeds[1][1][1][7] == true) {
 		const achContainer = document.createElement("div");
     
 		const ach_h1 = document.createElement("h1");
