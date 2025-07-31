@@ -42,6 +42,12 @@ var Soils = [
   ["1.2.1.3", "Soil Name", "Soil Description", 2, false]
 ];
 
+//ACHEVMENTS
+var achievements = [
+  ["2.1.1.1", "Achievement Name", "Achievement Description", false],
+  ["2.1.1.2", "Achievement Name", "Achievement Description", false]
+];
+
 ////////////////////////////////
 ///       GAME FRONT         ///
 ////////////////////////////////
