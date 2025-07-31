@@ -10,7 +10,7 @@
 ////////////////////////////////
 
 //Seeds array counts plants AND seeds in inventory
-//["<Seed ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <plants owned: int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
+//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <plants owned: int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 // ids * <number of item class> . <number of subclass> . <item number>
 
 var Seeds = [
