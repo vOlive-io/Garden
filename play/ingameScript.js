@@ -12,9 +12,9 @@
 //Seeds array counts plants AND seeds in inventory
 var Seeds = [
   ["Starter Seeds", [
-    ["1.1.1", "Seed Name", "Seed Description", true],
-    ["1.1.2", "Seed Name", "Seed Description", true],
-    ["1.1.2", "Seed Name", "Seed Description", true]
+    ["1.1.1", "Seed Name", "Seed Description", 5, 0, 1.00, true],
+    ["1.1.2", "Seed Name", "Seed Description", 5, 0, 1.50, true],
+    ["1.1.2", "Seed Name", "Seed Description", 5, 0, 2.00,true]
   ]], 
   ["Common Seeds", [
     ["1.2.1", "Seed Name", "Seed Description", false],
