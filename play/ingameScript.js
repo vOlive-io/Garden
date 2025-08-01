@@ -3,7 +3,8 @@
 ////////////////////////////////
 callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
-unlockSeed();
+setInterval(unlockSeed, 1000);
+
 
 ////////////////////////////////
 ///        VARIABLES         ///
