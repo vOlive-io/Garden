@@ -55,8 +55,8 @@ var achievements = [
 
 function unlockSeed() {
 	for (let i = 1; i < seeds.length; i++) {
-		for (let i2 = 1; i < seeds[i].length; i++) {
-			for (let i3 = 0; i < seeds[i2].length; i++) {
+		for (let i2 = 1; i < seeds[i].length; i2++) {
+			for (let i3 = 0; i < seeds[i2].length; i3++) {
 				if (seeds[i][i2][i3][7] == true && seeds[i][i2][i3][8] == false) {
 					const seedContainer = document.createElement("div");
 
