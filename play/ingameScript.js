@@ -78,20 +78,20 @@ function unlockSeed_2() {
 		for (let i2 = 1; i < seeds[i].length; i++) {
 			for (let i3 = 0; i < seeds[i].length; i++) {
 				if (seeds[i][i2][i3][7]== true) {
-					const achContainer = document.createElement("div");
+					const seedContainer = document.createElement("div");
 
-					const ach_h1 = document.createElement("h1");
-					const ach_h1_text = document.createTextNode(seeds[i][i2][i3][1]);
-					ach_h1.appendChild(ach_h1_text);
+					const seed_h1 = document.createElement("h1");
+					const seed_h1_text = document.createTextNode(seeds[i][i2][i3][1]);
+					seed_h1.appendChild(seed_h1_text);
 
-					const ach_p = document.createElement("p");
-					const ach_p_text = document.createTextNode(seeds[i][i2][i3][2]);
-					ach_p.appendChild(ach_p_text);
+					const seed_p = document.createElement("p");
+					const seed_p_text = document.createTextNode(seeds[i][i2][i3][2]);
+					seed_p.appendChild(seed_p_text);
 
-					achContainer.appendChild(ach_h1);
-					achContainer.appendChild(ach_p);
+					seedContainer.appendChild(seed_h1);
+					seedContainer.appendChild(seed_p);
 					const placement = "seed-" + seeds[i][i2][i3][0];
-					document.getElementById(placement).appendChild(achContainer);
+					document.getElementById(placement).appendChild(seedContainer);
 				}
 			}
 		}
