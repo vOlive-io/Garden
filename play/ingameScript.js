@@ -16,8 +16,8 @@ var seeds = [
 	["Start of seeds"],
 	["Starter Seeds", [
 		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 0, 1.00, 0, true, false],
-		["1.1.1.2", "Grass", "Hard to take care of but, once you get the hang of it, you be swiming in it!", 5, 0, 1.50, 0, true, false],
-		["1.1.1.3", "Seed Name", "Seed Description", 5, 0, 2.00, 0, true, false]
+		["1.1.1.2", "Grass", "Hard to take care of but, once you get the hang of it, you\'ll be swiming in it!", 5, 0, 1.50, 0, true, false],
+		["1.1.1.3", "Flowers", "Some radom flowers you got at the store, you never know what kind of flowers they will grow....", 5, 0, 2.00, 0, true, false]
 	]], 
 	["Common Seeds", [
 		["1.1.2.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
