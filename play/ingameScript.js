@@ -33,7 +33,7 @@ var seeds = [
 		["1.1.4.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
 		["1.1.4.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
 		["1.1.4.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false]
-	]],
+	]]
 ];
 
 var soils = [
