@@ -54,26 +54,24 @@ var achievements = [
 
 
 function unlockSeed() {
-	for (let i = 1; i < seeds.length - 1; i++) {
-		for (let i2 = 1; i < seeds[i].length; i2++) {
-			for (let i3 = 0; i < seeds[i2].length; i3++) {
-				if (seeds[i][i2][i3][7] == true && seeds[i][i2][i3][8] == false) {
-					const seedContainer = document.createElement("div");
+	for (let i = 1; i < seeds.length; i++) {
+		for (let i3 = 0; i < seeds[i][1].length; i3++) {
+			if (seeds[i][1][i3][7] == true && seeds[i][1][i3][8] == false) {
+				const seedContainer = document.createElement("div");
 
-					const seed_h1 = document.createElement("h1");
-					const seed_h1_text = document.createTextNode(seeds[i][i2][i3][1]);
-					seed_h1.appendChild(seed_h1_text);
+				const seed_h1 = document.createElement("h1");
+				const seed_h1_text = document.createTextNode(seeds[i][1][i3][1]);
+				seed_h1.appendChild(seed_h1_text);
 
-					const seed_p = document.createElement("p");
-					const seed_p_text = document.createTextNode(seeds[i][i2][i3][2]);
-					seed_p.appendChild(seed_p_text);
-
-					seedContainer.appendChild(seed_h1);
-					seedContainer.appendChild(seed_p);
-					const placement = "seed-" + seeds[i][i2][i3][0];
-					document.getElementById(placement).appendChild(seedContainer);
-					seeds[i][i2][i3][8] = true;
-				}
+				const seed_p = document.createElement("p");
+				const seed_p_text = document.createTextNode(seeds[i][1][i3][2]);
+				seed_p.appendChild(seed_p_text);
+				
+				seedContainer.appendChild(seed_h1);
+				seedContainer.appendChild(seed_p);
+				const placement = "seed-" + seeds[i][1][i3][0];
+				document.getElementById(placement).appendChild(seedContainer);
+				seeds[i][1][i3][8] = true;
 			}
 		}
 	}
