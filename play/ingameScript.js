@@ -81,11 +81,11 @@ function unlockSeed_2() {
 					const achContainer = document.createElement("div");
 
 					const ach_h1 = document.createElement("h1");
-					const ach_h1_text = document.createTextNode("Grass");
+					const ach_h1_text = document.createTextNode(seeds[i][i2][i3][1]);
 					ach_h1.appendChild(ach_h1_text);
 
 					const ach_p = document.createElement("p");
-					const ach_p_text = document.createTextNode("discription here");
+					const ach_p_text = document.createTextNode(seeds[i][i2][i3][2]);
 					ach_p.appendChild(ach_p_text);
 
 					achContainer.appendChild(ach_h1);
