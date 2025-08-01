@@ -1,9 +1,8 @@
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
-
-
-
+callSavedData_cookies();
+setInterval(makeSavedData_cookies(), 1000);
 
 ////////////////////////////////
 ///        VARIABLES         ///
@@ -122,8 +121,6 @@ function makeSavedData_cookies() {
 	};
 	localStorage.setItem('savedData', JSON.stringify(data));
 }
-
-
 function callSavedData_cookies() {
 	//const
 	savedData = JSON.parse(localStorage.getItem('savedData'));
@@ -131,14 +128,11 @@ function callSavedData_cookies() {
 		//User Cookies
 		//user = savedData.user || false;
 		//username = savedData.username || "guest";
-		//SEED COOKIES
-		
+		//SEED COOKIES		
 		seeds = savedData.seeds || seeds;
 	}
 }
 
-
-window.gears = gears;
 
 
 
