@@ -15,37 +15,37 @@ setInterval(makeSavedData_cookies, 1000);
 var seeds = [
 	["Start of seeds"],
 	["Starter Seeds", [
-		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 0, 1.00, 0, true],
-		["1.1.1.2", "Grass", "Hard to take care of but, once you get the hang of it, you be swiming in it!", 5, 0, 1.50, 0, true],
-		["1.1.1.3", "Seed Name", "Seed Description", 5, 0, 2.00, 0, true]
+		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 0, 1.00, 0, true, false],
+		["1.1.1.2", "Grass", "Hard to take care of but, once you get the hang of it, you be swiming in it!", 5, 0, 1.50, 0, true, false],
+		["1.1.1.3", "Seed Name", "Seed Description", 5, 0, 2.00, 0, true, false]
 	]], 
 	["Common Seeds", [
-		["1.1.2.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false],
-		["1.1.2.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false],
-		["1.1.2.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false]
+		["1.1.2.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
+		["1.1.2.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
+		["1.1.2.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false]
 	]],
 	["Uncommon Seeds", [
-		["1.1.3.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false],
-		["1.1.3.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false],
-		["1.1.3.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false]
+		["1.1.3.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
+		["1.1.3.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
+		["1.1.3.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false]
 	]],
 	["Rare Seeds", [
-		["1.1.4.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false],
-		["1.1.4.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false],
-		["1.1.4.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false]
+		["1.1.4.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
+		["1.1.4.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
+		["1.1.4.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false]
 	]],
 ];
 
 var soils = [
-	["1.2.1.1", "Soil Name", "Soil Description", 1, true],
-	["1.2.1.2", "Soil Name", "Soil Description", 1.5, false],
-	["1.2.1.3", "Soil Name", "Soil Description", 2, false]
+	["1.2.1.1", "Soil Name", "Soil Description", 1, true, false],
+	["1.2.1.2", "Soil Name", "Soil Description", 1.5, false, false],
+	["1.2.1.3", "Soil Name", "Soil Description", 2, false, false]
 ];
 
 //ACHEVMENTS
 var achievements = [
-	["2.1.1.1", "Getting Started", "Plant your first seed!", "ach_2.1.1.1", false],
-	["2.1.1.2", "Humble Garden", "Plant 5 seeds!", "ach_2.1.1.2", false]
+	["2.1.1.1", "Getting Started", "Plant your first seed!", "ach_2.1.1.1", false, false],
+	["2.1.1.2", "Humble Garden", "Plant 5 seeds!", "ach_2.1.1.2", false, false]
 ];
 
 ////////////////////////////////
