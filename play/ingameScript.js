@@ -14,6 +14,7 @@
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 
 var seeds = [
+	["Start of seeds"],
 	["Starter Seeds", [
 		["1.1.0.1", "Seed Name", "Seed Description", 5, 0, 1.00, 0, true],
 		["1.1.0.2", "Seed Name", "Seed Description", 5, 0, 1.50, 0, true],
