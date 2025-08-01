@@ -57,7 +57,7 @@ function unlockSeed() {
 	for (let i = 1; i < seeds.length; i++) {
 		for (let i2 = 1; i < seeds[i].length; i++) {
 			for (let i3 = 0; i < seeds[i].length; i++) {
-				if (seeds[i][i2][i3][7]== true) {
+				if (seeds[i][i2][i3][7] == true && seeds[i][i2][i3][8] == false) {
 					const seedContainer = document.createElement("div");
 
 					const seed_h1 = document.createElement("h1");
@@ -72,6 +72,7 @@ function unlockSeed() {
 					seedContainer.appendChild(seed_p);
 					const placement = "seed-" + seeds[i][i2][i3][0];
 					document.getElementById(placement).appendChild(seedContainer);
+					seeds[i][i2][i3][8] = true;
 				}
 			}
 		}
