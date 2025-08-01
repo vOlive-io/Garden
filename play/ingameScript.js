@@ -13,7 +13,7 @@
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <plants owned: int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 
-var Seeds = [
+var seeds = [
 	["Starter Seeds", [
 		["1.1.1.1", "Seed Name", "Seed Description", 5, 0, 1.00, 0, true],
 		["1.1.1.2", "Seed Name", "Seed Description", 5, 0, 1.50, 0, true],
@@ -36,7 +36,7 @@ var Seeds = [
 	]],
 ];
 
-var Soils = [
+var soils = [
 	["1.2.1.1", "Soil Name", "Soil Description", 1, true],
 	["1.2.1.2", "Soil Name", "Soil Description", 1.5, false],
 	["1.2.1.3", "Soil Name", "Soil Description", 2, false]
