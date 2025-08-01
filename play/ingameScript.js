@@ -106,11 +106,39 @@ function unlockTemplate() {
 
 
 
+////////////////////////////////
+///         COOKIES          ///
+////////////////////////////////
 
 
 
+function makeSavedData_cookies() {
+	const data = {
+		//User Cookies
+		//user: user,
+		//username: username,
+		//SEED COOKIES
+		seeds: seeds,
+	};
+	localStorage.setItem('savedData', JSON.stringify(data));
+}
 
 
+function callSavedData_cookies() {
+	//const
+	savedData = JSON.parse(localStorage.getItem('savedData'));
+	if (savedData) {
+		//User Cookies
+		//user = savedData.user || false;
+		//username = savedData.username || "guest";
+		//SEED COOKIES
+		
+		seeds = savedData.seeds || seeds;
+	}
+}
+
+
+window.gears = gears;
 
 
 
