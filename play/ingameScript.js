@@ -2,7 +2,7 @@
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
 callSavedData_cookies();
-setInterval(makeSavedData_cookies(), 1000);
+setInterval(makeSavedData_cookies, 1000);
 
 ////////////////////////////////
 ///        VARIABLES         ///
