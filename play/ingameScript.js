@@ -103,6 +103,7 @@ function createDropdown() {
 	const elementsToReplace = document.querySelectorAll('.seed-list');
         elementsToReplace.forEach(element => {
                 element.replaceWith(seedContainer);
+	}
 
 }
 
