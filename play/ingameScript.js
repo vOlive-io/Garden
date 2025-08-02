@@ -100,7 +100,7 @@ function createDropdown() {
 		}
 	}
 	seedContainer.classList.add("seed-list"); 
-	document.querySelectorAll('.seed-list').forEach(element => element.replaceWith(seedContainer));
+	document.querySelectorAll(".seed-list").forEach(element => element.replaceWith(seedContainer));
 
 }
 
