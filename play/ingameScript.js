@@ -111,7 +111,7 @@ function createNewGardenSlot() {
 	const seedContainer = document.createElement("select");
 	seedContainer.classList.add("seed-list"); 
 	newSlot.appendChild(seedContainer);
-	document.getElementById("gardenSlots").appendChild(newSlot);
+	document.getElementById("garden-slots").appendChild(newSlot);
 }
 
 
