@@ -11,6 +11,8 @@
 
 
 /*  INVENTORY STUFF */
-.commonSeeds, .uncommonSeeds {
+.lockedSeeds, .uncommonSeeds {
   display: none;
+}
+.unlockedSeeds {
 }
