@@ -11,7 +11,7 @@
 
 
 /*  INVENTORY STUFF */
-.lockedSeeds, .uncommonSeeds {
+.lockedSeeds {
   display: none;
 }
 .unlockedSeeds {
