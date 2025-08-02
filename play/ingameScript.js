@@ -89,7 +89,7 @@ function createDropdown() {
 			if (seeds[i][1][i3][7] == true) {
 				const seed_option = document.createElement("option");
 				const seed_option_text = document.createTextNode(seeds[i][1][i3][1]);
-				seed_option.appendChild(seed_option_text);
+				seed_option.appendChild(seed_option_text + " " + seeds[i][1][i3][3] + "x");
 				if (seeds[i][1][i3][3] == 0) {
 					seed_option.disabled = true;
 				}
