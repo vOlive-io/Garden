@@ -90,9 +90,10 @@ function createDropdown() {
 				const seed_option = document.createElement("option");
 				const seed_option_text = document.createTextNode(seeds[i][1][i3][1]);
 				seed_option.appendChild(seed_option_text);
-				
+				if (seeds[i][1][i3][3] == 0) {
+					seedContainer.disabled = true;
+				}
 				seedContainer.appendChild(seed_option);
-				
 			}
 		}
 	}
