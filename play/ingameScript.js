@@ -97,7 +97,8 @@ function createDropdown() {
 			}
 		}
 	}
-	document.getElementById("seed-list").appendChild(seedContainer);
+	document.getElementById("seed-list").replaceWith(seedContainer);
+
 }
 
 
