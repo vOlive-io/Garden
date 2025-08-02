@@ -97,8 +97,8 @@ function createDropdown() {
 			}
 		}
 	}
+	seedContainer.id = "seed-list";
 	document.getElementById("seed-list").replaceWith(seedContainer);
-
 }
 
 
