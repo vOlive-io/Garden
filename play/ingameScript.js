@@ -23,19 +23,29 @@ var seeds = [
 		["1.1.1.3", "Flowers", "Some random flowers you got at the store, you never know what kind of flowers they will grow....", 5, 0, 2.00, 0, true, false]
 	]], 
 	["Common Seeds", [
-		["1.1.2.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
-		["1.1.2.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
-		["1.1.2.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false]
+		["1.1.2.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
+		["1.1.2.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
+		["1.1.2.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"]
 	]],
 	["Uncommon Seeds", [
-		["1.1.3.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
-		["1.1.3.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
-		["1.1.3.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false]
+		["1.1.3.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.3.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.3.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"]
 	]],
 	["Rare Seeds", [
-		["1.1.4.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
-		["1.1.4.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false],
-		["1.1.4.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false]
+		["1.1.4.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"]
+	]],
+	["Epic Seeds", [
+		["1.1.4.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
+	]],
+	["Mythic Seeds", [
+		["1.1.4.1", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
+		["1.1.4.2", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
+		["1.1.4.3", "Seed Name", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"]
 	]]
 ];
 
