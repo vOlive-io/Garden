@@ -12,7 +12,7 @@ setInterval(createDropdown, 1000);
 ////////////////////////////////
 
 //Seeds array counts plants AND seeds in inventory
-//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow: int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
+//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 
 var seeds = [
