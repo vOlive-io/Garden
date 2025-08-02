@@ -63,6 +63,8 @@ var seeds = [
 	]],
 	["Mythic Seeds", [
 		["1.1.4.1", "Bamboo", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
+		["1.1.4.1", "Black Bat Flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
+		["1.1.4.1", "Foxglove", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
 		["1.1.4.1", "Pomegranate", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
 		["1.1.4.2", "Mango", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
 		["1.1.4.3", "Coconut", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"]
