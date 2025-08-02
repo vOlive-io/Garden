@@ -16,3 +16,14 @@
 }
 .unlockedSeeds {
 }
+
+
+#inventoryUI, #achievementUI {
+  left: 0;
+  background-color: white;
+}
+
+#gardenUI {
+  right: 0;
+  background-color: #fff6db;
+}
