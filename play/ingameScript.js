@@ -4,6 +4,7 @@
 callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
+setInterval(createDropdown, 1000);
 
 
 ////////////////////////////////
