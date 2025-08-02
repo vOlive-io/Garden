@@ -74,6 +74,8 @@ function unlockSeed() {
 				const placement = "seed-" + seeds[i][1][i3][0];
 				document.getElementById(placement).appendChild(seedContainer);
 				seeds[i][1][i3][8] = true;
+				document.getElementById(placement).classList.add('unlockedSeeds');
+				document.getElementById(placement).classList.remove('lockedSeeds');
 			}
 		}
 	}
