@@ -99,21 +99,13 @@ function createDropdown() {
 			}
 		}
 	}
-	
-	const elementsToReplace = document.querySelectorAll('.seed-list');
-        elementsToReplace.forEach(element => {
-                element.replaceWith(seedContainer.classList.add("seed-list"));
-	});
-
+	seedContainer.id = "seed-list";
+	document.getElementById("seed-list").replaceWith(seedContainer);
 }
-
 function createNewGardenSlot() {
 	slotNum++;
 	const newSlot = document.createElement("div");
 	newSlot.id = "garden-slot-" + slotNum;
-	const seedContainer = document.createElement("select");
-	seedContainer.classList.add("seed-list"); 
-	newSlot.appendChild(seedContainer);
 	document.getElementById("garden-slots").appendChild(newSlot);
 }
 
