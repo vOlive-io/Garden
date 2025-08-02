@@ -50,7 +50,7 @@ var achievements = [
 	["2.1.1.1", "Getting Started", "Plant your first seed!", "ach_2.1.1.1", false, false],
 	["2.1.1.2", "Humble Garden", "Plant 5 seeds!", "ach_2.1.1.2", false, false]
 ];
-var slotNum = 3;
+var slotNum = 4;
 
 ////////////////////////////////
 ///       GAME FRONT         ///
