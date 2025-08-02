@@ -99,7 +99,11 @@ function createDropdown() {
 			}
 		}
 	}
-	seedContainer.id = "seed-list";
+	seedContainer.classList.add("seed-list"); 
+	const elementsToReplace = document.querySelectorAll('.seed-list');
+        elementsToReplace.forEach(element => {
+                element.replaceWith(seedContainer);
+
 }
 
 function createNewGardenSlot() {
@@ -107,7 +111,7 @@ function createNewGardenSlot() {
 	const newSlot = document.createElement("div");
 	newSlot.id = "garden-slot-" + slotNum;
 	const seedContainer = document.createElement("div");
-	seedContainer.id = "seed-list";
+	seedContainer.classList.add("seed-list"); 
 	newSlot.appendChild(seedContainer);
 	document.getElementById("garden-slots").appendChild(newSlot);
 }
