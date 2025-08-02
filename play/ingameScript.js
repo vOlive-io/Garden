@@ -82,7 +82,22 @@ function unlockSeed() {
 }
 
 
-
+function createDropdown() {
+	const seedContainer = document.createElement("select");
+	for (let i = 1; i < seeds.length; i++) {
+		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
+			if (seeds[i][1][i3][7] == true) {
+				const seed_option = document.createElement("option");
+				const seed_option_text = document.createTextNode(seeds[i][1][i3][1]);
+				seed_option.appendChild(seed_option_text);
+				
+				seedContainer.appendChild(seed_option);
+				
+			}
+		}
+	}
+	document.getElementById("seed-list").appendChild(seedContainer);
+}
 
 
 
