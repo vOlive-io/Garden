@@ -99,10 +99,10 @@ function createDropdown() {
 			}
 		}
 	}
-	seedContainer.classList.add("seed-list"); 
+	
 	const elementsToReplace = document.querySelectorAll('.seed-list');
         elementsToReplace.forEach(element => {
-                element.replaceWith(seedContainer);
+                element.replaceWith(seedContainer.classList.add("seed-list"));
 	});
 
 }
