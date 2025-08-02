@@ -102,6 +102,7 @@ function createDropdown() {
 	seedContainer.id = "seed-list";
 	document.getElementById("seed-list").replaceWith(seedContainer);
 }
+
 function createNewGardenSlot() {
 	slotNum++;
 	const newSlot = document.createElement("div");
