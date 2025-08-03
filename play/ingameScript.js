@@ -26,11 +26,13 @@ var seeds = [
 		["1.1.2.1", "Mint", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.2.2", "Corn", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.2.3", "Basil", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
+		["1.1.3.1", "Cucumber", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
+		["1.1.3.2", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
+		["1.1.3.2", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
+		["1.1.3.10", "Cranberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.2.4", "Potato", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"]
 	]],
 	["Uncommon Seeds", [
-		["1.1.3.1", "Cucumber", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
-		["1.1.3.2", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.3.3", "Onion (White)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.3.4", "Onion (Purple)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.3.5", "Bell Pepper (Red)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
@@ -39,8 +41,8 @@ var seeds = [
 		["1.1.3.8", "Bell Pepper (Green)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.3.9", "Bell Pepper (Purple)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.3.10", "Carrot", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
-		["1.1.3.10", "Cranberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
-	
+		["1.1.4.6", "Rhubarb", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.4.7", "Ivy", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"]
 	]],
 	["Rare Seeds", [
 		["1.1.4.1", "Rose", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
@@ -48,18 +50,18 @@ var seeds = [
 		["1.1.4.2", "Elderberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.3", "Nutmeg", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.4", "Thime", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.6", "Rhubarb", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.7", "Ivy", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.5", "Strawberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.6", "Lavender", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.7", "Blueberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.8", "Blackberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.9", "Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"]
+		
 	]],
 	["Epic Seeds", [
-		["1.1.4.1", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.9", "Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
 		["1.1.4.1", "Maple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.5", "Mango Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.2", "Cherry Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.1", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.3", "Raspberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.4", "Watermelon", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.5", "Banana", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
@@ -70,7 +72,7 @@ var seeds = [
 		["1.1.4.2", "Black Bat Flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
 		["1.1.4.3", "Foxglove", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
 		["1.1.4.4", "Pomegranate", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
-		["1.1.4.5", "Mango", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
+
 		["1.1.4.6", "Coconut", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"]
 	]]
 ];
