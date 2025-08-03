@@ -17,13 +17,13 @@ setInterval(createDropdown, 1000);
 
 var seeds = [
 	["Start of seeds", ["Seed Types", [
-		["Herbs & Spices", 0],
-		["Grains", 0],
-		["Trees", 0],
-		["Squashes, Peppers & Vegetables", 0],
-		["Berries", 0],
-		["Flowers", 0],
-		["Roots & Bulbs", 0],
+		[0, "Grains", 0],
+		[1, "Herbs & Spices", 0],
+		[2, "Squashes, Peppers & Vegetables", 0],
+		[3, "Trees", 0],
+		[4, "Berries", 0],
+		[5, "Flowers", 0],
+		[6, "Roots & Bulbs", 0],
 	]],
 	["Starter Seeds", [
 		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 0, 1.00, 0, true, false, "Starter"],
