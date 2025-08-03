@@ -140,6 +140,10 @@ function createNewGardenSlot() {
 	slotNum++;
 	const newSlot = document.createElement("div");
 	newSlot.id = "garden-slot-" + slotNum;
+	
+	const newButton = document.createElement("button");
+	newButton.id = "slot-" + slotNum + "-button";
+	newSlot.appendChild(newButton);
 	document.getElementById("garden-slots").appendChild(newSlot);
 }
 
