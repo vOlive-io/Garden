@@ -43,6 +43,7 @@ var seeds = [
 		["1.1.3.10", "Carrot", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.4.6", "Rhubarb", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.4.7", "Ivy", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"]
+		["1.1.4.1", "Purple Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 	]],
 	["Rare Seeds", [
 		["1.1.4.1", "Rose", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
