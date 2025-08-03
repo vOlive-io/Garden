@@ -31,9 +31,9 @@ var seeds = [
 		["1.1.1.3", "Flowers", "Some random flowers you got at the store, you never know what kind of flowers they will grow....", 5, 0, 2.00, 0, true, false, "Starter"]
 	]], 
 	["Common Seeds", [
-		["1.1.2.1", "Mint", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "Herb"],
+		["1.1.2.1", "Mint", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "Herbs & Spices"],
 		["1.1.2.2", "Corn", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
-		["1.1.2.3", "Basil", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "Herb"],
+		["1.1.2.3", "Basil", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "Herbs & Spices"],
 		["1.1.2.4", "Cucumber", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		["1.1.2.5", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "Grain"],
 		["1.1.2.6", "Carrot (Red)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
