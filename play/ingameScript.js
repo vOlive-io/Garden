@@ -28,7 +28,6 @@ var seeds = [
 		["1.1.2.3", "Basil", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.3.4", "Cucumber", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.3.5", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
-		["1.1.3.6", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.3.7", "Carrot (Red)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.3.8", "Carrot (Orange)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.3.9", "Carrot (Purple)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
@@ -47,7 +46,12 @@ var seeds = [
 		["1.1.3.7", "Bell Pepper (Purple)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.3.8", "Carrot", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.4.9", "Rhubarb", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
-		["1.1.4.10", "Ivy", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"]
+		["1.1.4.10", "Ivy", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.4.11", "Strawberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.12", "Lavender", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.13", "Blueberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.14", "Blackberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.15", "Raspberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"]
 	]],
 	["Rare Seeds", [
 		["1.1.4.1", "Rose", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
@@ -55,22 +59,21 @@ var seeds = [
 		["1.1.4.3", "Elderberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.4", "Nutmeg", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.5", "Thime", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.6", "Strawberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.7", "Lavender", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.8", "Blueberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.9", "Blackberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.6", "Watermelon", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.7", "Banana", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.8", "Parsley", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"]
 	
 	]],
 	["Epic Seeds", [
-		["1.1.4.1", "Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
-		["1.1.4.2", "Maple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.3", "Mango Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.4", "Cherry Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.5", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.6", "Raspberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.7", "Watermelon", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.8", "Banana", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.9", "Parsley", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
+		["1.1.4.1", "Red Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
+		["1.1.4.2", "Green Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
+		["1.1.4.3", "Black Diamond Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
+		["1.1.4.4", "Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
+		["1.1.4.5", "Maple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.6", "Mango Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.7", "Cherry Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.8", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		
 	]],
 	["Mythic Seeds", [
 		["1.1.4.1", "Bamboo", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
