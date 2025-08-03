@@ -21,7 +21,7 @@ var seeds = [
 		[1, "Herbs & Spices", 0],
 		[2, "Roots & Bulbs", 0],
 		[3, "Grains", 0],
-		[4, "Berries", 0],
+		[4, "Berries, Fruits & Nuts", 0],
 		[5, "Trees", 0],
 		[6, "Flowers", 0]
 	]],
