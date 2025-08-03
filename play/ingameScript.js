@@ -16,7 +16,15 @@ setInterval(createDropdown, 1000);
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 
 var seeds = [
-	["Start of seeds"],
+	["Start of seeds", ["Seed Types", [
+		["Herbs & Spices", 0],
+		["Grains", 0],
+		["Trees", 0],
+		["Squashes, Peppers & Vegetables", 0],
+		["Berries", 0],
+		["Flowers", 0],
+		["Roots & Bulbs", 0],
+	]],
 	["Starter Seeds", [
 		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 0, 1.00, 0, true, false, "Starter"],
 		["1.1.1.2", "Grass", "Hard to take care of but once you get the hang of it, you\'ll be swimming in it!", 5, 0, 1.50, 0, true, false, "Starter"],
@@ -27,7 +35,7 @@ var seeds = [
 		["1.1.2.2", "Corn", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		["1.1.2.3", "Basil", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "Herb"],
 		["1.1.2.4", "Cucumber", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
-		["1.1.2.5", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
+		["1.1.2.5", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "Grain"],
 		["1.1.2.6", "Carrot (Red)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		["1.1.2.7", "Carrot (Orange)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		["1.1.2.8", "Carrot (Purple)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
@@ -40,7 +48,7 @@ var seeds = [
 		["1.1.2.15", "Celery", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		["1.1.2.16", "Rice", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		["1.1.2.17", "Daisy", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
-		["1.1.2.18", "Asparagus", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
+		["1.1.2.18", "Fennel", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		["1.1.2.19", "Rose", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		["1.1.2.20", "Radish", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", "          "],
 		
