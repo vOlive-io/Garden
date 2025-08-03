@@ -135,14 +135,13 @@ function createDropdown() {
 	seedContainer.id = "seed-list";
 	document.getElementById("seed-list").replaceWith(seedContainer);
 }
-
 function createNewGardenSlot() {
 	slotNum++;
 	const newSlot = document.createElement("div");
 	newSlot.id = "garden-slot-" + slotNum;
-	
 	const newButton = document.createElement("button");
 	newButton.id = "slot-" + slotNum + "-button";
+    	newButton.innerHTML = "Plant Here";
 	newSlot.appendChild(newButton);
 	document.getElementById("garden-slots").appendChild(newSlot);
 }
