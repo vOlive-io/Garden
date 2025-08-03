@@ -47,32 +47,38 @@ var seeds = [
 		["1.1.3.8", "Carrot", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.4.9", "Rhubarb", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.4.10", "Ivy", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
-		["1.1.4.11", "Strawberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.12", "Lavender", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.13", "Blueberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.14", "Blackberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.15", "Raspberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"]
+		["1.1.4.14", "Nutmeg", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		
 	]],
 	["Rare Seeds", [
 		["1.1.4.1", "Rose", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.2", "Green Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.3", "Elderberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.4", "Nutmeg", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.5", "Thime", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.6", "Watermelon", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.7", "Banana", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.8", "Parsley", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"]
+		["1.1.4.2", "Lavender", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.3", "Green Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.4", "Elderberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.5", "Strawberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.6", "Blueberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.7", "Blackberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.8", "Raspberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.9", "Acai", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.10", "Thime", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.11", "Watermelon", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.12", "Honeydew", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.13", "Cantolope", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.14", "Banana", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.15", "Parsley", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 	
 	]],
 	["Epic Seeds", [
-		["1.1.4.1", "Red Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
-		["1.1.4.2", "Green Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
-		["1.1.4.3", "Black Diamond Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
-		["1.1.4.4", "Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"]
+		["1.1.4.1", "Red Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.2", "Green Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.3", "Black Diamond Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.4", "Apple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.5", "Maple Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.6", "Mango Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.7", "Cherry Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.8", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.8", "Peach Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.9", "Pear Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.10", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		
 	]],
 	["Mythic Seeds", [
