@@ -35,6 +35,10 @@ var seeds = [
 		["1.1.3.11", "Cranberry", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
 		["1.1.2.12", "Potato", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"]
 		["1.1.3.13", "Carrot", "Seed Description", 0, 0, 0.00, 0, false, false, "Common"],
+		["1.1.4.14", "Zucchini", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.4.14", "Cabbage (Green)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.4.14", "Cabbage (Purple)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.4.14", "Celery", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 	]],
 	["Uncommon Seeds", [
 		["1.1.3.1", "Onion (White)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
@@ -47,7 +51,10 @@ var seeds = [
 		["1.1.3.8", "Carrot", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.4.9", "Rhubarb", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
 		["1.1.4.10", "Ivy", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
-		["1.1.4.14", "Nutmeg", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.14", "Nutmeg", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.4.14", "Radish", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon"],
+		["1.1.4.15", "Parsley", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.15", "oyster mushrooms", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		
 	]],
 	["Rare Seeds", [
@@ -65,7 +72,7 @@ var seeds = [
 		["1.1.4.12", "Honeydew", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.13", "Cantolope", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 		["1.1.4.14", "Banana", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
-		["1.1.4.15", "Parsley", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
+		["1.1.4.15", "tremella mesenterica", "Seed Description", 0, 0, 0.00, 0, false, false, "Rare"],
 	
 	]],
 	["Epic Seeds", [
@@ -77,18 +84,19 @@ var seeds = [
 		["1.1.4.6", "Mango Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.7", "Cherry Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.8", "Peach Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
-		["1.1.4.9", "Pear Tree", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
+		["1.1.4.9", "Corpse flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		["1.1.4.10", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic"],
 		
 	]],
 	["Mythic Seeds", [
 		["1.1.4.1", "Bamboo", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
 		["1.1.4.2", "Black Bat Flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
-		["1.1.4.3", "Foxglove", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
+		["1.1.4.3", "Shenzhen Nongke Orchid", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
 		["1.1.4.4", "Pomegranate", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"],
 		["1.1.4.5", "Coconut", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic"]
 	]]
 ];
+
 
 var soils = [
 	["1.2.1.1", "Soil Name", "Soil Description", 1, true, false],
