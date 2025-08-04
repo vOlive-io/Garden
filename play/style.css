@@ -23,8 +23,7 @@
   background-color: white;
 }
 
-.right 
-  right: 0;
+.right {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
