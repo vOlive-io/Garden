@@ -140,7 +140,7 @@ var slotNum = 4;
 
 function changeSeason() {
 	const garden = document.getElementById("gardenUI");
-	const newColor = seasonColors[seasonNum][1];
+	const newColor = seasonColors[seasonNum];
 	garden.style.backgroundColor = newColor;
 	seasonNum = (seasonNum + 1) % seasonColors.length; 
 }
