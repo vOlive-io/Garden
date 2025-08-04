@@ -23,13 +23,22 @@
   background-color: white;
 }
 
-.right {
+.right 
   right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.#right div {
+  background-color: red;
+  aspect-ratio: 1;
 }
 
 #gardenUI {
    transition: background-color 2s ease-in;
 }
+ 
+
 
 .split {
   height: 100%;
