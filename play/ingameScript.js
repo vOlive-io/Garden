@@ -19,10 +19,10 @@ setInterval(changeSeason, 15000);
 
 var seasonNum = 0;
 var seasonColors = [
-    ["Spring", "#c2f7ab"], 
-    ["Summer", "#ffe066"],
-    ["autumn", "#ffc58f"], 
-    ["winter", "#b5f1ff"]
+    "#c2f7ab", 
+    "#ffe066",
+    "#ffc58f",
+    "#b5f1ff"
 ];
 
 var seeds = [
