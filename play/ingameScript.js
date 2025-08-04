@@ -4,6 +4,8 @@
 callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
+changeSeason();
+setInterval(changeSeason, 15000);
 //setInterval(createDropdown, 1000);
 
 
@@ -15,6 +17,13 @@ setInterval(unlockSeed, 1000);
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 
+var seasonNum = 0;
+var seasonColors = [
+    ["Spring", "#c2f7ab"], 
+    ["Summer", "#ffe066"],
+    ["autumn", "#ffc58f"], 
+    ["winter", "#b5f1ff"]
+];
 
 var seeds = [
 	["Start of seeds", ["Seed Types", [
@@ -129,6 +138,12 @@ var slotNum = 4;
 ///       GAME FRONT         ///
 ////////////////////////////////
 
+function changeSeason() {
+	const garden = document.getElementById("gardenUI");
+	const newColor = seasonColors[seasonNum][1];
+	garden.style.backgroundColor = newColor;
+	seasonNum = (seasonNum + 1) % seasonColors.length; 
+}
 
 function unlockSeed() {
 	for (let i = 1; i < seeds.length; i++) {
