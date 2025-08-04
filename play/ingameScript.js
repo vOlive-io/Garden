@@ -4,7 +4,6 @@
 callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
-changeSeason();
 setInterval(changeSeason, 15000);
 //setInterval(createDropdown, 1000);
 
@@ -246,6 +245,6 @@ function callSavedData_cookies() {
 	}
 }
 
-
+changeSeason();
 
 
