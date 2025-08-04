@@ -27,13 +27,14 @@
   right: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
+  grid-gap: 1em;
 }
 
 .garden div {
-  background-color: red;
+  border: groove 10px white;
   aspect-ratio: 1;
 }
+
 
 #gardenUI {
    transition: background-color 2s ease-in;
