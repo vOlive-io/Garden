@@ -25,7 +25,10 @@
 
 .right {
   right: 0;
-  transition: background-color 2s ease-in;
+}
+
+#gardenUI {
+   transition: background-color 2s ease-in;
 }
 
 .split {
