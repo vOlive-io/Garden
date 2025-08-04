@@ -132,9 +132,12 @@ var slotNum = 4;
 
 function changeSeason() {
 	let seasonColors = ["#c2f7ab", "#ffe066","#ffc58f","#b5f1ff"];
+	let seasonNames = ["Spring", "Summer", "Autumn", "Winter"];
 	let garden = document.getElementById("gardenUI");
+	let label = document.getElementById("seasonName");
 	let newColor = seasonColors[seasonNum];
 	garden.style.backgroundColor = newColor;
+	seasonName.innerHTML = seasonNames[seasonNum];
 	seasonNum = (seasonNum + 1) % seasonColors.length; 
 }
 
