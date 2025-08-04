@@ -17,8 +17,8 @@ setInterval(changeSeason, 15000);
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 
-let seasonNum = 0;
-const seasonColors = [
+var seasonNum = 0;
+var seasonColors = [
     ["Spring", "#c2f7ab"], 
     ["Summer", "#ffe066"],
     ["autumn", "#ffc58f"], 
