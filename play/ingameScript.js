@@ -18,7 +18,7 @@ setInterval(changeSeason, 15000);
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 
 var seasonNum = 0;
-var seasonColors = [
+const seasonColors = [
     ["Spring", "#c2f7ab"], 
     ["Summer", "#ffe066"],
     ["autumn", "#ffc58f"], 
