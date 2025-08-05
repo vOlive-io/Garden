@@ -16,6 +16,7 @@ setInterval(changeSeason, 15000);
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 var seasonNum = 0;
+var selectedSeed = "wheat";
 
 var seeds = [
 	["Start of seeds", ["Seed Types", [
@@ -216,6 +217,25 @@ function unlockTemplate() {
 }
 
 
+function wallpaper() {
+	let seedSelect = document.getElementById("seed-list");
+	let selectedOption = seedSelect.options[seedSelect.selectedIndex].text.toLowerCase();
+	if (selectedOption === "default") {}
+	else {
+		switch (selectedOption) {
+			case "wheat":
+				selectedSeed = "wheat;
+					break;
+			case "grass":
+				selectedSeed = "grass;
+					break;
+     		case "flowers":
+				selectedSeed = "flowers;
+					break;
+				
+    }
+  }
+}
 
 
 
