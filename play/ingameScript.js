@@ -110,11 +110,11 @@ var seeds = [
 		["1.1.5.10", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 4]
 	]],
 	["Mythic Seeds", [
-		["1.1.6.1", "Bamboo", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 5],
-		["1.1.6.2", "Black Bat Flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 6],
-		["1.1.6.3", "Shenzhen Nongke Orchid", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 6],
 		["1.1.6.4", "Pomegranate", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 4],
-		["1.1.6.5", "Coconut", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 5]
+		["1.1.6.1", "Bamboo", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 5],
+		["1.1.6.5", "Coconut", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 5],
+		["1.1.6.3", "Shenzhen Nongke Orchid", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 6],
+		["1.1.6.2", "Black Bat Flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 6]
 	]]
 ];
 
