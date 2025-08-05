@@ -224,13 +224,13 @@ function wallpaper() {
 	else {
 		switch (selectedOption) {
 			case "wheat":
-				selectedSeed = "wheat;
+				selectedSeed = "wheat";
 					break;
 			case "grass":
-				selectedSeed = "grass;
+				selectedSeed = "grass";
 					break;
-     		case "flowers":
-				selectedSeed = "flowers;
+     			case "flowers":
+				selectedSeed = "flowers";
 					break;
 				
     }
