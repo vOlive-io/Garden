@@ -222,22 +222,18 @@ function unlockTemplate() {
 }
 
 
-function wallpaper() {
+function findSeed() {
 	let seedSelect = document.getElementById("seed-list");
-	let selectedOption = seedSelect.options[seedSelect.selectedIndex].text.toLowerCase();
-	if (selectedOption === "default") {}
-	else {
-		switch (selectedOption) {
-			case "wheat":
-				selectedSeed = "wheat";
-					break;
-			case "grass":
-				selectedSeed = "grass";
-					break;
-     			case "flowers":
-				selectedSeed = "flowers";
-					break;
-				
+	const seedName = seedSelect.options[seedSelect.selectedIndex].text.toLowerCase();	
+	const allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);	
+	selectedSeed = allIndividualSeeds.find(seed => {
+		return Array.isArray(seed) && seed[1].toLowerCase() === seedName.toLowerCase();
+	});
+	if (selectedSeed) {
+    		console.log("Selected Seed Data:", selectedSeed);
+	} else {
+	    console.log("shit");
+	}
     }
   }
 }
