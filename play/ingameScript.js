@@ -49,11 +49,11 @@ var seeds = [
 		["1.1.2.13", "Carrot (Orange)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 2],
 		["1.1.2.14", "Carrot (Purple)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 2],
 		["1.1.2.15", "Carrot (White)", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 2],
-		["1.1.2.16", "Radish", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 2]
+		["1.1.2.16", "Radish", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 2],
 		["1.1.2.17", "Oats", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 3],
 		["1.1.2.18", "Rice", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 3],
 		["1.1.2.19", "Rose", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 6],
-		["1.1.2.20", "Daisy", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 6],
+		["1.1.2.20", "Daisy", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 6]
 
 	
 	]],
@@ -98,6 +98,7 @@ var seeds = [
 		
 	]],
 	["Epic Seeds", [
+		["1.1.5.10", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 4],
 		["1.1.5.1", "Red Apple", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 5],
 		["1.1.5.2", "Green Apple", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 5],
 		["1.1.5.3", "Black Diamond Apple", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 5],
@@ -107,7 +108,6 @@ var seeds = [
 		["1.1.5.7", "Cherry", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 5],
 		["1.1.5.8", "Peach", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 5],
 		["1.1.5.9", "Corpse Flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 6],
-		["1.1.5.10", "Ruby Roman Grapes", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 4]
 	]],
 	["Mythic Seeds", [
 		["1.1.6.4", "Pomegranate", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 4],
