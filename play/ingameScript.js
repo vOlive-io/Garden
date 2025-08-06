@@ -6,6 +6,7 @@ callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
 setInterval(changeSeason, 15000);
+createDropdown();
 seedSelect.addEventListener('change', (event) => {
 	findSeed();
 });
@@ -222,6 +223,7 @@ function unlockTemplate() {
 
 
 function findSeed() {
+	let seedSelect = document.getElementById("seed-list");
 	const seedName = seedSelect.options[seedSelect.selectedIndex].text.toLowerCase();	
 	const allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);	
 	selectedSeed = allIndividualSeeds.find(seed => {
