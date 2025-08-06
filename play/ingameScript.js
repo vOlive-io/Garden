@@ -243,9 +243,12 @@ function findSeed() {
 
 function plantSeed(gardenBedLocation) {
 	let bed = gardenBedLocation.id;
+	let text = bed + "-text";
 	findSeed();
 	console.log(selectedSeed);
-	
+	bed.style.display = "none";
+	text.innerHTML = selectedSeed[1] + "is growing";
+
 	
 
 }
