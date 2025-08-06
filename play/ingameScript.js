@@ -1,10 +1,14 @@
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
+var seedSelect = document.getElementById("seed-list");
 callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
 setInterval(changeSeason, 15000);
+mySelect.addEventListener('change', (event) => {
+	findSeed();
+});
 //setInterval(createDropdown, 1000);
 
 
@@ -223,7 +227,6 @@ function unlockTemplate() {
 
 
 function findSeed() {
-	let seedSelect = document.getElementById("seed-list");
 	const seedName = seedSelect.options[seedSelect.selectedIndex].text.toLowerCase();	
 	const allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);	
 	selectedSeed = allIndividualSeeds.find(seed => {
