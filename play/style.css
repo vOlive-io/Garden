@@ -28,7 +28,7 @@
 }
 .garden {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px;;
   grid-gap: 1em;
 }
 
