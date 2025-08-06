@@ -12,11 +12,11 @@ seedSelect.addEventListener('change', (event) => {
 });
 //setInterval(createDropdown, 1000);
 document.getElementById('garden-slots').addEventListener('click', function(event) {
-  if (event.target.tagName === 'BUTTON') { 
-    const gardenBedLocation = event.target; 
-    console.log("Button ID:", gardenBedLocation.id);
-    console.log("Button Text:", gardenBedLocation.textContent);
-  }
+	if (event.target.tagName === 'BUTTON') { 
+		const gardenBedLocation = event.target; 
+		console.log("Button ID:", gardenBedLocation.id);
+		plantSeed(gardenBedLocation);
+	}
 });
 
 
