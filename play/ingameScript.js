@@ -196,6 +196,7 @@ function createDropdown() {
 	seedContainer.id = "seed-list";
 	document.getElementById("seed-list").replaceWith(seedContainer);
 }
+
 function createNewGardenSlot() {
 	slotNum++;
 	const newSlot = document.createElement("div");
@@ -211,15 +212,12 @@ function createNewGardenSlot() {
 
 function unlockTemplate() {
 	const achContainer = document.createElement("li");
-
 	const ach_h1 = document.createElement("h1");
 	const ach_h1_text = document.createTextNode("Lemonaid");
 	ach_h1.appendChild(ach_h1_text);
-
 	const ach_p = document.createElement("p");
 	const ach_p_text = document.createTextNode("yum");
 	ach_p.appendChild(ach_p_text);
-
 	achContainer.appendChild(ach_h1);
 	achContainer.appendChild(ach_p);
 	document.getElementById("myList").appendChild(achContainer);
