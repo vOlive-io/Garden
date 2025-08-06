@@ -6,7 +6,7 @@ callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
 setInterval(changeSeason, 15000);
-mySelect.addEventListener('change', (event) => {
+seedSelect.addEventListener('change', (event) => {
 	findSeed();
 });
 //setInterval(createDropdown, 1000);
