@@ -1,15 +1,11 @@
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
-var seedSelect = document.getElementById("seed-list");
 callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
 setInterval(changeSeason, 15000);
 createDropdown();
-seedSelect.addEventListener('change', (event) => {
-	findSeed();
-});
 //setInterval(createDropdown, 1000);
 document.getElementById('garden-slots').addEventListener('click', function(event) {
 	if (event.target.tagName === 'BUTTON') { 
@@ -238,14 +234,21 @@ function findSeed() {
 		return Array.isArray(seed) && seed[1].toLowerCase() === seedName.toLowerCase();
 	});
 	if (selectedSeed) {
-    		console.log("Selected Seed Data:", selectedSeed);
+    		console.log(selectedSeed);
 	} else {
 	    console.log("shit");
 	}
 }
 
 
+function plantSeed(gardenBedLocation) {
+	let bed = gardenBedLocation.id;
+	findSeed();
+	console.log(selectedSeed);
+	
+	
 
+}
 
 ////////////////////////////////
 ///         COOKIES          ///
