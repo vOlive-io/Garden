@@ -204,9 +204,12 @@ function createNewGardenSlot() {
 	const newSlot = document.createElement("div");
 	newSlot.id = "garden-slot-" + slotNum;
 	const newButton = document.createElement("button");
-	newButton.id = "slot-" + slotNum + "-button";
+	newButton.id = "garden-slot-" + slotNum + "-button";
+	const newButtonText = document.createElement("button");
+	newButtonText.id = "garden-slot-" + slotNum + "-button-text";
     	newButton.innerHTML = "Plant Here";
 	newSlot.appendChild(newButton);
+	newSlot.appendChild(newButtonText);
 	document.getElementById("garden-slots").appendChild(newSlot);
 }
 
