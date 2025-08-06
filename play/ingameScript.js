@@ -234,8 +234,6 @@ function findSeed() {
 	} else {
 	    console.log("shit");
 	}
-    }
-  }
 }
 
 
