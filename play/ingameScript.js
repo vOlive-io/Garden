@@ -57,8 +57,6 @@ var seeds = [
 		["1.1.2.7", "Rice", "It might not look nice when harvested, but rest assured, when cooked or steamed right, you will get great food.", 0, 0, 0.00, 0, false, false, "Common", 3],
 		["1.1.2.19", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 0, 0.00, 0, false, false, "Common", 6],
 		["1.1.2.20", "Daisy", "Seed Description", 0, 0, 0.00, 0, false, false, "Common", 6]
-
-	
 	]],
 	["Uncommon Seeds", [
 		["1.1.3.1", "Bell Pepper (Red)", "Seed Description", 0, 0, 0.00, 0, false, false, "Uncommon", 0],
