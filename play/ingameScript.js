@@ -26,7 +26,7 @@ document.getElementById('garden-slots').addEventListener('click', function(event
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 var seasonNum = 0;
 var selectedSeed = "wheat";
-
+var mon = 0;
 var seeds = [
 	["Start of seeds", ["Seed Types", [
 		[0, "Garden Produce", 0],
