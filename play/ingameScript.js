@@ -251,7 +251,7 @@ function plantSeed(gardenBedLocation) {
 		selectedSeed[3]--;
 		text.innerHTML = selectedSeed[1] + " is growing";
 		bed.style.display = "none";
-		setTimeout(harvest, 1500*selectedSeed[4], selectedSeed, gardenBedLocation);
+		setTimeout(harvest, 15000*selectedSeed[4], selectedSeed, gardenBedLocation);
 	}
 }
 
