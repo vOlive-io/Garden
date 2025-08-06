@@ -111,11 +111,11 @@ var seeds = [
 		["1.1.5.9", "Corpse Flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Epic", 6],
 	]],
 	["Mythic Seeds", [
-		["1.1.6.4", "Pomegranate", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 4],
-		["1.1.6.1", "Bamboo", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 5],
-		["1.1.6.5", "Coconut", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 5],
-		["1.1.6.3", "Shenzhen Nongke Orchid", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 6],
-		["1.1.6.2", "Black Bat Flower", "Seed Description", 0, 0, 0.00, 0, false, false, "Mythic", 6]
+		["1.1.6.4", "Pomegranate", "My personal favorite fruit to eat, my personal least favorite to clean up. Pomegranates have tons of seeds and in various cultures, they often represent fertility, abundance, and prosperity.", 0, 0, 0.00, 0, false, false, "Mythic", 4],
+		["1.1.6.1", "Bamboo", "Found primarily in warm and moist tropical and temperate climates bamboo is a strong, green, tall, delicious (to pandas) and majestic plant. It covers a total of 0.38% of the earth. ", 0, 0, 0.00, 0, false, false, "Mythic", 5],
+		["1.1.6.5", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 0.00, 0, false, false, "Mythic", 5],
+		["1.1.6.3", "Shenzhen Nongke Orchid", "Coming in hot with world fame, and an auction price higher than my salary for ten years, this orchid is renowned for its beautiful shape, stunning colors, and the fact that it only blooms once every few years.", 0, 0, 0.00, 0, false, false, "Mythic", 6],
+		["1.1.6.2", "Black Bat Flower", "This flower bears a stunning resemblance to a bat. The black bat flower is considered poisonous, to pets, and humans, and everything, so, don't eat it.", 0, 0, 0.00, 0, false, false, "Mythic", 6]
 	]]
 ];
 
