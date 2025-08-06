@@ -248,8 +248,20 @@ function plantSeed(gardenBedLocation) {
 	console.log(selectedSeed);
 	text.innerHTML = selectedSeed[1] + " is growing";
 	bed.style.display = "none";
+	
+	setTimeout(harvest, 1500*selectedSeed[4], selectedSeed, gardenBedLocation);
 }
 
+function harvest(seed, gardenBedLocation) {
+	let bed = document.getElementById(gardenBedLocation.id);
+	let text = document.getElementById(gardenBedLocation.id + "-text");
+	bed.style.display = "block";
+	text.innerHTML = "";
+	seed[6]++;
+	coins = coins + seed[5];
+//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
+	
+}
 ////////////////////////////////
 ///         COOKIES          ///
 ////////////////////////////////
