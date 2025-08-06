@@ -245,11 +245,14 @@ function plantSeed(gardenBedLocation) {
 	let bed = document.getElementById(gardenBedLocation.id);
 	let text = document.getElementById(gardenBedLocation.id + "-text");
 	findSeed();
-	console.log(selectedSeed);
-	text.innerHTML = selectedSeed[1] + " is growing";
-	bed.style.display = "none";
 	
-	setTimeout(harvest, 1500*selectedSeed[4], selectedSeed, gardenBedLocation);
+	console.log(selectedSeed);
+	if(selectedSeed[3] > 0) {	
+		selectedSeed[3]--;
+		text.innerHTML = selectedSeed[1] + " is growing";
+		bed.style.display = "none";
+		setTimeout(harvest, 1500*selectedSeed[4], selectedSeed, gardenBedLocation);
+	}
 }
 
 function harvest(seed, gardenBedLocation) {
