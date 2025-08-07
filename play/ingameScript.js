@@ -245,17 +245,15 @@ function findSeed() {
 
 
 function plantSeed(gardenBedLocation) {
+	let bedWhole = document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length()-7)]));
 	let bed = document.getElementById(gardenBedLocation.id);
 	let text = document.getElementById(gardenBedLocation.id + "-text");
 	findSeed();
-	
 	console.log(selectedSeed);
-	if(selectedSeed[3] > 0) {	
-		selectedSeed[3]--;
-		text.innerHTML = selectedSeed[1] + " is growing";
-		bed.style.display = "none";
-		setTimeout(harvest, 15000*selectedSeed[4], selectedSeed, gardenBedLocation);
-	}
+	text.innerHTML = selectedSeed[1] + " is growing";
+	bed.style.display = "none";
+	bed.style.border = "10px brown groove";
+	setTimeout(harvest, 15000*selectedSeed[4], selectedSeed, gardenBedLocation);
 }
 
 function harvest(seed, gardenBedLocation) {
@@ -264,10 +262,11 @@ function harvest(seed, gardenBedLocation) {
 	bed.style.display = "block";
 	text.innerHTML = "";
 	seed[6]++;
-	coins = coins + seed[5];
+	mon = mon + seed[5];
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 	
 }
+
 ////////////////////////////////
 ///         COOKIES          ///
 ////////////////////////////////
