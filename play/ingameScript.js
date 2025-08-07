@@ -247,15 +247,21 @@ function findSeed() {
 function plantSeed(gardenBedLocation) {
 	let bedData = [document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length-7)])), document.getElementById(gardenBedLocation.id), document.getElementById(gardenBedLocation.id + "-text")];
 	findSeed();
-	console.log(selectedSeed);
-	bedData[2].innerHTML = selectedSeed[1] + " is growing";
-	bedData[1].style.display = "none";
-	if (seasonNum == selectedSeed[5])
-		bedData[0].style.border = "10px red groove";
-		setTimeout(harvest, 15000*(selectedSeed[4]+1), selectedSeed, bedData);
+	if (seed[3] > 0) {
+		seed[3]--;
+		bedData[2].innerHTML = selectedSeed[1] + " is growing";
+		bedData[1].style.display = "none";
+	
+		if (seasonNum == selectedSeed[5]) {
+			bedData[0].style.border = "10px red groove";
+			setTimeout(harvest, 15000*(selectedSeed[4]+1), selectedSeed, bedData);
+		} else {
+			bedData[0].style.border = "10px green groove";
+			setTimeout(harvest, 15000*selectedSeed[4], selectedSeed, bedData);
+		}
 	} else {
-		bedData[0].style.border = "10px green groove";
-		setTimeout(harvest, 15000*selectedSeed[4], selectedSeed, bedData);
+		alert("Not enough seeds");
+		//makeAlert(1);
 	}
 }
 
