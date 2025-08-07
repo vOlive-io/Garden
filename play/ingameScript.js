@@ -247,8 +247,8 @@ function findSeed() {
 function plantSeed(gardenBedLocation) {
 	let bedData = [document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length-7)])), document.getElementById(gardenBedLocation.id), document.getElementById(gardenBedLocation.id + "-text")];
 	findSeed();
-	if (seed[3] > 0) {
-		seed[3]--;
+	if (selectedSeed[3] > 0) {
+		selectedSeed[3]--;
 		bedData[2].innerHTML = selectedSeed[1] + " is growing";
 		bedData[1].style.display = "none";
 	
