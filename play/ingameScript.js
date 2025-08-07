@@ -245,14 +245,14 @@ function findSeed() {
 
 
 function plantSeed(gardenBedLocation) {
-	let bedWhole = document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length()-7)]));
+	let bedWhole = document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length-7)]));
 	let bed = document.getElementById(gardenBedLocation.id);
 	let text = document.getElementById(gardenBedLocation.id + "-text");
 	findSeed();
 	console.log(selectedSeed);
 	text.innerHTML = selectedSeed[1] + " is growing";
 	bed.style.display = "none";
-	bed.style.border = "10px brown groove";
+	bedWhole.style.border = "10px brown groove";
 	setTimeout(harvest, 15000*selectedSeed[4], selectedSeed, gardenBedLocation);
 }
 
