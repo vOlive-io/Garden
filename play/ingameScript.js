@@ -6,6 +6,7 @@ setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
 setInterval(changeSeason, 15000);
 refreshDropdown();
+refreshVitals();
 //setInterval(refreshDropdown, 1000);
 document.getElementById('garden-slots').addEventListener('click', function(event) {
 	if (event.target.tagName === 'BUTTON') { 
@@ -199,6 +200,11 @@ function refreshDropdown() {
 	document.getElementById("seed-list").replaceWith(seedContainer);
 }
 
+function refreshVitals() {
+	document.getElementById("mon-spot").innerHTML = mon;
+}
+
+	
 function createNewGardenSlot() {
 	slotNum++;
 	const newSlot = document.createElement("div");
@@ -271,6 +277,7 @@ function harvest(seed, bedData) {
 	bedData[0].style.border = "10px white groove";
 	seed[7]++;
 	mon = mon + seed[6];
+	refreshVitals();
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 }
 
