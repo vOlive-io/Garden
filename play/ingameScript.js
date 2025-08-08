@@ -170,10 +170,10 @@ function unlockSeed() {
 				seedContainer.appendChild(seed_h1);
 				seedContainer.appendChild(seed_p);
 				const placement = "seed-" + seeds[i][1][i3][0];
-				document.getElementById(placement).appendChild(seedContainer);
+				seedContainer.id = placement;
+				document.getElementById("seed-slots").appendChild(seedContainer);
 				seeds[i][1][i3][9] = true;
 				document.getElementById(placement).classList.add('unlockedSeeds');
-				document.getElementById(placement).classList.remove('lockedSeeds');
 			}
 		}
 	}
