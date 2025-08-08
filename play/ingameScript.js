@@ -32,7 +32,7 @@ var mon = 0;
 
 var slotNum = 4;
 
-var seeds unlocked = 3;
+var seedsUnlocked = 3;
 seedsHavested = 0;
 
 var seeds = [
@@ -307,6 +307,7 @@ function harvest(seed, bedData) {
 	bedData[0].style.border = "10px white groove";
 	seed[7]++;
 	mon = mon + seed[6];
+	seedsHavested++;
 	refreshVitals();
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 }
