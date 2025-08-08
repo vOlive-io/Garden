@@ -185,9 +185,10 @@ var achievements = [
 ///       GAME FRONT         ///
 ////////////////////////////////
 function changeSeason() {
-	seasonNum = (seasonNum + 1) % seasonColors.length; 
 	let seasonColors = ["#c2f7ab", "#ffe066","#ffc58f","#b5f1ff"];
 	let seasonNames = ["Spring", "Summer", "Autumn", "Winter"];
+	seasonNum = (seasonNum + 1) % seasonColors.length; 
+
 
 	let garden = document.getElementById("gardenUI");
 	let label = document.getElementById("seasonName");
