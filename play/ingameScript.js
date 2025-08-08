@@ -29,9 +29,11 @@ document.getElementById('garden-slots').addEventListener('click', function(event
 var seasonNum = 0;
 var selectedSeed = "wheat";
 var mon = 0;
-totalSeeds = 0;
+
 var slotNum = 4;
 
+var seeds unlocked = 3;
+seedsHavested = 0;
 
 var seeds = [
 	["Start of seeds", ["Seed Types", [
@@ -138,7 +140,7 @@ var soils = [
 var achievements = [
 	["Start of Achevments", ["Achievement Types", [
 	 [1, "Seeds Planted", 15],
-	 [2, "Achievement Type", 0],
+	 [2, "Seeds Unlocked", 0],
 	 [2, "Achievement Type", 0],
 	 [2, "Achievement Type", 0]
 	]]],
@@ -159,7 +161,7 @@ var achievements = [
 		["2.1.1.14", "Enormous Garden", "Plant 50,000 seeds!", "Achievement Description",false, false],
 		["2.1.1.15", "Divine Garden", "Plant 100,000 seeds!", "Achievement Description",false, false]
 	]],
-	["Achievement Type", [
+	["Seeds Unlocked", [
 		["2.1.2.1", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false],
 		["2.1.2.2", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false],
 	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false]
