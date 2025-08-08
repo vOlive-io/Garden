@@ -5,8 +5,8 @@ callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(unlockSeed, 1000);
 setInterval(changeSeason, 15000);
-createDropdown();
-//setInterval(createDropdown, 1000);
+refreshDropdown();
+//setInterval(refreshDropdown, 1000);
 document.getElementById('garden-slots').addEventListener('click', function(event) {
 	if (event.target.tagName === 'BUTTON') { 
 		const gardenBedLocation = event.target; 
@@ -180,7 +180,7 @@ function unlockSeed() {
 }
 
 
-function createDropdown() {
+function refreshDropdown() {
 	const seedContainer = document.createElement("select");
 	for (let i = 1; i < seeds.length; i++) {
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
