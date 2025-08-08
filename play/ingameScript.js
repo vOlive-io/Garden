@@ -25,6 +25,7 @@ document.getElementById('garden-slots').addEventListener('click', function(event
 //Seeds array counts plants AND seeds in inventory
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <rareity: string>, <plant type: int>],
+
 var seasonNum = 0;
 var selectedSeed = "wheat";
 var mon = 0;
