@@ -4,20 +4,9 @@
 #achievementUI {
   display: none;
 }
-.lockedAch {
-  display: none;
-}
-
 
 
 /*  INVENTORY STUFF */
-.lockedSeeds {
-  display: none;
-}
-.unlockedSeeds {
-}
-
-
 .left {
   left: 0;
   background-color: white;
