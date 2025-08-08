@@ -24,7 +24,7 @@ document.getElementById('garden-slots').addEventListener('click', function(event
 
 //Seeds array counts plants AND seeds in inventory
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
-//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <rareity: string>, <plant type: int>],
+//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
 
 var seasonNum = 0;
 var selectedSeed = "wheat";
@@ -221,6 +221,7 @@ function unlockSeed() {
 		}
 	}
 }
+//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
 
 
 function refreshDropdown() {
@@ -291,6 +292,7 @@ function findSeed() {
 	}
 }
 
+//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
 
 function plantSeed(gardenBedLocation) {
 	let bedData = [document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length-7)])), document.getElementById(gardenBedLocation.id), document.getElementById(gardenBedLocation.id + "-text")];
@@ -321,7 +323,6 @@ function harvest(seed, bedData) {
 	mon = mon + seed[6];
 	seedsHavested++;
 	refreshVitals();
-//["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <base value: dub>, <total planted: int>, <unlocked: bool>],
 }
 
 ////////////////////////////////
