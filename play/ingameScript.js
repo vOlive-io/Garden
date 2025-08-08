@@ -141,7 +141,7 @@ var achievements = [
 	 [2, "Achievement Type", 0],
 	 [2, "Achievement Type", 0]
 	]]],
-	["Getting Started" [
+	["Seeds Planted" [
 		["2.1.1.1", "Getting Started", "Plant your first seed!", "Achievement Description", false, false],
 		["2.1.1.2", "Microsopic Garden", "Plant 5 seeds!", "Achievement Description",false, false],
 		["2.1.1.3", "Tiny Garden", "Plant 10 seeds!", "Achievement Description",false, false],
@@ -157,8 +157,12 @@ var achievements = [
 		["2.1.1.13", "Humongus Garden", "Plant 25,000 seeds!", "Achievement Description",false, false],
 		["2.1.1.14", "Enormous Garden", "Plant 50,000 seeds!", "Achievement Description",false, false],
 		["2.1.1.15", "Divine Garden", "Plant 100,000 seeds!", "Achievement Description",false, false]
+	]],
+	["Achievement Type" [
+		["2.1.2.1", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false],
+		["2.1.2.2", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false],
+	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false],
 	]]
-	
 ];
 var slotNum = 4;
 
