@@ -30,6 +30,9 @@ var seasonNum = 0;
 var selectedSeed = "wheat";
 var mon = 0;
 totalSeeds = 0;
+var slotNum = 4;
+
+
 var seeds = [
 	["Start of seeds", ["Seed Types", [
 		[0, "Garden Produce", 0],
@@ -165,7 +168,7 @@ var achievements = [
 	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false],
 	]]
 ];
-var slotNum = 4;
+
 
 ////////////////////////////////
 ///       GAME FRONT         ///
