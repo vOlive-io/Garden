@@ -315,9 +315,6 @@ function harvest(seed, bedData) {
 ////////////////////////////////
 ///         COOKIES          ///
 ////////////////////////////////
-
-
-
 function makeSavedData_cookies() {
 	const data = {
 		//User Cookies
