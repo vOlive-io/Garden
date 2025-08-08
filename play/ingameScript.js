@@ -190,9 +190,9 @@ function changeSeason() {
 	
 	let garden = document.getElementById("gardenUI");
 	let label = document.getElementById("seasonName");
-	let newColor = seasonColors[seasonNum];
+	let newColor = seasonColors[seasonNum+1];
 	garden.style.backgroundColor = newColor;
-	seasonName.innerHTML = seasonNames[seasonNum];
+	seasonName.innerHTML = seasonNames[seasonNum+1];
 	seasonNum = (seasonNum + 1) % seasonColors.length; 
 }
 
