@@ -300,7 +300,7 @@ function findSeed() {
 		return Array.isArray(seed) && seed[1].toLowerCase() === seedName.toLowerCase();
 	});
 	if (selectedSeed) {
-    		console.log(selectedSeed);
+    		//console.log(selectedSeed);
 			document.getElementById("seed-num").innerHTML = "You have " + selectedSeed[3] + "x seeds left";
 	} else {
 	    console.log("shit");
