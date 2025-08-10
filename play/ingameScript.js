@@ -217,7 +217,7 @@ function unlockSeed() {
 					seasonNameInput = "spring";
 				}
 				const seed_p = document.createElement("p");
-				const seed_p_text = document.createTextNode(seeds[i][1][i3][2] + "<br>" + "Grows slower in " + seasonNameInput + ".");
+				const seed_p_text = document.createTextNode(seeds[i][1][i3][2] + "Grows slower in " + seasonNameInput + ".");
 				seed_p.appendChild(seed_p_text);
 				
 				seedContainer.appendChild(seed_h1);
