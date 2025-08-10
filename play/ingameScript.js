@@ -245,7 +245,7 @@ function refreshDropdown() {
 }
 
 function refreshVitals() {
-	document.getElementById("mon-spot").innerHTML = mon;
+	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
 }
 
 	
