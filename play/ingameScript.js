@@ -206,9 +206,18 @@ function unlockSeed() {
 				const seed_h1 = document.createElement("h1");
 				const seed_h1_text = document.createTextNode(seeds[i][1][i3][1]);
 				seed_h1.appendChild(seed_h1_text);
-
+				seasonNameInput = "winter";
+				if (seeds[i][1][i3][5] == 2) {
+					seasonNameInput = "autumn";
+				}
+				if (seeds[i][1][i3][5] == 1) {
+					seasonNameInput = "summer";
+				}
+				if (seeds[i][1][i3][5] == 0) {
+					seasonNameInput = "spring";
+				}
 				const seed_p = document.createElement("p");
-				const seed_p_text = document.createTextNode(seeds[i][1][i3][2]);
+				const seed_p_text = document.createTextNode(seeds[i][1][i3][2] + "<br>" + "Grows slower in " + seasonNameInput + ".");
 				seed_p.appendChild(seed_p_text);
 				
 				seedContainer.appendChild(seed_h1);
