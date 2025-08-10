@@ -255,6 +255,7 @@ function refreshDropdown() {
 
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
+	
 }
 
 	
@@ -297,6 +298,7 @@ function findSeed() {
 	});
 	if (selectedSeed) {
     		console.log(selectedSeed);
+			document.getElementById("seed-num").innerHTML = "You have " + selectedSeed[3] + "x seeds left";
 	} else {
 	    console.log("shit");
 	}
