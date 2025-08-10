@@ -255,6 +255,7 @@ function refreshDropdown() {
 
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
+	findSeed();
 	
 }
 
@@ -313,7 +314,7 @@ function plantSeed(gardenBedLocation) {
 		selectedSeed[3]--;
 		bedData[2].innerHTML = selectedSeed[1] + " is growing";
 		bedData[1].style.display = "none";
-	
+		refreshVitals();
 		if (seasonNum == selectedSeed[5]) {
 			bedData[0].style.border = "10px red groove";
 			setTimeout(harvest, 15000*(selectedSeed[4]+1), selectedSeed, bedData);
