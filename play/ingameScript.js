@@ -36,6 +36,13 @@ var slotNum = 4;
 var seedsUnlocked = 3;
 seedsHavested = 0;
 
+var commonPrice = 50;
+var uncommonPrice = 500;
+var rarePrice = 5000;
+var epicPrice = 50000;
+var mythicPrice = 100000;
+var seedPackPrice = 50;
+
 var seeds = [
 	["Start of seeds", ["Seed Types", [
 		[0, "Garden Produce", 0],
