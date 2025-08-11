@@ -358,9 +358,18 @@ function BuySeed(pack) {
 			makeAlert(2);
 		}
 	}
+	if(pack == 0) {	
+		if (mon >= commonPrice) {
+			const allIndividualSeeds = seeds[2][1];
+			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+			checkGoodPull(1, unlockSeed, pack);		
+		} else {
+			makeAlert(2);
+		}
+	}
 }
 
-function checkGoodPull(setCase, unlockSeed, pack) {
+function checkGoodPull(setCase, unlockSeed, pack, seedPackPrice) {
 	if(setCase == 0) {
 		if (unlockSeed[8] == true) {
 				unlockSeed[3] = unlockSeed[3] + 10;
@@ -371,6 +380,19 @@ function checkGoodPull(setCase, unlockSeed, pack) {
 			BuySeed(pack);
 		}
 	}
+	if(setCase == 1) {
+		if (unlockSeed[8] == false) {
+				unlockSeed[8] = true;
+				unlockSeed[3] = unlockSeed[3] + 5;
+				mon = mon - commonPrice;
+				commonPrice = Math.round(commonPrice * commonUp);
+				refreshVitals();
+		} else {
+			BuySeed(pack);
+		}
+	}
+
+	
 }
 
 function makeAlert(alertCode) {
