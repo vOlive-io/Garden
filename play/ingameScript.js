@@ -366,6 +366,7 @@ function checkGoodPull(setCase, unlockSeed, pack) {
 				unlockSeed[3] = unlockSeed[3] + 10;
 				mon = mon - seedPackPrice;
 				seedPackPrice = Math.round(seedPackPrice * seedPackUp);
+				refreshVitals();
 		} else {
 			BuySeed(pack);
 		}
