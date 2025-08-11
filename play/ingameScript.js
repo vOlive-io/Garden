@@ -342,18 +342,23 @@ function harvest(seed, bedData) {
 	refreshVitals();
 }
 function BuySeed(pack) {
-	if(pack == 0){	
-		const allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);	
-		let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
-		checkGoodPull(0, unlockSeed, pack);		
+	if(pack == 0) {	
+		if (mon >= seedPackPrice) {
+			const allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);	
+			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+			checkGoodPull(0, unlockSeed, pack);		
+		} else {
+			//makeAlert()
+		}
 	}
-
 }
 
 function checkGoodPull(setCase, unlockSeed, pack) {
 	if(setCase == 0) {
 		if (unlockSeed[8] == true) {
 				unlockSeed[3] = unlockSeed[3] + 10;
+				mon = mon - seedPackPrice;
+				seedPackPrice = Math.round(seedPackPrice * seedPackUp);
 		} else {
 			BuySeed(pack);
 		}
