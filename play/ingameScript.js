@@ -402,14 +402,14 @@ function makeAlert(alertCode) {
 		document.getElementById("alert-p").innerHTML = "This means nothing bad has happened yet or no errors have been triggered! This is a good sign.";
 	}
 	if (alertCode == 1) {
-		document.getElementById("alertH").innerHTML = "Not Enough Seeds!";
-		document.getElementById("alertp").innerHTML = "You do not have enough " + selectedSeed + " seeds in your inventory! If you want more, buy them in the store.";
-		document.getElementById("alert").style.display = block;
+		document.getElementById("alert-h").innerHTML = "Not Enough Seeds!";
+		document.getElementById("alert-h").innerHTML = "You do not have enough " + selectedSeed[1] + " seeds in your inventory! If you want more, buy them in the store.";
+		document.getElementById("alert").style.display = "block";
 	} 
 	if (alertCode == 2) {
-		document.getElementById("alertH").innerHTML = "Not Enough Money!";
-		document.getElementById("alertp").innerHTML = "You dont have enough money! If you want more, try planting seeds in the garden.";
-		document.getElementById("alert").style.display = block;
+		document.getElementById("alert-h").innerHTML = "Not Enough Money!";
+		document.getElementById("alert-p").innerHTML = "You dont have enough money! If you want more, try planting seeds in the garden.";
+		document.getElementById("alert").style.display = "block";
 	}
 	if (alertCode == 3) {}
 }
