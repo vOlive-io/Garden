@@ -350,8 +350,8 @@ function BuySeed(pack) {
 
 }
 
-function checkGoodPull(case, unlockSeed, pack) {
-	if(case == 0) {
+function checkGoodPull(setCase, unlockSeed, pack) {
+	if(setCase == 0) {
 		if (unlockSeed[8] == true) {
 				unlockSeed[3] = unlockSeed[3] + 10;
 		} else {
