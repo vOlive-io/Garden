@@ -397,7 +397,7 @@ function checkGoodPull(setCase, unlockSeed, pack, seedPackPrice) {
 
 function makeAlert(alertCode) {
 	if (alertCode == 0) {
-		document.getElementById("alert").style.display = none;
+		document.getElementById("alert").style.display = "none";
 		document.getElementById("alert-h").innerHTML = "No Alert Yet!";
 		document.getElementById("alert-p").innerHTML = "This means nothing bad has happened yet or no errors have been triggered! This is a good sign.";
 	}
