@@ -403,7 +403,7 @@ function makeAlert(alertCode) {
 	}
 	if (alertCode == 1) {
 		document.getElementById("alert-h").innerHTML = "Not Enough Seeds!";
-		document.getElementById("alert-h").innerHTML = "You do not have enough " + selectedSeed[1] + " seeds in your inventory! If you want more, buy them in the store.";
+		document.getElementById("alert-p").innerHTML = "You do not have enough " + selectedSeed[1] + " seeds in your inventory! If you want more, buy them in the store.";
 		document.getElementById("alert").style.display = "block";
 	} 
 	if (alertCode == 2) {
