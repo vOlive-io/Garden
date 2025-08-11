@@ -5,10 +5,6 @@
 	
 </head>
 <body id="fullBody">
-	<div id="alert" onclick="makeAlert(0)">
-		<h1 id="alert-h">No Alert Yet!</h1>
-		<p id="alert-p">This means nothing bad has happened yet or no errors have been triggered! This is a good sign.</p>
-	</div>
 	<div id="bodyHead">
 	</div>
 	<div class="split left>
@@ -22,7 +18,7 @@
 			<button onclick="refreshDropdown()">Refresh</button>
 		<div id="marketUI">
 			<h1>Market</h1>
-			<div id=gallery">
+			<div class=gallery">
 				<div id="common-unlock-pack">
 					<h3>Common Seed Unlocker Pack</h3>
 					<p>Give you 5x of ONE random common seed that you have not yet unlocked.</p>
@@ -76,6 +72,10 @@
 		 -->
 	</div>
 	<div id="gardenUI" class="split right">
+		<div id="alert" onclick="makeAlert(0)">
+			<h1 id="alert-h">No Alert Yet!</h1>
+			<p id="alert-p">This means nothing bad has happened yet or no errors have been triggered! This is a good sign.</p>
+		</div>
 		<h1 id="seasonName"></h1>
 		<div id="seed-stats">
 			<select id="seed-list"></select>
