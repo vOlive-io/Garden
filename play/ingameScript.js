@@ -348,6 +348,7 @@ function harvest(seed, bedData) {
 	seedsHavested++;
 	refreshVitals();
 }
+
 function BuySeed(pack) {
 	if(pack == 0) {	
 		if (mon >= seedPackPrice) {
@@ -371,6 +372,13 @@ function checkGoodPull(setCase, unlockSeed, pack) {
 			BuySeed(pack);
 		}
 	}
+}
+
+function makeAlert(alertCode) {
+	if (alertCode == 0) {}
+	if (alertCode == 1) {}
+	if (alertCode == 2) {}
+	if (alertCode == 3) {}
 }
 ////////////////////////////////
 ///         COOKIES          ///
