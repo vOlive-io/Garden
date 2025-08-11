@@ -41,9 +41,8 @@
 }
 
 #alert {
-  width: 200px;
+  width: 600px;
   border: black groove 10px;
-  
   background: #ffc9ba;
   display: none;
 }
