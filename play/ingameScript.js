@@ -334,8 +334,7 @@ function plantSeed(gardenBedLocation) {
 			setTimeout(harvest, 15000*selectedSeed[4], selectedSeed, bedData);
 		}
 	} else {
-		alert("Not enough seeds");
-		//makeAlert(1);
+		makeAlert(1);
 	}
 }
 
@@ -356,7 +355,7 @@ function BuySeed(pack) {
 			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
 			checkGoodPull(0, unlockSeed, pack);		
 		} else {
-			//makeAlert()
+			makeAlert(2);
 		}
 	}
 }
@@ -376,8 +375,12 @@ function checkGoodPull(setCase, unlockSeed, pack) {
 
 function makeAlert(alertCode) {
 	if (alertCode == 0) {}
-	if (alertCode == 1) {}
-	if (alertCode == 2) {}
+	if (alertCode == 1) {
+		
+	} //not enough seeds
+	if (alertCode == 2) {
+		
+	} //not enough mon
 	if (alertCode == 3) {}
 }
 ////////////////////////////////
