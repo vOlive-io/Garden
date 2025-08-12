@@ -5,7 +5,6 @@ callSavedData_cookies();
 document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
 unlockSeed();
 refreshDropdown();
-findSeed();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(refreshVitals, 1000);
 setInterval(changeSeason, 15000);
