@@ -60,8 +60,6 @@ var seeds = [
 		[5, "Trees", 0],
 		[6, "Flowers", 0]
 	]]],
-	["Starter Seeds", [
-	]], 
 	["Common Seeds", [
 		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 1, 3, 1.00, 0, true, false, "Starter", 3, 0],
 		["1.1.1.2", "Grass", "Hard to take care of, but once you get the hang of it, you\'ll be swimming in it!", 5, 1, 3, 1.50, 0, true, false, "Starter", 0, 0],
