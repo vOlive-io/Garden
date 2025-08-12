@@ -3,10 +3,8 @@
 ////////////////////////////////
 callSavedData_cookies();
 setInterval(makeSavedData_cookies, 1000);
-setInterval(unlockSeed, 1000);
+setInterval(refreshVitals, 1000);
 setInterval(changeSeason, 15000);
-refreshDropdown();
-refreshVitals();
 setInterval(findSeed, 10);
 //setInterval(refreshDropdown, 1000);
 document.getElementById('garden-slots').addEventListener('click', function(event) {
@@ -265,7 +263,8 @@ function refreshDropdown() {
 
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
-	
+	unlockSeed();
+	refreshDropdown();
 	findSeed();
 	
 }
