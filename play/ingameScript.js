@@ -358,7 +358,7 @@ function buySeed(pack) {
 			makeAlert(2);
 		}
 	}
-	if(pack == 0) {	
+	if(pack == 1) {	
 		if (mon >= commonPrice) {
 			const allIndividualSeeds = seeds[1][1];
 			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
