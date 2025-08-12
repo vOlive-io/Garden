@@ -348,7 +348,7 @@ function harvest(seed, bedData) {
 	refreshVitals();
 }
 
-function BuySeed(pack) {
+function buySeed(pack) {
 	if(pack == 0) {	
 		if (mon >= seedPackPrice) {
 			const allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);	
@@ -369,7 +369,7 @@ function BuySeed(pack) {
 	}
 }
 
-function checkGoodPull(setCase, unlockSeed, pack, seedPackPrice) {
+function checkGoodPull(setCase, unlockSeed, pack) {
 	if(setCase == 0) {
 		if (unlockSeed[8] == true) {
 				unlockSeed[3] = unlockSeed[3] + 10;
@@ -377,7 +377,7 @@ function checkGoodPull(setCase, unlockSeed, pack, seedPackPrice) {
 				seedPackPrice = Math.round(seedPackPrice * seedPackUp);
 				refreshVitals();
 		} else {
-			BuySeed(pack);
+			buySeed(pack);
 		}
 	}
 	if(setCase == 1) {
@@ -388,7 +388,7 @@ function checkGoodPull(setCase, unlockSeed, pack, seedPackPrice) {
 				commonPrice = Math.round(commonPrice * commonUp);
 				refreshVitals();
 		} else {
-			BuySeed(pack);
+			buySeed(pack);
 		}
 	}
 
