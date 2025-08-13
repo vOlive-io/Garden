@@ -41,7 +41,7 @@ var uncommonPrice = 500;
 var rarePrice = 5000;
 var epicPrice = 50000;
 var mythicPrice = 100000;
-var seedPackPrice = 50;
+var seedPackPrice = 10;
 
 var commonUp = 1.2;
 var uncommonUp = 1.2;
@@ -263,6 +263,12 @@ function refreshDropdown() {
 
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
+	document.getElementById("common-unlock-pack-price").innerHTML = commonPrice + "$";
+	document.getElementById("uncommon-unlock-pack-price").innerHTML = uncommonPrice + "$";
+	document.getElementById("rare-unlock-pack-price").innerHTML = rarePrice + "$";
+	document.getElementById("epic-unlock-pack-price").innerHTML = epicPrice + "$";
+	document.getElementById("mythic-unlock-pack-price").innerHTML = mythicPrice + "$";
+	document.getElementById("seed-pack-price").innerHTML = seedPackPrice + "$";
 	unlockSeed();
 	findSeed();
 	
