@@ -280,9 +280,9 @@ function createNewGardenSlot() {
 	newSlot.id = "garden-slot-" + slotNum;
 	const newButton = document.createElement("button");
 	newButton.id = "garden-slot-" + slotNum + "-button";
-	const newButtonText = document.createElement("button");
+	const newButtonText = document.createElement("p");
 	newButtonText.id = "garden-slot-" + slotNum + "-button-text";
-    	newButton.innerHTML = "Plant Here";
+    newButton.innerHTML = "Plant Here";
 	newSlot.appendChild(newButton);
 	newSlot.appendChild(newButtonText);
 	document.getElementById("garden-slots").appendChild(newSlot);
