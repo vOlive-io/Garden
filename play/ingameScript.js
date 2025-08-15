@@ -1,24 +1,4 @@
-////////////////////////////////
-///       BOOT-UP GAME       ///
-////////////////////////////////
 callSavedData_cookies();
-document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
-unlockSeed();
-refreshDropdown();
-setInterval(makeSavedData_cookies, 1000);
-setInterval(refreshVitals, 1000);
-setInterval(changeSeason, 15000);
-//setInterval(refreshDropdown, 1000);
-document.getElementById('garden-slots').addEventListener('click', function(event) {
-	if (event.target.tagName === 'BUTTON') { 
-		const gardenBedLocation = event.target; 
-		console.log("Button ID:", gardenBedLocation.id);
-		plantSeed(gardenBedLocation);
-	}
-});
-
-
-
 ////////////////////////////////
 ///        VARIABLES         ///
 ////////////////////////////////
@@ -193,6 +173,23 @@ var achievements = [
 	]]
 ];
 
+////////////////////////////////
+///       BOOT-UP GAME       ///
+////////////////////////////////
+document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
+unlockSeed();
+refreshDropdown();
+setInterval(makeSavedData_cookies, 1000);
+setInterval(refreshVitals, 1000);
+setInterval(changeSeason, 15000);
+//setInterval(refreshDropdown, 1000);
+document.getElementById('garden-slots').addEventListener('click', function(event) {
+	if (event.target.tagName === 'BUTTON') { 
+		const gardenBedLocation = event.target; 
+		console.log("Button ID:", gardenBedLocation.id);
+		plantSeed(gardenBedLocation);
+	}
+});
 
 ////////////////////////////////
 ///       GAME FRONT         ///
