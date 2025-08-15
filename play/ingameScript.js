@@ -43,8 +43,8 @@ var seeds = [
 	["Common Seeds", [
 		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 1, 3, 2.00, 0, true, false, "Starter", 3, 0],
 		["1.1.1.2", "Grass", "Hard to take care of, but once you get the hang of it, you\'ll be swimming in it!", 5, 1, 3, 2.50, 0, true, false, "Starter", 0, 0],
-		["1.1.1.3", "Corn", "Time for a BBQ, with some corn-on-the-COB!", 0, 0, 3, 3.00.00, 0, false, false, "Common", 0, 0],
-		["1.1.1.4", "Potato", "P-O-T-A-T-O that spells POTATO!", 0, 0, 3,3.00, 0, false, false, "Common", 0, 0],
+		["1.1.1.3", "Corn", "Time for a BBQ, with some corn-on-the-COB!", 0, 0, 3, 3.00, 0, false, false, "Common", 0, 0],
+		["1.1.1.4", "Potato", "P-O-T-A-T-O that spells POTATO!", 0, 0, 3, 3.00, 0, false, false, "Common", 0, 0],
 		["1.1.1.5", "Zucchini", "A thick cucumber-looking vegetable, that can make some tasty muffins, look it up.", 0, 0, 3, 3.50, 0, false, false, "Common", 0, 0],
 		["1.1.1.6", "Cabbage (Green)", "A filling vegetable, that could probably only last me a day", 0, 0, 3, 4.00, 0, false, false, "Common", 0, 0],
 		["1.1.1.7", "Cabbage (Purple)", "I always have some hand on taco night!", 0, 0, 3, 4.00, 0, false, false, "Common", 0, 0],
