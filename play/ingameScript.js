@@ -16,19 +16,20 @@ var slotNum = 4;
 var seedsUnlocked = 3;
 seedsHavested = 0;
 
+var seedPackPrice = 5;
 var commonPrice = 50;
 var uncommonPrice = 500;
 var rarePrice = 5000;
 var epicPrice = 50000;
 var mythicPrice = 100000;
-var seedPackPrice = 10;
 
+var seedPackUp = 1.1;
 var commonUp = 1.2;
 var uncommonUp = 1.2;
 var rareUp = 1.2;
 var epicUp = 1.2;
 var mythicUp = 1.5;
-var seedPackUp = 1.2;
+
 
 var seeds = [
 	["Start of seeds", ["Seed Types", [
