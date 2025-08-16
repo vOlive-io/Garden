@@ -55,6 +55,6 @@
   background: #d9c7b6;
 }
 
-select option[value="King Coconut"] {
-    background-color: #f5bc42;
+.f5bc42 {
+  background-color: #f5bc42;
 }
