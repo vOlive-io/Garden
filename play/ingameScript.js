@@ -259,7 +259,7 @@ function refreshDropdown() {
 					seed_option.disabled = true;
 				}
 				if (seeds[i][1][i3][10] == "Mythic") {
-					seed_option.style.background = seeds[i][1][i3][13];
+					seed_option.style.backgroundColor = seeds[i][1][i3][13];
 				}
 				seedContainer.appendChild(seed_option);
 			}
