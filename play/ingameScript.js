@@ -243,6 +243,9 @@ function unlockSeed() {
 				if (seeds[i][1][i3][10] == "Mythic") {
 					document.getElementById(placement).style.background = seeds[i][1][i3][13];
 					document.getElementById(placement).style.border = seeds[i][1][i3][13] + " groove 10px";
+				} else { 
+					document.getElementById(placement).style.background = "#fff3d6";
+					document.getElementById(placement).style.border = "#5e502d groove 10px";
 				}
 			}
 		}
