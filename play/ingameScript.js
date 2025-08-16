@@ -12,9 +12,9 @@ var selectedSeed = "wheat";
 var mon = 0.00;
 
 var slotNum = 4;
-
+var gardenValue = 1.00;
 var seedsUnlocked = 3;
-seedsHavested = 0;
+var seedsHavested = 0;
 
 var seedPackPrice = 5;
 var commonPrice = 50;
@@ -224,7 +224,7 @@ function unlockSeed() {
 				
 				const seed_p = document.createElement("p");
 				const p_part_1 = "\nGrows slower in " + seasonNameInput + ".";
-				const p_part_2 = "\nGrows for " + seeds[i][1][i3][6] + "$"; 
+				const p_part_2 = "\nGrows for " + seeds[i][1][i3][6] + "$" + " (* garden value)"; 
 				const seed_p_text = document.createTextNode(seeds[i][1][i3][2] + p_part_1 + p_part_2);
 				seed_p.appendChild(seed_p_text);
 				
@@ -287,6 +287,7 @@ function createNewGardenSlot() {
 	newSlot.appendChild(newButton);
 	newSlot.appendChild(newButtonText);
 	document.getElementById("garden-slots").appendChild(newSlot);
+	gardenValue = gardenValue + 0.1;
 }
 
 
@@ -347,7 +348,7 @@ function harvest(seed, bedData) {
 	bedData[2].innerHTML = "";
 	bedData[0].style.border = "10px white groove";
 	seed[7]++;
-	mon = mon + seed[6];
+	mon = mon + (seed[6]*gardenValue);
 	seedsHavested++;
 	refreshVitals();
 }
