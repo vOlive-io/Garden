@@ -178,6 +178,7 @@ var achievements = [
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
 document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
+document.getElementById("value-spot").innerHTML = "Garden Value: " + gardenValue + "x";
 unlockSeed();
 refreshDropdown();
 setInterval(makeSavedData_cookies, 1000);
@@ -263,6 +264,7 @@ function refreshDropdown() {
 
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
+	document.getElementById("value-spot").innerHTML = "Garden Value: " + gardenValue + "x";
 	document.getElementById("common-unlock-pack-price").innerHTML = commonPrice + "$";
 	document.getElementById("uncommon-unlock-pack-price").innerHTML = uncommonPrice + "$";
 	document.getElementById("rare-unlock-pack-price").innerHTML = rarePrice + "$";
