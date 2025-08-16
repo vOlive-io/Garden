@@ -441,7 +441,7 @@ function checkGoodPull(unlockSeed, pack) {
 				unlockSeed[8] = true;
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - epicPrice;
-				epicPrice = Math.round(epicPrice * epicUP);
+				epicPrice = Math.round(epicPrice * epicUp);
 				refreshVitals();
 		} else {buySeed(pack);}
 	}
