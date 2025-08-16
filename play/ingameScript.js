@@ -210,6 +210,9 @@ function changeSeason() {
 }
 
 function unlockSeed() {
+	const seed-slots-rep = document.createElement("div");
+	seed-slots-rep.id = "seed-slots"
+	document.getElementById("seed-slots").replace(seed-slots-rep);
 	for (let i = 1; i < seeds.length; i++) {
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
 			if (seeds[i][1][i3][8] == true && seeds[i][1][i3][9] == false) {
