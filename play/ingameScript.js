@@ -252,8 +252,9 @@ function refreshDropdown() {
 	const seedContainer = document.createElement("select");
 	for (let i = 1; i < seeds.length; i++) {
 		const seed_option = document.createElement("option");
-		const seed_option_text = document.createTextNode("---" + seeds[i][1][0][10] + "---");
+		const seed_option_text = document.createTextNode("---" + seeds[i][1][3][10] + "---");
 		seed_option.disabled = true;
+		seed_option.appendChild(seed_option_text);
 		seedContainer.appendChild(seed_option);
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
 			if (seeds[i][1][i3][8] == true) {
