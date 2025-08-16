@@ -239,6 +239,7 @@ function unlockSeed() {
 				document.getElementById(placement).classList.add('unlockedSeeds');
 				if (seeds[i][1][i3][10] == "Mythic") {
 					document.getElementById(placement).style.background = seeds[i][1][i3][13];
+					document.getElementById(placement).style.border = seeds[i][1][i3][13] = " grove 10px";
 				}
 			}
 		}
