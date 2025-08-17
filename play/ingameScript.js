@@ -298,7 +298,7 @@ function createNewGardenSlot() {
 	newSlot.appendChild(newButton);
 	newSlot.appendChild(newButtonText);
 	document.getElementById("garden-slots").appendChild(newSlot);
-	gardenValue = gardenValue + 0.1;
+	gardenValue = gardenValue + 0.5;
 }
 function unlockTemplate() {
 	const achContainer = document.createElement("li");
