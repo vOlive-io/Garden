@@ -200,14 +200,12 @@ function changeSeason() {
 	let seasonNames = ["Spring", "Summer", "Autumn", "Winter"];
 	seasonNum = (seasonNum + 1) % seasonColors.length; 
 
-
 	let garden = document.getElementById("gardenUI");
 	let label = document.getElementById("seasonName");
 	let newColor = seasonColors[seasonNum];
 	garden.style.backgroundColor = newColor;
 	seasonName.innerHTML = seasonNames[seasonNum];
 }
-
 function unlockSeed() {
 	const slots = document.createElement("div");
 	slots.id = "seed-slots";
@@ -251,8 +249,6 @@ function unlockSeed() {
 	}
 }
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
-
-
 function refreshDropdown() {
 	const seedContainer = document.createElement("select");
 	for (let i = 1; i < seeds.length; i++) {
@@ -276,7 +272,6 @@ function refreshDropdown() {
 	seedContainer.id = "seed-list";
 	document.getElementById("seed-list").replaceWith(seedContainer);
 }
-
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
 	document.getElementById("value-spot").innerHTML = "Garden Value: " + gardenValue + "x";
@@ -290,8 +285,6 @@ function refreshVitals() {
 	findSeed();
 	
 }
-
-	
 function createNewGardenSlot() {
 	slotNum++;
 	const newSlot = document.createElement("div");
@@ -306,9 +299,6 @@ function createNewGardenSlot() {
 	document.getElementById("garden-slots").appendChild(newSlot);
 	gardenValue = gardenValue + 0.1;
 }
-
-
-
 function unlockTemplate() {
 	const achContainer = document.createElement("li");
 	const ach_h1 = document.createElement("h1");
@@ -321,8 +311,6 @@ function unlockTemplate() {
 	achContainer.appendChild(ach_p);
 	document.getElementById("myList").appendChild(achContainer);
 }
-
-
 function findSeed() {
 	let seedSelect = document.getElementById("seed-list");
 	const seedName = seedSelect.options[seedSelect.selectedIndex].text.toLowerCase();	
@@ -337,9 +325,7 @@ function findSeed() {
 	    console.log("shit");
 	}
 }
-
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
-
 function plantSeed(gardenBedLocation) {
 	let bedData = [document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length-7)])), document.getElementById(gardenBedLocation.id), document.getElementById(gardenBedLocation.id + "-text")];
 	findSeed();
@@ -359,7 +345,6 @@ function plantSeed(gardenBedLocation) {
 		makeAlert(1);
 	}
 }
-
 function harvest(seed, bedData) {
 	bedData[1].style.display = "block";
 	bedData[2].innerHTML = "";
@@ -369,7 +354,6 @@ function harvest(seed, bedData) {
 	seedsHavested++;
 	refreshVitals();
 }
-
 function buySeed(pack) {
 	if(pack == 0) {	
 		if (mon >= seedPackPrice) {
@@ -414,7 +398,6 @@ function buySeed(pack) {
 		} else {makeAlert(2);}
 	}
 }
-
 function checkGoodPull(unlockSeed, pack) {
 	if(pack == 0) {
 		if (unlockSeed[8] == true) {
@@ -470,7 +453,6 @@ function checkGoodPull(unlockSeed, pack) {
 		} else {buySeed(pack);}
 	}
 }
-
 function makeAlert(alertCode) {
 	if (alertCode == 0) {
 		document.getElementById("alert").style.display = "none";
