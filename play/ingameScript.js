@@ -469,7 +469,13 @@ function makeAlert(alertCode) {
 		document.getElementById("alert-p").innerHTML = "You dont have enough money! If you want more, try planting seeds in the garden.";
 		document.getElementById("alert").style.display = "block";
 	}
-	if (alertCode == 3) {}
+	if (alertCode == 3) {
+		document.getElementById("alert-h").innerHTML = "Wrong type of bed!";
+		document.getElementById("alert-p").innerHTML = "This is the wrong type of bed, try plating in a diffrent bed, or if you dont own any of the right kinds of beds then you may have to restart....";
+		document.getElementById("alert").style.display = "block";
+	}
+	if (alertCode == 4) {
+	}
 }
 ////////////////////////////////
 ///         COOKIES          ///
