@@ -22,15 +22,18 @@
 }
 
 .garden div {
-  width: 80%;
-  padding-left: 5%;
-  padding-right: 5%;
   border: groove 10px white;
   aspect-ratio: 1;
 }
 
 #gardenUI {
    transition: background-color 2s ease-in;
+}
+
+.unlockedSeeds {
+  width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .split {
