@@ -12,6 +12,10 @@
   background-color: white;
 }
 
+.left p {
+  margin-bottom: 5px;
+}
+
 .right {
   right: 0;
 }
