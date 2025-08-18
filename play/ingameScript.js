@@ -228,8 +228,15 @@ function unlockSeed() {
 				const p_part_1 = "\n\nGrows slower in " + seasonNameInput + ".";
 				const p_part_2 = "\n\nGrows for " + (seeds[i][1][i3][6]*gardenValue) + "$" + " (" + seeds[i][1][i3][6] + " * garden value)"; 
 				const p_part_3 = "\n\nTakes " + seeds[i][1][i3][4] + " season(s) to grow"; 
-				const seed_p_text = document.createTextNode(seeds[i][1][i3][2] + p_part_1 + p_part_2 + p_part_3);
+				const seed_p_text = document.createTextNode(seeds[i][1][i3][2]);
+				const seed_p_text_1 = document.createTextNode(p_part_1);
+				const seed_p_text_2 = document.createTextNode(p_part_2);
+				const seed_p_text_3 = document.createTextNode(p_part_3);
 				seed_p.appendChild(seed_p_text);
+				seed_p.appendChild(seed_p_text_1);
+				seed_p.appendChild(seed_p_text_2);
+				seed_p.appendChild(seed_p_text_3);
+				
 				
 				seedContainer.appendChild(seed_h1);
 				seedContainer.appendChild(seed_p);
