@@ -149,27 +149,28 @@ var achievements = [
 	 [2, "Achievement Type", 0],
 	 [2, "Achievement Type", 0]
 	]]],
+	//<id> <name> <what to do> <discription>, <unlocked>, <spieshal>
 	["Seeds Planted", [
-		["2.1.1.1", "Getting Started", "Plant your first seed!", "Achievement Description", false, false],
-		["2.1.1.2", "Microsopic Garden", "Plant 5 seeds!", "Achievement Description",false, false],
-		["2.1.1.3", "Tiny Garden", "Plant 10 seeds!", "Achievement Description",false, false],
-		["2.1.1.4", "Small Garden", "Plant 25 seeds!", "Achievement Description",false, false],
-		["2.1.1.5", "Humble Garden", "Plant 50 seeds!", "Achievement Description",false, false],
-		["2.1.1.6", "Average Garden", "Plant 100 seeds!", "Achievement Description",false, false],
-		["2.1.1.7", "Mediocer Garden", "Plant 250 seeds!", "Achievement Description",false, false],
-		["2.1.1.8", "Big Garden", "Plant 500 seeds!", "Achievement Description",false, false],
-		["2.1.1.9", "Large Garden", "Plant 1,000 seeds!", "Achievement Description",false, false],
-		["2.1.1.10", "Huge Garden", "Plant 2,500 seeds!", "Achievement Description",false, false],
-		["2.1.1.11", "Giant Garden", "Plant 5,000 seeds!", "Achievement Description",false, false],
-		["2.1.1.12", "Massive Garden", "Plant 10,000 seeds!", "Achievement Description",false, false],
-		["2.1.1.13", "Humongus Garden", "Plant 25,000 seeds!", "Achievement Description",false, false],
-		["2.1.1.14", "Enormous Garden", "Plant 50,000 seeds!", "Achievement Description",false, false],
-		["2.1.1.15", "Divine Garden", "Plant 100,000 seeds!", "Achievement Description",false, false]
+		["2.1.1.1", "Getting Started", "Plant your first seed!", "Achievement Description", false, 1],
+		["2.1.1.2", "Microsopic Garden", "Plant 5 seeds!", "Achievement Description",false, 5],
+		["2.1.1.3", "Tiny Garden", "Plant 10 seeds!", "Achievement Description", false, 10],
+		["2.1.1.4", "Small Garden", "Plant 25 seeds!", "Achievement Description", false, 25],
+		["2.1.1.5", "Humble Garden", "Plant 50 seeds!", "Achievement Description", false, 50],
+		["2.1.1.6", "Average Garden", "Plant 100 seeds!", "Achievement Description", false, 100],
+		["2.1.1.7", "Mediocer Garden", "Plant 250 seeds!", "Achievement Description", false, 250],
+		["2.1.1.8", "Big Garden", "Plant 500 seeds!", "Achievement Description", false, 500],
+		["2.1.1.9", "Large Garden", "Plant 1,000 seeds!", "Achievement Description", false, 1000],
+		["2.1.1.10", "Huge Garden", "Plant 2,500 seeds!", "Achievement Description", false, 2500],
+		["2.1.1.11", "Giant Garden", "Plant 5,000 seeds!", "Achievement Description", false, 5000],
+		["2.1.1.12", "Massive Garden", "Plant 10,000 seeds!", "Achievement Description", false, 10000],
+		["2.1.1.13", "Humongus Garden", "Plant 25,000 seeds!", "Achievement Description", false, 25000],
+		["2.1.1.14", "Enormous Garden", "Plant 50,000 seeds!", "Achievement Description", false, 50000],
+		["2.1.1.15", "Divine Garden", "Plant 100,000 seeds!", "Achievement Description", false, 100000]
 	]],
 	["Seeds Unlocked", [
-		["2.1.2.1", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false],
-		["2.1.2.2", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false],
-	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description",false, false]
+		["2.1.2.1", "Achievement Name", "Achievement Criteria", "Achievement Description", false],
+		["2.1.2.2", "Achievement Name", "Achievement Criteria", "Achievement Description", false],
+	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description", false]
 	]]
 ];
 
