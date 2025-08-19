@@ -2,7 +2,8 @@ callSavedData_cookies();
 ////////////////////////////////
 ///        VARIABLES         ///
 ////////////////////////////////
-//add time 34:05.43
+//add time 35:42.92
+
 //Seeds array counts plants AND seeds in inventory
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
