@@ -217,7 +217,7 @@ function unlockSeed() {
 				const seedContainer = document.createElement("div");
 
 				const seed_h1 = document.createElement("h1");
-				const seed_h1_text = document.createTextNode(seeds[i][1][i3][1]);
+				const seed_h1_text = document.createTextNode(seeds[i][1][i3][1] + " (" + seeds[i][1][i3][3] + "x)");
 				seed_h1.appendChild(seed_h1_text);
 				seasonNameInput = "winter";
 				if (seeds[i][1][i3][5] == 2) {seasonNameInput = "autumn";}
