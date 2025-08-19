@@ -225,7 +225,9 @@ function unlockSeed() {
 				if (seeds[i][1][i3][5] == 2) {seasonNameInput = "autumn";}
 				if (seeds[i][1][i3][5] == 1) {seasonNameInput = "summer";}
 				if (seeds[i][1][i3][5] == 0) {seasonNameInput = "spring";}
-				const seed_br = document.createElement("br");
+				const seed_br_1 = document.createElement("br");
+				const seed_br_2 = document.createElement("br");
+				const seed_br_3 = document.createElement("br");
 				const seed_p = document.createElement("p");
 				const p_part_1 = "Grows slower in " + seasonNameInput + ".";
 				const p_part_2 = "Grows for " + (seeds[i][1][i3][6]*gardenValue) + "$" + " (" + seeds[i][1][i3][6] + " * garden value)"; 
@@ -235,12 +237,13 @@ function unlockSeed() {
 				const seed_p_text_2 = document.createTextNode(p_part_2);
 				const seed_p_text_3 = document.createTextNode(p_part_3);
 				seed_p.appendChild(seed_p_text);
-				seed_p.appendChild(seed_br);
+				seed_p.appendChild(seed_br_1);
 				seed_p.appendChild(seed_p_text_1);
-				seed_p.appendChild(seed_br);
+				seed_p.appendChild(seed_br_2);
 				seed_p.appendChild(seed_p_text_2);
-				seed_p.appendChild(seed_br);
+				seed_p.appendChild(seed_br_3);
 				seed_p.appendChild(seed_p_text_3);
+				
 				
 				
 				seedContainer.appendChild(seed_h1);
