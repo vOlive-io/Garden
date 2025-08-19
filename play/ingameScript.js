@@ -382,7 +382,7 @@ function buySeed(pack) {
 		} else {makeAlert(2);}
 	}
 	if(pack == 1) {	
-		if (commonPrice == 0 {
+		if (commonPrice == 0) {
 			makeAlert(4);
 		} else {
 			if (mon >= commonPrice) {
@@ -393,7 +393,7 @@ function buySeed(pack) {
 		}
 	}
 	if(pack == 2) {	
-		if (uncommonPrice == 0 {
+		if (uncommonPrice == 0) {
 			makeAlert(4);
 		} else {
 			if (mon >= uncommonPrice) {
@@ -404,7 +404,7 @@ function buySeed(pack) {
 		}
 	}
 	if(pack == 3) {	
-		if (rarePrice == 0 {
+		if (rarePrice == 0) {
 			makeAlert(4);
 		} else {
 			if (mon >= rarePrice) {
@@ -415,7 +415,7 @@ function buySeed(pack) {
 		}
 	}
 	if(pack == 4) {	
-		if (epicPrice == 0 {
+		if (epicPrice == 0) {
 			makeAlert(4);
 		} else {
 			if (mon >= epicPrice) {
@@ -426,7 +426,7 @@ function buySeed(pack) {
 		}
 	}
 	if(pack == 5) {	
-		if (mythicPrice == 0 {
+		if (mythicPrice == 0) {
 			makeAlert(4);
 		} else {
 			if (mon >= mythicPrice) {
