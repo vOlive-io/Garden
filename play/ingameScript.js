@@ -371,41 +371,62 @@ function buySeed(pack) {
 		} else {makeAlert(2);}
 	}
 	if(pack == 1) {	
-		if (mon >= commonPrice) {
-			const allIndividualSeeds = seeds[1][1];
-			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
-			checkGoodPull(unlockSeed, pack);		
-		} else {makeAlert(2);}
+		if (commonPrice == 0 {
+			makeAlert(4);
+		} else {
+			if (mon >= commonPrice) {
+				const allIndividualSeeds = seeds[1][1];
+				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				checkGoodPull(unlockSeed, pack);		
+			} else {makeAlert(2);}
+		}
 	}
 	if(pack == 2) {	
-		if (mon >= uncommonPrice) {
-			const allIndividualSeeds = seeds[2][1];
-			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
-			checkGoodPull(unlockSeed, pack);		
-		} else {makeAlert(2);}
+		if (uncommonPrice == 0 {
+			makeAlert(4);
+		} else {
+			if (mon >= uncommonPrice) {
+				const allIndividualSeeds = seeds[2][1];
+				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				checkGoodPull(unlockSeed, pack);		
+			} else {makeAlert(2);}
+		}
 	}
 	if(pack == 3) {	
-		if (mon >= rarePrice) {
-			const allIndividualSeeds = seeds[3][1];
-			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
-			checkGoodPull(unlockSeed, pack);		
-		} else {makeAlert(2);}
+		if (rarePrice == 0 {
+			makeAlert(4);
+		} else {
+			if (mon >= rarePrice) {
+				const allIndividualSeeds = seeds[3][1];
+				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				checkGoodPull(unlockSeed, pack);		
+			} else {makeAlert(2);}
+		}
 	}
 	if(pack == 4) {	
-		if (mon >= epicPrice) {
-			const allIndividualSeeds = seeds[4][1];
-			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
-			checkGoodPull(unlockSeed, pack);		
-		} else {makeAlert(2);}
+		if (epicPrice == 0 {
+			makeAlert(4);
+		} else {
+			if (mon >= epicPrice) {
+				const allIndividualSeeds = seeds[4][1];
+				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				checkGoodPull(unlockSeed, pack);		
+			} else {makeAlert(2);}
+		}
 	}
 	if(pack == 5) {	
-		if (mon >= mythicPrice) {
-			const allIndividualSeeds = seeds[5][1];
-			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
-			checkGoodPull(unlockSeed, pack);		
-		} else {makeAlert(2);}
+		if (mythicPrice == 0 {
+			makeAlert(4);
+		} else {
+			if (mon >= mythicPrice) {
+				const allIndividualSeeds = seeds[5][1];
+				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				checkGoodPull(unlockSeed, pack);		
+			} else {makeAlert(2);}
+		}
 	}
 }
+
 function checkGoodPull(unlockSeed, pack) {
 	if(pack == 0) {
 		if (unlockSeed[8] == true) {
@@ -421,6 +442,9 @@ function checkGoodPull(unlockSeed, pack) {
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - commonPrice;
 				commonPrice = Math.round(commonPrice * commonUp);
+				if (commonPrice == 1597) {
+					commonPrice = 0;
+				}
 				refreshVitals();
 		} else {buySeed(pack);}
 	}
@@ -430,6 +454,9 @@ function checkGoodPull(unlockSeed, pack) {
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - uncommonPrice;
 				uncommonPrice = Math.round(uncommonPrice * uncommonUp);
+				if (uncommonPrice == 13313) {
+					uncommonPrice = 0;
+				}
 				refreshVitals();
 		} else {buySeed(pack);}
 	}
@@ -439,6 +466,9 @@ function checkGoodPull(unlockSeed, pack) {
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - rarePrice;
 				rarePrice = Math.round(rarePrice * rareUp);
+				if (rarePrice == 77035) {
+					rarePrice = 0;
+				}
 				refreshVitals();
 		} else {buySeed(pack);}
 	}
@@ -448,6 +478,9 @@ function checkGoodPull(unlockSeed, pack) {
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - epicPrice;
 				epicPrice = Math.round(epicPrice * epicUp);
+				if (epicPrice == 371504) {
+					epicPrice = 0;
+				}
 				refreshVitals();
 		} else {buySeed(pack);}
 	}
@@ -457,6 +490,9 @@ function checkGoodPull(unlockSeed, pack) {
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - mythicPrice;
 				mythicPrice = Math.round(mythicPrice * mythicUp);
+				if (mythicPrice == 1139063) {
+					mythicPrice = 0;
+				}
 				refreshVitals();
 		} else {buySeed(pack);}
 	}
@@ -483,7 +519,11 @@ function makeAlert(alertCode) {
 		document.getElementById("alert").style.display = "block";
 	}
 	if (alertCode == 4) {
+		document.getElementById("alert-h").innerHTML = "Sold Out!";
+		document.getElementById("alert-p").innerHTML = "This pack is sold out! You cannot buy anymore from this pack, try buying some other seeds instead.";
+		document.getElementById("alert").style.display = "block";
 	}
+	if (alertCode == 4) {}
 }
 ////////////////////////////////
 ///         COOKIES          ///
