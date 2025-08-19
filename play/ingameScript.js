@@ -102,7 +102,7 @@ var seeds = [
 		["1.1.3.15", "Poppy", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 6, 0]
 	]],
 	["Epic Seeds", [
-		["1.1.4.10", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 4, 0],
+		["1.1.4.1", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 4, 0],
 		["1.1.4.1", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
 		["1.1.4.2", "Green Apple", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
 		["1.1.4.3", "Black Diamond Apple", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
