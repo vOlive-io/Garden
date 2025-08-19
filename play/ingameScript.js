@@ -225,9 +225,9 @@ function unlockSeed() {
 				if (seeds[i][1][i3][5] == 0) {seasonNameInput = "spring";}
 				
 				const seed_p = document.createElement("p");
-				const p_part_1 = "\n\nGrows slower in " + seasonNameInput + ".";
-				const p_part_2 = "\n\nGrows for " + (seeds[i][1][i3][6]*gardenValue) + "$" + " (" + seeds[i][1][i3][6] + " * garden value)"; 
-				const p_part_3 = "\n\nTakes " + seeds[i][1][i3][4] + " season(s) to grow"; 
+				const p_part_1 = "<br>Grows slower in " + seasonNameInput + ".";
+				const p_part_2 = "<br>Grows for " + (seeds[i][1][i3][6]*gardenValue) + "$" + " (" + seeds[i][1][i3][6] + " * garden value)"; 
+				const p_part_3 = "<br>Takes " + seeds[i][1][i3][4] + " season(s) to grow"; 
 				const seed_p_text = document.createTextNode(seeds[i][1][i3][2]);
 				const seed_p_text_1 = document.createTextNode(p_part_1);
 				const seed_p_text_2 = document.createTextNode(p_part_2);
