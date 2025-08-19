@@ -283,11 +283,31 @@ function refreshDropdown() {
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
 	document.getElementById("value-spot").innerHTML = "Garden Value: " + gardenValue + "x";
-	document.getElementById("common-unlock-pack-price").innerHTML = commonPrice + "$";
-	document.getElementById("uncommon-unlock-pack-price").innerHTML = uncommonPrice + "$";
-	document.getElementById("rare-unlock-pack-price").innerHTML = rarePrice + "$";
-	document.getElementById("epic-unlock-pack-price").innerHTML = epicPrice + "$";
-	document.getElementById("mythic-unlock-pack-price").innerHTML = mythicPrice + "$";
+	if (commonPrice == 0) {
+		document.getElementById("common-unlock-pack-price").innerHTML = "SOLD OUT!";
+	} else {
+		document.getElementById("common-unlock-pack-price").innerHTML = commonPrice + "$";
+	}
+	if (uncommonPrice == 0) {
+		document.getElementById("uncommon-unlock-pack-price").innerHTML = "SOLD OUT!";
+	} else {
+		document.getElementById("uncommon-unlock-pack-price").innerHTML = uncommonPrice + "$";
+	}
+	if (rarePrice == 0) {
+		document.getElementById("rare-unlock-pack-price").innerHTML = "SOLD OUT!";
+	} else {
+		document.getElementById("rare-unlock-pack-price").innerHTML = rarePrice + "$";
+	}
+	if (epicPrice == 0) {
+		document.getElementById("epic-unlock-pack-price").innerHTML = "SOLD OUT!";
+	} else {
+		document.getElementById("epic-unlock-pack-price").innerHTML = epicPrice + "$";
+	}
+	if (mythicPrice == 0) {
+		document.getElementById("mythic-unlock-pack-price").innerHTML = "SOLD OUT!";
+	} else {
+		document.getElementById("mythic-unlock-pack-price").innerHTML = mythicPrice + "$";
+	}
 	document.getElementById("seed-pack-price").innerHTML = seedPackPrice + "$";
 	unlockSeed();
 	findSeed();
