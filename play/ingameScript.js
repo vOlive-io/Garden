@@ -43,8 +43,8 @@ var seeds = [
 		[6, "Flowers", 0]
 	]]],
 	["Common Seeds", [
-		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 1, 3, 2.00, 0, true, false, "Starter", 3, 0],
-		["1.1.1.2", "Grass", "Hard to take care of, but once you get the hang of it, you\'ll be swimming in it!", 5, 1, 3, 2.50, 0, true, false, "Starter", 0, 0],
+		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 1, 3, 2.00, 0, true, "Starter", 3, 0],
+		["1.1.1.2", "Grass", "Hard to take care of, but once you get the hang of it, you\'ll be swimming in it!", 5, 1, 3, 2.50, 0, true, "Starter", 0, 0],
 		["1.1.1.3", "Corn", "Time for a BBQ, with some corn-on-the-COB!", 0, 1, 3, 3.00, 0, 0, false, "Common", 0, 0],
 		["1.1.1.4", "Potato", "P-O-T-A-T-O that spells POTATO!", 0, 1, 3, 3.00, 0, 0, false, "Common", 0, 0],
 		["1.1.1.5", "Zucchini", "A thick cucumber-looking vegetable, that can make some tasty muffins, look it up.", 0, 1, 3, 3.50, 0, 0, false, "Common", 0, 0],
@@ -62,7 +62,7 @@ var seeds = [
 		["1.1.1.17", "Radish", "If you pickle it, it tastes great with sushi.", 0, 1, 3, 6.00, 0, 0, false, "Common", 2, 0],
 		["1.1.1.18", "Oats", "A healthy replacement to cereal, but I doubt any of us care.", 0, 1, 3, 3.00, 0, 0, false, "Common", 3],
 		["1.1.1.19", "Rice", "It might not look nice when harvested, but rest assured, when cooked or steamed right, you will get great food.", 0, 1, 3, 6.50, 0, 0, false, "Common", 3],
-		["1.1.1.20", "Flowers", "Some random flowers you got at the store, you never know what kind of flowers they will grow....", 5, 1, 3, 2.00, 0, true, false, "Starter", 6],
+		["1.1.1.20", "Flowers", "Some random flowers you got at the store, you never know what kind of flowers they will grow....", 5, 1, 3, 2.00, 0, true, "Starter", 6],
 		["1.1.1.21", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, 0, false, "Common", 6],
 		["1.1.1.22", "Sunflower", "A pretty flower to start your garden growing journey. Looks pretty and has great seeds.", 0, 2, 3, 7.50, 0, 0, false, "Common", 6]
 	]],
