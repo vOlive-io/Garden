@@ -79,34 +79,36 @@ var seeds = [
 		["1.1.2.8", "Lettuce", "Seed Description", 0, 1, 3, 5.00, 0, 0, false, "Uncommon", 0],
 		["1.1.2.9", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, 0, false, "Uncommon", 0],
 		["1.1.2.10", "Thime", "Seed Description", 0, 1, 3, 5.00, 0, 0, false, "Uncommon", 1],
-		["1.1.2.11", "Lavender", "Seed Description", 0, 2, 3, 15.00, 0, 0, false, "Uncommon", 1],
-		["1.1.2.12", "Nutmeg", "Seed Description", 0, 2, 3, 10.00, 0, 0, false, "Uncommon", 1],
-		["1.1.2.13", "Parsley", "Seed Description", 0, 1, 3, 10.00, 0, 0, false, "Uncommon", 1],
-		["1.1.2.14", "Green Bean", "Seed Description", 0, 3, 3, 12.00, 0, 0, false, "Uncommon", 1],
-		["1.1.2.15", "Onion (White)", "Seed Description", 0, 3, 3, 9.00, 0, 0, false, "Uncommon", 2],
-		["1.1.2.16", "Onion (Purple)", "Seed Description", 0, 3, 3, 9.00, 0, 0, false, "Uncommon", 2],
-		["1.1.2.17", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, 0, false, "Uncommon", 5],
-		["1.1.2.18", "Ivy", "Seed Description", 0, 2, 3, 10.00, 0, 0, false, "Uncommon", 6]
-	]],
+		["1.1.2.11", "Sugar", "Seed Description", 0, 2, 3, 15.00, 0, 0, false, "Uncommon", 1]
+		["1.1.2.12", "Lavender", "Seed Description", 0, 2, 3, 15.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.13", "Nutmeg", "Seed Description", 0, 2, 3, 10.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.14", "Parsley", "Seed Description", 0, 1, 3, 10.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.15", "Green Bean", "Seed Description", 0, 3, 3, 12.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.16", "Onion (White)", "Seed Description", 0, 3, 3, 9.00, 0, 0, false, "Uncommon", 2],
+		["1.1.2.17", "Onion (Purple)", "Seed Description", 0, 3, 3, 9.00, 0, 0, false, "Uncommon", 2],
+		["1.1.2.18", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, 0, false, "Uncommon", 5],
+	]]
 	["Rare Seeds", [
-		["1.1.3.1", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 1],
-		["1.1.3.2", "Camomile", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 1],
-		["1.1.3.3", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 2],
-		["1.1.3.4", "Green Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.5", "Elderberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.6", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.7", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.8", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.9", "Raspberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.10", "Acai", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.11", "Cranberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.12", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.13", "Honeydew", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.14", "Cantolope", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.15", "Poppy", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 6]
+		["1.1.3.3", "Camomile", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 1],
+		["1.1.3.4", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 2],
+		["1.1.3.5", "Green Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.6", "Elderberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.7", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.8", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.9", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.10", "Raspberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.12", "Acai", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.12", "Cranberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.13", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.14", "Honeydew", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.15", "Cantolope", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.4.16", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.4.17", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, 0, false, "Rare", 5],
+		["1.1.3.18", "Poppy", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 6]
 	]],
 	["Epic Seeds", [
-		["1.1.4.1", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 4],
+		["1.1.3.1", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 1],
+		["1.1.3.2", "Vanilla", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 1],
 		["1.1.4.1", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
 		["1.1.4.2", "Green Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
 		["1.1.4.3", "Black Diamond Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
@@ -115,8 +117,9 @@ var seeds = [
 		["1.1.4.6", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
 		["1.1.4.7", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
 		["1.1.4.8", "Peach", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.9", "Corpse Flower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6],
-		["1.1.4.10", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5]
+		["1.1.4.9", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6],
+		["1.1.4.10", "Corpse Flower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6]
+		
 	]],
 	["Mythic Seeds", [
 		["1.1.5.1", "King Coconut", "Firey red, pationate and powerful are the perfect words to describe the King Coconut (or me, you could say both). Primarily found in Sri Lanka, a beautiful place in South Asia, they make a name for themselves with their refreshing taste.", 0, 0, 3, 0.00, 0, 0, false, "Mythic", 4, "#f5bc42"],
@@ -131,7 +134,7 @@ var seeds = [
 		["1.1.6.2", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 4],
 		["1.1.6.3", "Tree of Eternal Truths", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 5],
 		["1.1.6.4", "Queen Orcid", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 5],
-		["1.1.6.5", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 6],
+		["1.1.6.5", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 6]
 	]],
 	["Tools Seeds/Soils", [
 		["1.1.7.1", "Water Bed", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 4],
@@ -150,7 +153,7 @@ var achievements = [
 	["Start of Achevments", ["Achievement Types", [
 	 [1, "Seeds Planted", 15],
 	 [2, "Seeds Unlocked", 0],
-	 [2, "Achievement Type", 0],
+	 [2, "Recipes", 0],
 	 [2, "Achievement Type", 0]
 	]]],
 	//<id> <name> <what to do> <discription>, <unlocked>, <spieshal>
@@ -175,6 +178,11 @@ var achievements = [
 		["2.1.2.1", "Achievement Name", "Achievement Criteria", "Achievement Description", false],
 		["2.1.2.2", "Achievement Name", "Achievement Criteria", "Achievement Description", false],
 	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description", false]
+	]],
+	["Seeds Unlocked", [
+		["2.1.2.1", "Strawberry Rhubarb Pie", "Grow: 5 Strawberries, 3 Rhubarb, 3 Sugar, 2 Wheat, and 1 Vanilla.", "Achievement Description", false],
+		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Watermellons, and 1 Ruby Roman Grape", "Achievement Description", false],
+	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here)", "Achievement Description", false]
 	]]
 ];
 
