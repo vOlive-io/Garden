@@ -4,6 +4,8 @@ callSavedData_cookies();
 ////////////////////////////////
 //add time 35:42.92
 //add time 7min 
+// add time 40:44.09
+
 
 
 //Seeds array counts plants AND seeds in inventory
