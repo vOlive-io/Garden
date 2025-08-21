@@ -3,6 +3,8 @@ callSavedData_cookies();
 ///        VARIABLES         ///
 ////////////////////////////////
 //add time 35:42.92
+//add time 7min
+
 
 //Seeds array counts plants AND seeds in inventory
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
