@@ -45,98 +45,98 @@ var seeds = [
 	["Common Seeds", [
 		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 1, 3, 2.00, 0, true, false, "Starter", 3, 0],
 		["1.1.1.2", "Grass", "Hard to take care of, but once you get the hang of it, you\'ll be swimming in it!", 5, 1, 3, 2.50, 0, true, false, "Starter", 0, 0],
-		["1.1.1.3", "Corn", "Time for a BBQ, with some corn-on-the-COB!", 0, 1, 3, 3.00, 0, false, false, "Common", 0, 0],
-		["1.1.1.4", "Potato", "P-O-T-A-T-O that spells POTATO!", 0, 1, 3, 3.00, 0, false, false, "Common", 0, 0],
-		["1.1.1.5", "Zucchini", "A thick cucumber-looking vegetable, that can make some tasty muffins, look it up.", 0, 1, 3, 3.50, 0, false, false, "Common", 0, 0],
-		["1.1.1.6", "Cabbage (Green)", "A filling vegetable, that could probably only last me a day", 0, 2, 3, 4.00, 0, false, false, "Common", 0, 0],
-		["1.1.1.7", "Cabbage (Purple)", "I always have some hand on taco night!", 0, 2, 3, 4.00, 0, false, false, "Common", 0, 0],
-		["1.1.1.8", "Celery", "They say that it takes more calories to digest than gained by eating it.... ", 0, 1, 3, 3.00, 0, false, false, "Common", 0, 0],
-		["1.1.1.9", "Cucumber", "Try some with chilly pepper powder, it's very good.", 0, 1, 3, 2.00, 0, false, false, "Common", 0, 0],
-		["1.1.1.10", "Mint", "A great and classic herb to grow, now don't let it get out of control.", 0, 1, 3, 3.00, 0, false, false, "Common", 1, 0],
-		["1.1.1.11", "Fennel", "This reminds me of California trails, covered in fennel.", 0, 1, 3, 5.00, 0, false, false, "Common", 1, 0],
-		["1.1.1.12", "Basil", "Now it's time for you to make some pesto!", 0, 1, 3, 5.00, 0, false, false, "Common", 1, 0],
-		["1.1.1.13", "Carrot (Red)", "I never knew these were real until looking up different carrot varieties for this game.", 0, 1, 3, 4.00, 0, false, false, "Common", 2, 0],
-		["1.1.1.14", "Carrot (Orange)", "Classic, never gets old..... until it does.", 0, 1, 3, 4.00, 0, false, false, "Common", 2, 0],
-		["1.1.1.15", "Carrot (Purple)", "The coolest variety of a carrot ever!", 0, 1, 3, 4.00, 0, false, false, "Common", 2, 0],
-		["1.1.1.16", "Carrot (White)", "This is a thing? What does it taste like, that's for you to find out!", 0, 1, 3, 4.00, 0, false, false, "Common", 2, 0],
-		["1.1.1.17", "Radish", "If you pickle it, it tastes great with sushi.", 0, 1, 3, 6.00, 0, false, false, "Common", 2, 0],
-		["1.1.1.18", "Oats", "A healthy replacement to cereal, but I doubt any of us care.", 0, 1, 3, 3.00, 0, false, false, "Common", 3, 0],
-		["1.1.1.19", "Rice", "It might not look nice when harvested, but rest assured, when cooked or steamed right, you will get great food.", 0, 1, 3, 6.50, 0, false, false, "Common", 3, 0],
-		["1.1.1.20", "Flowers", "Some random flowers you got at the store, you never know what kind of flowers they will grow....", 5, 1, 3, 2.00, 0, true, false, "Starter", 6, 0],
-		["1.1.1.21", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, false, false, "Common", 6, 0],
-		["1.1.1.22", "Sunflower", "A pretty flower to start your garden growing journey. Looks pretty and has great seeds.", 0, 2, 3, 7.50, 0, false, false, "Common", 6, 0]
+		["1.1.1.3", "Corn", "Time for a BBQ, with some corn-on-the-COB!", 0, 1, 3, 3.00, 0, 0, false, "Common", 0, 0],
+		["1.1.1.4", "Potato", "P-O-T-A-T-O that spells POTATO!", 0, 1, 3, 3.00, 0, 0, false, "Common", 0, 0],
+		["1.1.1.5", "Zucchini", "A thick cucumber-looking vegetable, that can make some tasty muffins, look it up.", 0, 1, 3, 3.50, 0, 0, false, "Common", 0, 0],
+		["1.1.1.6", "Cabbage (Green)", "A filling vegetable, that could probably only last me a day", 0, 2, 3, 4.00, 0, 0, false, "Common", 0, 0],
+		["1.1.1.7", "Cabbage (Purple)", "I always have some hand on taco night!", 0, 2, 3, 4.00, 0, 0, false, "Common", 0, 0],
+		["1.1.1.8", "Celery", "They say that it takes more calories to digest than gained by eating it.... ", 0, 1, 3, 3.00, 0, 0, false, "Common", 0, 0],
+		["1.1.1.9", "Cucumber", "Try some with chilly pepper powder, it's very good.", 0, 1, 3, 2.00, 0, 0, false, "Common", 0, 0],
+		["1.1.1.10", "Mint", "A great and classic herb to grow, now don't let it get out of control.", 0, 1, 3, 3.00, 0, 0, false, "Common", 1, 0],
+		["1.1.1.11", "Fennel", "This reminds me of California trails, covered in fennel.", 0, 1, 3, 5.00, 0, 0, false, "Common", 1, 0],
+		["1.1.1.12", "Basil", "Now it's time for you to make some pesto!", 0, 1, 3, 5.00, 0, 0, false, "Common", 1, 0],
+		["1.1.1.13", "Carrot (Red)", "I never knew these were real until looking up different carrot varieties for this game.", 0, 1, 3, 4.00, 0, 0, false, "Common", 2, 0],
+		["1.1.1.14", "Carrot (Orange)", "Classic, never gets old..... until it does.", 0, 1, 3, 4.00, 0, 0, false, "Common", 2, 0],
+		["1.1.1.15", "Carrot (Purple)", "The coolest variety of a carrot ever!", 0, 1, 3, 4.00, 0, 0, false, "Common", 2, 0],
+		["1.1.1.16", "Carrot (White)", "This is a thing? What does it taste like, that's for you to find out!", 0, 1, 3, 4.00, 0, 0, false, "Common", 2, 0],
+		["1.1.1.17", "Radish", "If you pickle it, it tastes great with sushi.", 0, 1, 3, 6.00, 0, 0, false, "Common", 2, 0],
+		["1.1.1.18", "Oats", "A healthy replacement to cereal, but I doubt any of us care.", 0, 1, 3, 3.00, 0, 0, false, "Common", 3],
+		["1.1.1.19", "Rice", "It might not look nice when harvested, but rest assured, when cooked or steamed right, you will get great food.", 0, 1, 3, 6.50, 0, 0, false, "Common", 3],
+		["1.1.1.20", "Flowers", "Some random flowers you got at the store, you never know what kind of flowers they will grow....", 5, 1, 3, 2.00, 0, true, false, "Starter", 6],
+		["1.1.1.21", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, 0, false, "Common", 6],
+		["1.1.1.22", "Sunflower", "A pretty flower to start your garden growing journey. Looks pretty and has great seeds.", 0, 2, 3, 7.50, 0, 0, false, "Common", 6]
 	]],
 	["Uncommon Seeds", [
-		["1.1.2.1", "Bell Pepper (Red)", "Not all spicy, and it's a good food to add color to your diet.", 0, 2, 3, 7.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.2", "Bell Pepper (Orange)", "A bell pepper is the fruit of a flowering plant, a cultivar of Capsicum annuum. While used as a vegetable in culinary.........", 0, 2, 3, 7.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.3", "Bell Pepper (Yellow)", "The rainbow of bell pepper goes on, yellow is the best tasting one. (In my opinion)", 0, 2, 3, 7.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.4", "Bell Pepper (Green)", "The 'hardest' of the bell peppers having a slightly thicker crunch.", 0, 2, 3, 7.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.5", "Bell Pepper (Purple)", "Great color on a dress, great color on some food! ", 0, 2, 3, 8.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.6", "Tremella Mesenterica Mushroom", "The classic 'witch' mushroom! WITCH! WITCH! WITCH!", 0, 1, 3, 10.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.7", "Rhubarb", "My mom makes great strawberry and rhubarb pie..... hint hint", 0, 2, 3, 8.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.8", "Lettuce", "Seed Description", 0, 1, 3, 5.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.9", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, false, false, "Uncommon", 0, 0],
-		["1.1.2.10", "Thime", "Seed Description", 0, 1, 3, 5.00, 0, false, false, "Uncommon", 1, 0],
-		["1.1.2.11", "Lavender", "Seed Description", 0, 2, 3, 15.00, 0, false, false, "Uncommon", 1, 0],
-		["1.1.2.12", "Nutmeg", "Seed Description", 0, 2, 3, 10.00, 0, false, false, "Uncommon", 1, 0],
-		["1.1.2.13", "Parsley", "Seed Description", 0, 1, 3, 10.00, 0, false, false, "Uncommon", 1, 0],
-		["1.1.2.14", "Green Bean", "Seed Description", 0, 3, 3, 12.00, 0, false, false, "Uncommon", 1, 0],
-		["1.1.2.15", "Onion (White)", "Seed Description", 0, 3, 3, 9.00, 0, false, false, "Uncommon", 2, 0],
-		["1.1.2.16", "Onion (Purple)", "Seed Description", 0, 3, 3, 9.00, 0, false, false, "Uncommon", 2, 0],
-		["1.1.2.17", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, false, false, "Uncommon", 5, 0],
-		["1.1.2.18", "Ivy", "Seed Description", 0, 2, 3, 10.00, 0, false, false, "Uncommon", 6, 0]
+		["1.1.2.1", "Bell Pepper (Red)", "Not all spicy, and it's a good food to add color to your diet.", 0, 2, 3, 7.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.2", "Bell Pepper (Orange)", "A bell pepper is the fruit of a flowering plant, a cultivar of Capsicum annuum. While used as a vegetable in culinary.........", 0, 2, 3, 7.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.3", "Bell Pepper (Yellow)", "The rainbow of bell pepper goes on, yellow is the best tasting one. (In my opinion)", 0, 2, 3, 7.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.4", "Bell Pepper (Green)", "The 'hardest' of the bell peppers having a slightly thicker crunch.", 0, 2, 3, 7.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.5", "Bell Pepper (Purple)", "Great color on a dress, great color on some food! ", 0, 2, 3, 8.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.6", "Tremella Mesenterica Mushroom", "The classic 'witch' mushroom! WITCH! WITCH! WITCH!", 0, 1, 3, 10.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.7", "Rhubarb", "My mom makes great strawberry and rhubarb pie..... hint hint", 0, 2, 3, 8.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.8", "Lettuce", "Seed Description", 0, 1, 3, 5.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.9", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, 0, false, "Uncommon", 0],
+		["1.1.2.10", "Thime", "Seed Description", 0, 1, 3, 5.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.11", "Lavender", "Seed Description", 0, 2, 3, 15.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.12", "Nutmeg", "Seed Description", 0, 2, 3, 10.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.13", "Parsley", "Seed Description", 0, 1, 3, 10.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.14", "Green Bean", "Seed Description", 0, 3, 3, 12.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.15", "Onion (White)", "Seed Description", 0, 3, 3, 9.00, 0, 0, false, "Uncommon", 2],
+		["1.1.2.16", "Onion (Purple)", "Seed Description", 0, 3, 3, 9.00, 0, 0, false, "Uncommon", 2],
+		["1.1.2.17", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, 0, false, "Uncommon", 5],
+		["1.1.2.18", "Ivy", "Seed Description", 0, 2, 3, 10.00, 0, 0, false, "Uncommon", 6]
 	]],
 	["Rare Seeds", [
-		["1.1.3.1", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 1, 0],
-		["1.1.3.2", "Camomile", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 1, 0],
-		["1.1.3.3", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 2, 0],
-		["1.1.3.4", "Green Grapes", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.5", "Elderberry", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.6", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.7", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.8", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.9", "Raspberry", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.10", "Acai", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.11", "Cranberry", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.12", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.13", "Honeydew", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.14", "Cantolope", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 4, 0],
-		["1.1.3.15", "Poppy", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Rare", 6, 0]
+		["1.1.3.1", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 1],
+		["1.1.3.2", "Camomile", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 1],
+		["1.1.3.3", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 2],
+		["1.1.3.4", "Green Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.5", "Elderberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.6", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.7", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.8", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.9", "Raspberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.10", "Acai", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.11", "Cranberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.12", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.13", "Honeydew", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.14", "Cantolope", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.15", "Poppy", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 6]
 	]],
 	["Epic Seeds", [
-		["1.1.4.1", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 4, 0],
-		["1.1.4.1", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
-		["1.1.4.2", "Green Apple", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
-		["1.1.4.3", "Black Diamond Apple", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
-		["1.1.4.4", "Apple", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
-		["1.1.4.5", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
-		["1.1.4.6", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
-		["1.1.4.7", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
-		["1.1.4.8", "Peach", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0],
-		["1.1.4.9", "Corpse Flower", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Epic", 6, 0],
-		["1.1.4.10", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, false, false, "Epic", 5, 0]
+		["1.1.4.1", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 4],
+		["1.1.4.1", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.2", "Green Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.3", "Black Diamond Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.4", "Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.5", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.6", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.7", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.8", "Peach", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.9", "Corpse Flower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6],
+		["1.1.4.10", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5]
 	]],
 	["Mythic Seeds", [
-		["1.1.5.1", "King Coconut", "Firey red, pationate and powerful are the perfect words to describe the King Coconut (or me, you could say both). Primarily found in Sri Lanka, a beautiful place in South Asia, they make a name for themselves with their refreshing taste.", 0, 0, 3, 0.00, 0, false, false, "Mythic", 4, 0, "#f5bc42"],
-		["1.1.5.2", "Pomegranate", "My personal favorite fruit to eat, my personal least favorite to clean up. Pomegranates have tons of seeds and in various cultures, they often represent fertility, abundance, and prosperity.", 0, 0, 3, 0.00, 0, false, false, "Mythic", 4, 0, "#9c0034"],
-		["1.1.5.3", "Bamboo", "Found primarily in warm and moist tropical and temperate climates bamboo is a strong, green, tall, delicious (to pandas) and majestic plant. It covers a total of 0.38% of the earth. ", 0, 0, 3, 0.00, 0, false, false, "Mythic", 5, 0, "#c1df51"],
-		["1.1.5.4", "Moonflower", "Also known as the tropical white morning-glory, grown, this stunning flower grows annually, depending on the region.", 0, 0, 3, 0.00, 0, false, false, "Mythic", 5, 0, "#d395ff"],
-		["1.1.5.5", "Shenzhen Nongke Orchid", "Coming in hot with world fame, and an auction price higher than my salary for ten years, this orchid is renowned for its beautiful shape, stunning colors, and the fact that it only blooms once every few years.", 0, 0, 3, 0.00, 0, false, false, "Mythic", 6, 0, "#ebffc7"],
-		["1.1.5.6", "Black Bat Flower", "This flower bears a stunning resemblance to a bat. The black bat flower is considered poisonous, to pets, and humans, and everything, so, don't eat it.", 0, 0, 3, 0.00, 0, false, false, "Mythic", 6, 0, "#785691"]
+		["1.1.5.1", "King Coconut", "Firey red, pationate and powerful are the perfect words to describe the King Coconut (or me, you could say both). Primarily found in Sri Lanka, a beautiful place in South Asia, they make a name for themselves with their refreshing taste.", 0, 0, 3, 0.00, 0, 0, false, "Mythic", 4, "#f5bc42"],
+		["1.1.5.2", "Pomegranate", "My personal favorite fruit to eat, my personal least favorite to clean up. Pomegranates have tons of seeds and in various cultures, they often represent fertility, abundance, and prosperity.", 0, 0, 3, 0.00, 0, 0, false, "Mythic", 4, "#9c0034"],
+		["1.1.5.3", "Bamboo", "Found primarily in warm and moist tropical and temperate climates bamboo is a strong, green, tall, delicious (to pandas) and majestic plant. It covers a total of 0.38% of the earth. ", 0, 0, 3, 0.00, 0, 0, false, "Mythic", 5, "#c1df51"],
+		["1.1.5.4", "Moonflower", "Also known as the tropical white morning-glory, grown, this stunning flower grows annually, depending on the region.", 0, 0, 3, 0.00, 0, 0, false, "Mythic", 5, "#d395ff"],
+		["1.1.5.5", "Shenzhen Nongke Orchid", "Coming in hot with world fame, and an auction price higher than my salary for ten years, this orchid is renowned for its beautiful shape, stunning colors, and the fact that it only blooms once every few years.", 0, 0, 3, 0.00, 0, 0, false, "Mythic", 6, "#ebffc7"],
+		["1.1.5.6", "Black Bat Flower", "This flower bears a stunning resemblance to a bat. The black bat flower is considered poisonous, to pets, and humans, and everything, so, don't eat it.", 0, 0, 3, 0.00, 0, 0, false, "Mythic", 6, "#785691"]
 	]],
 	["Alchemy Seeds", [
-		["1.1.6.1", "Romor Vine", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Alchemy", 4, 0],
-		["1.1.6.2", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Alchemy", 4, 1],
-		["1.1.6.3", "Tree of Eternal Truths", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Alchemy", 5, 0],
-		["1.1.6.4", "Queen Orcid", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Alchemy", 5, 0],
-		["1.1.6.5", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Alchemy", 6, 3],
+		["1.1.6.1", "Romor Vine", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 4],
+		["1.1.6.2", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 4],
+		["1.1.6.3", "Tree of Eternal Truths", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 5],
+		["1.1.6.4", "Queen Orcid", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 5],
+		["1.1.6.5", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 6],
 	]],
 	["Tools Seeds/Soils", [
-		["1.1.7.1", "Water Bed", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Tool", 4, 0],
-		["1.1.7.2", "Soil Bed", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Tool", 4, 1],
-		["1.1.7.3", "", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Tool", 5, 0],
-		["1.1.7.4", "", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Tool", 5, 0],
-		["1.1.7.5", "", "Seed Description", 0, 0, 3, 0.00, 0, false, false, "Tool", 6, 0]
+		["1.1.7.1", "Water Bed", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 4],
+		["1.1.7.2", "Soil Bed", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 4],
+		["1.1.7.3", "", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 5],
+		["1.1.7.4", "", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 5],
+		["1.1.7.5", "", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 6]
 	]]
 ];
 
@@ -215,7 +215,7 @@ function unlockSeed() {
 	document.getElementById("seed-slots").replaceWith(slots);
 	for (let i = 1; i < seeds.length; i++) {
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
-			if (seeds[i][1][i3][8] == true) {
+			if (seeds[i][1][i3][9] == true) {
 				
 				const seedContainer = document.createElement("div");
 
@@ -255,7 +255,7 @@ function unlockSeed() {
 				seeds[i][1][i3][9] = true;
 				document.getElementById(placement).classList.add('unlockedSeeds');
 				if (seeds[i][1][i3][10] == "Mythic") {
-					document.getElementById(placement).style.background = seeds[i][1][i3][13];
+					document.getElementById(placement).style.background = seeds[i][1][i3][12];
 					document.getElementById(placement).style.border = "#000000 groove 10px";
 				} else { 
 					document.getElementById(placement).style.background = "#fff3d6";
@@ -278,7 +278,7 @@ function refreshDropdown() {
 		seed_option.appendChild(seed_option_text);
 		seedContainer.appendChild(seed_option);
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
-			if (seeds[i][1][i3][8] == true) {
+			if (seeds[i][1][i3][9] == true) {
 				const seed_option = document.createElement("option");
 				const seed_option_text = document.createTextNode(seeds[i][1][i3][1]); // + " " + seeds[i][1][i3][3] + "x"
 				seed_option.appendChild(seed_option_text);
