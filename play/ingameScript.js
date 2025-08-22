@@ -218,7 +218,7 @@ function displayAchievements() {
 			ach_p.appendChild(ach_p_text);
 			achContainer.appendChild(ach_h1);
 			achContainer.appendChild(ach_p);
-
+			document.getElementById("achGallaryWing").appendChild(achContainer);
 		} else {
 
 	
