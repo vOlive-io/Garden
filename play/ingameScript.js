@@ -54,7 +54,7 @@ var seeds = [
 		["1.1.1.6", "Cabbage (Green)", "A filling vegetable, that could probably only last me a day", 0, 2, 3, 4.00, 0, 0, false, "Common", 0],
 		["1.1.1.7", "Cabbage (Purple)", "I always have some hand on taco night!", 0, 2, 3, 4.00, 0, 0, false, "Common", 0],
 		["1.1.1.8", "Celery", "They say that it takes more calories to digest than gained by eating it.... ", 0, 1, 3, 3.00, 0, 0, false, "Common", 0],
-		["1.1.1.9", "Cucumber", "Try some with chilly pepper powder, it's very good.", 0, 1, 3, 2.00, 0, 0, false, "Common", 0]
+		["1.1.1.9", "Cucumber", "Try some with chilly pepper powder, it's very good.", 0, 1, 3, 2.00, 0, 0, false, "Common", 0],
 		["1.1.1.10", "Mint", "A great and classic herb to grow, now don't let it get out of control.", 0, 1, 3, 3.00, 0, 0, false, "Common", 1],
 		["1.1.1.11", "Fennel", "This reminds me of California trails, covered in fennel.", 0, 1, 3, 5.00, 0, 0, false, "Common", 1],
 		["1.1.1.12", "Basil", "Now it's time for you to make some pesto!", 0, 1, 3, 5.00, 0, 0, false, "Common", 1],
