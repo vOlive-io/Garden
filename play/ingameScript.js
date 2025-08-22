@@ -206,11 +206,10 @@ function unlockAchievements() {
 }
 
 function displayAchievements() {
-	//const slots = document.createElement("div");
-	//slots.id = "seed-slots";
-	//document.getElementById("seed-slots").replaceWith(slots);
-	//const achs = document.getElementById("achGallaryWing");
-	//achs.innerHTML = ""
+	const achs = document.createElement("div");
+	ach.id = "achGallaryWing";
+	document.getElementById("achGallaryWing").replaceWith(achs);
+	
 	for(i = 1; i < achievements.length(); i++) {
 		if (achievements[1][1][i][5] == true) {
 			const achContainer = document.createElement("div");
