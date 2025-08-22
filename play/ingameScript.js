@@ -193,7 +193,6 @@ var achievements = [
 
 function refreshAchievements() {
 	//Seeds planted
-	function refreshAchievements() {
 	//Seeds planted
 	if (seedsHarvested > 1) {
 		const achContainer = document.createElement("div");
