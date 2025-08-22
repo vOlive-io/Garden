@@ -107,18 +107,18 @@ var seeds = [
 		["1.1.3.18", "Poppy", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 6]
 	]],
 	["Epic Seeds", [
-		["1.1.3.1", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 1],
-		["1.1.3.2", "Vanilla", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 1],
-		["1.1.4.1", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.2", "Green Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.3", "Black Diamond Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.4", "Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.5", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.6", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.7", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.8", "Peach", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
-		["1.1.4.9", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6],
-		["1.1.4.10", "Corpse Flower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6]
+		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 0],
+		["1.1.3.2", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 1],
+		["1.1.3.3", "Vanilla", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 1],
+		["1.1.4.4", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.5", "Green Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.6", "Black Diamond Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.7", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.8", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.9", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.10", "Peach", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
+		["1.1.4.11", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6],
+		["1.1.4.12", "Corpse Flower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6]
 		
 	]],
 	["Mythic Seeds", [
@@ -181,7 +181,7 @@ var achievements = [
 	]],
 	["Seeds Unlocked", [
 		["2.1.2.1", "Strawberry Rhubarb Pie", "Grow: 5 Strawberries, 3 Rhubarb, 3 Sugar, 2 Wheat, and 1 Vanilla.", "Achievement Description", false],
-		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Watermellons, and 1 Ruby Roman Grape", "Achievement Description", false],
+		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Watermelons, and 1 Ruby Roman Grape", "Achievement Description", false],
 	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here)", "Achievement Description", false]
 	]]
 ];
