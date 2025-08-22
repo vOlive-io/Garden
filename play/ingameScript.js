@@ -84,7 +84,7 @@ var seeds = [
 		["1.1.2.12", "Lavender", "Seed Description", 0, 2, 3, 15.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.13", "Nutmeg", "Seed Description", 0, 2, 3, 10.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.14", "Parsley", "Seed Description", 0, 1, 3, 10.00, 0, 0, false, "Uncommon", 1],
-		["1.1.2.15", "Green Bean", "Seed Description", 0, 3, 3, 12.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.15", "Garlic", "Seed Description", 0, 3, 3, 12.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.16", "Onion (White)", "Seed Description", 0, 3, 3, 9.00, 0, 0, false, "Uncommon", 2],
 		["1.1.2.17", "Onion (Purple)", "Seed Description", 0, 3, 3, 9.00, 0, 0, false, "Uncommon", 2],
 		["1.1.2.18", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, 0, false, "Uncommon", 5],
