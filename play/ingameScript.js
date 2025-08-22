@@ -315,14 +315,6 @@ function refreshDropdown() {
 	document.getElementById("seed-list").replaceWith(seedContainer);
 }
 
-    // Optionally: Select the first unlocked seed by default
-    for (let i = 0; i < seedDropdown.options.length; i++) {
-        if (!seedDropdown.options[i].disabled) {
-            seedDropdown.selectedIndex = i;
-            break;
-        }
-    }
-}
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
 	document.getElementById("value-spot").innerHTML = "Garden Value: " + gardenValue + "x";
