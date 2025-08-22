@@ -227,9 +227,7 @@ function unlockSeed() {
 	for (let i = 1; i < seeds.length; i++) {
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
 			if (seeds[i][1][i3][9] == true) {
-				
 				const seedContainer = document.createElement("div");
-
 				const seed_h1 = document.createElement("h1");
 				const seed_h1_text = document.createTextNode(seeds[i][1][i3][1] + " (" + seeds[i][1][i3][3] + "x)");
 				seed_h1.appendChild(seed_h1_text);
@@ -255,9 +253,6 @@ function unlockSeed() {
 				seed_p.appendChild(seed_p_text_2);
 				seed_p.appendChild(seed_br_3);
 				seed_p.appendChild(seed_p_text_3);
-				
-				
-				
 				seedContainer.appendChild(seed_h1);
 				seedContainer.appendChild(seed_p);
 				const placement = "seed-" + seeds[i][1][i3][0];
