@@ -200,11 +200,21 @@ function unlockAchievements() {
 			makeAlert(5);
 		}
 	}
-}
-
 	//seeds unlocked
 	//recipes
-	//const achContainer = document.createElement("div");
+	//
+}
+
+function displayAchievements() {
+	for(i = 1; i < achievements.length(); i++) {
+		if (achievements[1][1][i][5] == true) {
+			const achContainer = document.createElement("div");
+			
+		}
+	}
+	
+}
+	
 
 
 ////////////////////////////////
