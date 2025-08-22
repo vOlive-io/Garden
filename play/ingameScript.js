@@ -206,10 +206,7 @@ function unlockAchievements() {
 }
 
 function displayAchievements() {
-	const achs = document.createElement("div");
-	ach.id = "achGallaryWing";
-	document.getElementById("achGallaryWing").replaceWith(achs);
-	
+	document.getElementById("achGallaryWing").innerHTML = "";	
 	for(i = 1; i < achievements.length(); i++) {
 		if (achievements[1][1][i][5] == true) {
 			const achContainer = document.createElement("div");
@@ -266,9 +263,7 @@ function changeSeason() {
 	seasonName.innerHTML = seasonNames[seasonNum];
 }
 function unlockSeed() {
-	const slots = document.createElement("div");
-	slots.id = "seed-slots";
-	document.getElementById("seed-slots").replaceWith(slots);
+	document.getElementById("seed-slots").innerHTML = "";	
 	for (let i = 1; i < seeds.length; i++) {
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
 			if (seeds[i][1][i3][9] == true) {
