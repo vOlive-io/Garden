@@ -158,44 +158,50 @@ var achievements = [
 	]]],
 	//<id> <name> <what to do> <discription>, <unlocked>, <spieshal>
 	["Seeds Planted", [
-		["2.1.1.1", "Getting Started", "Plant your first seed!", "Achievement Description", false, false, 1],
-		["2.1.1.2", "Microsopic Garden", "Plant 5 seeds!", "Achievement Description", false, false, 5],
-		["2.1.1.3", "Tiny Garden", "Plant 10 seeds!", "Achievement Description", false, false, 10],
-		["2.1.1.4", "Small Garden", "Plant 25 seeds!", "Achievement Description", false, false, 25],
-		["2.1.1.5", "Humble Garden", "Plant 50 seeds!", "Achievement Description", false, false, 50],
-		["2.1.1.6", "Average Garden", "Plant 100 seeds!", "Achievement Description", false, false, 100],
-		["2.1.1.7", "Mediocer Garden", "Plant 250 seeds!", "Achievement Description", false, false, 250],
-		["2.1.1.8", "Big Garden", "Plant 500 seeds!", "Achievement Description", false, false, 500],
-		["2.1.1.9", "Large Garden", "Plant 1,000 seeds!", "Achievement Description", false, false, 1000],
-		["2.1.1.10", "Huge Garden", "Plant 2,500 seeds!", "Achievement Description", false, false, 2500],
-		["2.1.1.11", "Giant Garden", "Plant 5,000 seeds!", "Achievement Description", false, false, 5000],
-		["2.1.1.12", "Massive Garden", "Plant 10,000 seeds!", "Achievement Description", false, false, 10000],
-		["2.1.1.13", "Humongus Garden", "Plant 25,000 seeds!", "Achievement Description", false, false, 25000],
-		["2.1.1.14", "Enormous Garden", "Plant 50,000 seeds!", "Achievement Description", false, false, 50000],
-		["2.1.1.15", "Divine Garden", "Plant 100,000 seeds!", "Achievement Description", false, false, 100000]
+		["2.1.1.1", "Getting Started", "Plant your first seed!", "Achievement Description", false, 1],
+		["2.1.1.2", "Microsopic Garden", "Plant 5 seeds!", "Achievement Description",false, 5],
+		["2.1.1.3", "Tiny Garden", "Plant 10 seeds!", "Achievement Description", false, 10],
+		["2.1.1.4", "Small Garden", "Plant 25 seeds!", "Achievement Description", false, 25],
+		["2.1.1.5", "Humble Garden", "Plant 50 seeds!", "Achievement Description", false, 50],
+		["2.1.1.6", "Average Garden", "Plant 100 seeds!", "Achievement Description", false, 100],
+		["2.1.1.7", "Mediocer Garden", "Plant 250 seeds!", "Achievement Description", false, 250],
+		["2.1.1.8", "Big Garden", "Plant 500 seeds!", "Achievement Description", false, 500],
+		["2.1.1.9", "Large Garden", "Plant 1,000 seeds!", "Achievement Description", false, 1000],
+		["2.1.1.10", "Huge Garden", "Plant 2,500 seeds!", "Achievement Description", false, 2500],
+		["2.1.1.11", "Giant Garden", "Plant 5,000 seeds!", "Achievement Description", false, 5000],
+		["2.1.1.12", "Massive Garden", "Plant 10,000 seeds!", "Achievement Description", false, 10000],
+		["2.1.1.13", "Humongus Garden", "Plant 25,000 seeds!", "Achievement Description", false, 25000],
+		["2.1.1.14", "Enormous Garden", "Plant 50,000 seeds!", "Achievement Description", false, 50000],
+		["2.1.1.15", "Divine Garden", "Plant 100,000 seeds!", "Achievement Description", false, 100000]
 	]],
 	["Seeds Unlocked", [
-		["2.1.2.1", "Achievement Name", "Achievement Criteria", "Achievement Description", false, false],
-		["2.1.2.2", "Achievement Name", "Achievement Criteria", "Achievement Description", false, false],
-	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description", false, false]
+		["2.1.2.1", "Achievement Name", "Achievement Criteria", "Achievement Description", false],
+		["2.1.2.2", "Achievement Name", "Achievement Criteria", "Achievement Description", false],
+	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description", false]
 	]],
 	["Seed Recipes", [
-		["2.1.2.1", "Strawberry Rhubarb Pie", "Grow: 5 Strawberries, 3 Rhubarb, 3 Sugar, 2 Wheat, and 1 Vanilla.", "Achievement Description", false, false],
-		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Watermelons, and 1 Ruby Roman Grape", "Achievement Description", false, false],
-	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here)", "Achievement Description", false, false],
-		["2.1.2.4", "Pancake", "Grow: 5 Wheat, 4 Sugar, 4 Maple, 3 Vanilla, 2 Strawberries, and 1 ....", "Achievement Description", false, false],
-		["2.1.2.5", "Pancake Stack", "Grow: 25 Wheat, 20 Sugar, 20 Maple, 15 Vanilla, 10 Strawberries, and 5 ....", "Achievement Description", false, false],
-		["2.1.2.6", "Pancake Tower", "Grow: 50 Wheat, 40 Sugar, 40 Maple, 30 Vanilla, 20 Strawberries, and 10....", "Achievement Description", false, false],
-		["2.1.2.7", "Pesto Pasta", "Grow: 5 Wheat, 4 Basil, 2 Garlic, 1 Sugar.", "Achievement Description", false, false]
+		["2.1.2.1", "Strawberry Rhubarb Pie", "Grow: 5 Strawberries, 3 Rhubarb, 3 Sugar, 2 Wheat, and 1 Vanilla.", "Achievement Description", false],
+		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Watermelons, and 1 Ruby Roman Grape", "Achievement Description", false],
+	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here)", "Achievement Description", false],
+		["2.1.2.4", "Pancake", "Grow: 5 Wheat, 4 Sugar, 4 Maple, 3 Vanilla, 2 Strawberries, and 1 ....", "Achievement Description", false],
+		["2.1.2.5", "Pancake Stack", "Grow: 25 Wheat, 20 Sugar, 20 Maple, 15 Vanilla, 10 Strawberries, and 5 ....", "Achievement Description", false],
+		["2.1.2.6", "Pancake Tower", "Grow: 50 Wheat, 40 Sugar, 40 Maple, 30 Vanilla, 20 Strawberries, and 10....", "Achievement Description", false],
+		["2.1.2.7", "Pesto Pasta", "Grow: 5 Wheat, 4 Basil, 2 Garlic, 1 Sugar.", "Achievement Description", false]
 
 	]]
 ];
 
 function refreshAchievements() {
 	//Seeds planted
+	function refreshAchievements() {
+	//Seeds planted
 	if (seedsHarvested > 1) {
 		const achContainer = document.createElement("div");
-		
+		if (achievements[1][1][0][5] == false) {
+			achievements[1][1][0][5] = true;
+			createNewGardenSlot;
+			makeAlert(5);
+		}
 	}
 	//seeds unlocked
 	//recipes
