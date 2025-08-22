@@ -297,6 +297,7 @@ function unlockSeed() {
 
 
 function refreshDropdown() {
+	const seedDropdown = document.createElement("select");
     seedDropdown.innerHTML = "";
     for (let i = 1; i < seeds.length; i++) {
         let categoryName = seeds[i][0];
