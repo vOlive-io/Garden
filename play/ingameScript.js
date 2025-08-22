@@ -367,6 +367,10 @@ function unlockTemplate() {
 }
 function findSeed() {
 	let seedSelect = document.getElementById("seed-list");
+	if (!seedSelect || seedSelect.selectedIndex < 0 || !seedSelect.options[seedSelect.selectedIndex]) {
+		// Can't proceed if select or selection is missing
+		return;
+	}
 	const seedName = seedSelect.options[seedSelect.selectedIndex].text.toLowerCase();	
 	const allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);	
 	selectedSeed = allIndividualSeeds.find(seed => {
