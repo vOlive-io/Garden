@@ -34,6 +34,7 @@ var epicUp = 1.2;
 var mythicUp = 1.5;
 
 
+
 var seeds = [
 	["Start of seeds", ["Seed Types", [
 		[0, "Garden Produce", 0],
@@ -119,7 +120,6 @@ var seeds = [
 		["1.1.4.10", "Peach", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
 		["1.1.4.11", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6],
 		["1.1.4.12", "Corpse Flower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 6]
-		
 	]],
 	["Mythic Seeds", [
 		["1.1.5.1", "King Coconut", "Firey red, pationate and powerful are the perfect words to describe the King Coconut (or me, you could say both). Primarily found in Sri Lanka, a beautiful place in South Asia, they make a name for themselves with their refreshing taste.", 0, 0, 3, 0.00, 0, 0, false, "Mythic", 4, "#f5bc42"],
