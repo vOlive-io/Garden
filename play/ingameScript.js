@@ -294,25 +294,31 @@ function unlockSeed() {
 	}
 }
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
+
+
 function refreshDropdown() {
-	const seedContainer = document.createElement("select");
-	for (let i = 1; i < seeds.length; i++) {
-		const seed_option = document.createElement("option");
-		const seed_option_text = document.createTextNode("---" + seeds[i][1][3][10] + "---");
-		seed_option.disabled = true;
-		seed_option.appendChild(seed_option_text);
-		seedContainer.appendChild(seed_option);
-		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
-			if (seeds[i][1][i3][9] == true) {
-				const seed_option = document.createElement("option");
-				const seed_option_text = document.createTextNode(seeds[i][1][i3][1]); // + " " + seeds[i][1][i3][3] + "x"
-				seed_option.appendChild(seed_option_text);
-				seedContainer.appendChild(seed_option);
-			}
-		}
-	}
-	seedContainer.id = "seed-list";
-	document.getElementById("seed-list").replaceWith(seedContainer);
+    seedDropdown.innerHTML = "";
+    for (let i = 1; i < seeds.length; i++) {
+        let categoryName = seeds[i][0];
+        let unlockedSeeds = seeds[i][1].filter(seed => seed[9] === true);
+        if (unlockedSeeds.length > 0) {
+            const categoryOption = document.createElement("option");
+            categoryOption.disabled = true;
+            categoryOption.text = "--- " + categoryName + " ---";
+            seedDropdown.appendChild(categoryOption);
+            unlockedSeeds.forEach(seed => {
+                const opt = document.createElement("option");
+                opt.text = seed[1]; // Seed Name
+                seedDropdown.appendChild(opt);
+            });
+        }
+    }
+    for (let i = 0; i < seedDropdown.options.length; i++) {
+        if (!seedDropdown.options[i].disabled) {
+            seedDropdown.selectedIndex = i;
+            break;
+        }
+    }
 }
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
