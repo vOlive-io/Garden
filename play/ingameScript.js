@@ -46,8 +46,8 @@ var seeds = [
 		[6, "Flowers", 0]
 	]]],
 	["Common Seeds", [
-		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 1, 3, 2.00, 0, true, "Starter", 3],
-		["1.1.1.2", "Grass", "Hard to take care of, but once you get the hang of it, you\'ll be swimming in it!", 5, 1, 3, 2.50, 0, true, "Starter", 0],
+		["1.1.1.1", "Wheat", "Grows into unprocessed flower, a great start to a small garden!", 5, 1, 3, 2.00, 0, 0, true, "Starter", 3],
+		["1.1.1.2", "Grass", "Hard to take care of, but once you get the hang of it, you\'ll be swimming in it!", 5, 1, 3, 2.50, 0, 0, true, "Starter", 0],
 		["1.1.1.3", "Corn", "Time for a BBQ, with some corn-on-the-COB!", 0, 1, 3, 3.00, 0, 0, false, "Common", 0],
 		["1.1.1.4", "Potato", "P-O-T-A-T-O that spells POTATO!", 0, 1, 3, 3.00, 0, 0, false, "Common", 0],
 		["1.1.1.5", "Zucchini", "A thick cucumber-looking vegetable, that can make some tasty muffins, look it up.", 0, 1, 3, 3.50, 0, 0, false, "Common", 0],
@@ -65,7 +65,7 @@ var seeds = [
 		["1.1.1.17", "Radish", "If you pickle it, it tastes great with sushi.", 0, 1, 3, 6.00, 0, 0, false, "Common", 2],
 		["1.1.1.18", "Oats", "A healthy replacement to cereal, but I doubt any of us care.", 0, 1, 3, 3.00, 0, 0, false, "Common", 3],
 		["1.1.1.19", "Rice", "It might not look nice when harvested, but rest assured, when cooked or steamed right, you will get great food.", 0, 1, 3, 6.50, 0, 0, false, "Common", 3],
-		["1.1.1.20", "Flowers", "Some random flowers you got at the store, you never know what kind of flowers they will grow....", 5, 1, 3, 2.00, 0, true, "Starter", 6],
+		["1.1.1.20", "Flowers", "Some random flowers you got at the store, you never know what kind of flowers they will grow....", 5, 1, 3, 2.00, 0, 0, true, "Starter", 6],
 		["1.1.1.21", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, 0, false, "Common", 6],
 		["1.1.1.22", "Sunflower", "A pretty flower to start your garden growing journey. Looks pretty and has great seeds.", 0, 2, 3, 7.50, 0, 0, false, "Common", 6]
 	]],
@@ -294,26 +294,28 @@ function unlockSeed() {
 	}
 }
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
-
-
 function refreshDropdown() {
-	const seedDropdown = document.createElement("select");
-    seedDropdown.innerHTML = "";
-    for (let i = 1; i < seeds.length; i++) {
-        let categoryName = seeds[i][0];
-        let unlockedSeeds = seeds[i][1].filter(seed => seed[9] === true);
-        if (unlockedSeeds.length > 0) {
-            const categoryOption = document.createElement("option");
-            categoryOption.disabled = true;
-            categoryOption.text = "--- " + categoryName + " ---";
-            seedDropdown.appendChild(categoryOption);
-            unlockedSeeds.forEach(seed => {
-                const opt = document.createElement("option");
-                opt.text = seed[1]; // Seed Name
-                seedDropdown.appendChild(opt);
-            });
-        }
-    }
+	const seedContainer = document.createElement("select");
+	for (let i = 1; i < seeds.length; i++) {
+		const seed_option = document.createElement("option");
+		const seed_option_text = document.createTextNode("---" + seeds[i][1][3][10] + "---");
+		seed_option.disabled = true;
+		seed_option.appendChild(seed_option_text);
+		seedContainer.appendChild(seed_option);
+		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
+			if (seeds[i][1][i3][9] == true) {
+				const seed_option = document.createElement("option");
+				const seed_option_text = document.createTextNode(seeds[i][1][i3][1]); // + " " + seeds[i][1][i3][3] + "x"
+				seed_option.appendChild(seed_option_text);
+				seedContainer.appendChild(seed_option);
+			}
+		}
+	}
+	seedContainer.id = "seed-list";
+	document.getElementById("seed-list").replaceWith(seedContainer);
+}
+
+    // Optionally: Select the first unlocked seed by default
     for (let i = 0; i < seedDropdown.options.length; i++) {
         if (!seedDropdown.options[i].disabled) {
             seedDropdown.selectedIndex = i;
