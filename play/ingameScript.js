@@ -441,9 +441,9 @@ function harvest(seed, bedData) {
 function buySeed(pack) {
 	if(pack == 0) {	
 		if (mon >= seedPackPrice) {
-			let allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);	
-			allIndividualSeeds = allIndividualSeeds.some(seed => seed[8] == true);
-			let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+			let allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);
+			let unlockedSeeds = allIndividualSeeds.filter(seed => seed[8] == true);
+			let unlockSeed = unlockedSeeds[Math.floor(Math.random() * unlockedSeeds.length)];
 			checkGoodPull(unlockSeed, pack);		
 		} else {makeAlert(2);}
 	}
@@ -452,8 +452,9 @@ function buySeed(pack) {
 			makeAlert(4);
 		} else {
 			if (mon >= commonPrice) {
-				let allIndividualSeeds = seeds[1][1];
-				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				let allIndividualSeeds = seeds[1][1].slice(1).flatMap(categoryEntry => categoryEntry[1]);
+				let unlockedSeeds = allIndividualSeeds.filter(seed => seed[8] == false);
+				let unlockSeed = unlockedSeeds[Math.floor(Math.random() * unlockedSeeds.length)];
 				checkGoodPull(unlockSeed, pack);		
 			} else {makeAlert(2);}
 		}
@@ -463,8 +464,9 @@ function buySeed(pack) {
 			makeAlert(4);
 		} else {
 			if (mon >= uncommonPrice) {
-				let allIndividualSeeds = seeds[2][1];
-				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				let allIndividualSeeds = seeds[2][1].slice(1).flatMap(categoryEntry => categoryEntry[1]);
+				let unlockedSeeds = allIndividualSeeds.filter(seed => seed[8] == false);
+				let unlockSeed = unlockedSeeds[Math.floor(Math.random() * unlockedSeeds.length)];
 				checkGoodPull(unlockSeed, pack);		
 			} else {makeAlert(2);}
 		}
@@ -474,9 +476,9 @@ function buySeed(pack) {
 			makeAlert(4);
 		} else {
 			if (mon >= rarePrice) {
-				let allIndividualSeeds = seeds[3][1];
-				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
-				checkGoodPull(unlockSeed, pack);		
+				let allIndividualSeeds = seeds[3][1].slice(1).flatMap(categoryEntry => categoryEntry[1]);
+				let unlockedSeeds = allIndividualSeeds.filter(seed => seed[8] == false);
+				let unlockSeed = unlockedSeeds[Math.floor(Math.random() * unlockedSeeds.length)];				checkGoodPull(unlockSeed, pack);		
 			} else {makeAlert(2);}
 		}
 	}
@@ -485,8 +487,9 @@ function buySeed(pack) {
 			makeAlert(4);
 		} else {
 			if (mon >= epicPrice) {
-				let allIndividualSeeds = seeds[4][1];
-				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				let allIndividualSeeds = seeds[4][1].slice(1).flatMap(categoryEntry => categoryEntry[1]);
+				let unlockedSeeds = allIndividualSeeds.filter(seed => seed[8] == false);
+				let unlockSeed = unlockedSeeds[Math.floor(Math.random() * unlockedSeeds.length)];
 				checkGoodPull(unlockSeed, pack);		
 			} else {makeAlert(2);}
 		}
@@ -496,8 +499,9 @@ function buySeed(pack) {
 			makeAlert(4);
 		} else {
 			if (mon >= mythicPrice) {
-				let allIndividualSeeds = seeds[5][1];
-				let unlockSeed = allIndividualSeeds[Math.floor(Math.random() * allIndividualSeeds.length)];
+				let allIndividualSeeds = seeds[5][1].slice(1).flatMap(categoryEntry => categoryEntry[1]);
+				let unlockedSeeds = allIndividualSeeds.filter(seed => seed[8] == false);
+				let unlockSeed = unlockedSeeds[Math.floor(Math.random() * unlockedSeeds.length)];
 				checkGoodPull(unlockSeed, pack);		
 			} else {makeAlert(2);}
 		}
