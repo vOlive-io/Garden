@@ -17,7 +17,7 @@ var mon = 0.00;
 var slotNum = 4;
 var gardenValue = 1.00;
 var seedsUnlocked = 3;
-var seedsHavested = 0;
+var seedsHarvested = 0;
 
 var seedPackPrice = 5;
 var commonPrice = 50;
@@ -180,26 +180,29 @@ var achievements = [
 	 	["2.1.2.3", "Achievement Name", "Achievement Criteria", "Achievement Description", false]
 	]],
 	["Seed Recipes", [
-		["2.1.2.1", "Strawberry Rhubarb Pie", "Grow: 5 Strawberries, 3 Rhubarb, 3 Sugar, 2 Wheat, and 1 Vanilla.", "Achievement Description", false],
-		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Watermelons, and 1 Ruby Roman Grape", "Achievement Description", false],
-	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here)", "Achievement Description", false],
-		["2.1.2.4", "Pancake", "Grow: 5 Wheat, 4 Sugar, 4 Maple, 3 Vanilla, 2 Strawberries, and 1 ....", "Achievement Description", false],
-		["2.1.2.5", "Pancake Stack", "Grow: 25 Wheat, 20 Sugar, 20 Maple, 15 Vanilla, 10 Strawberries, and 5 ....", "Achievement Description", false],
-		["2.1.2.6", "Pancake Tower", "Grow: 50 Wheat, 40 Sugar, 40 Maple, 30 Vanilla, 20 Strawberries, and 10....", "Achievement Description", false],
-		["2.1.2.7", "Pesto Pasta", "Grow: 5 Wheat, 4 Basil, 2 Garlic, 1 Sugar.", "Achievement Description", false]
+		["2.1.2.1", "Strawberry Rhubarb Pie", "Grow: 5 Strawberries, 3 Rhubarb, 3 Sugar, 2 Wheat, and 1 Vanilla.", "Achievement Description", false, false],
+		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Watermelons, and 1 Ruby Roman Grape", "Achievement Description", false, false],
+	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here)", "Achievement Description", false, false],
+		["2.1.2.4", "Pancake", "Grow: 5 Wheat, 4 Sugar, 4 Maple, 3 Vanilla, 2 Strawberries, and 1 ....", "Achievement Description", false, false],
+		["2.1.2.5", "Pancake Stack", "Grow: 25 Wheat, 20 Sugar, 20 Maple, 15 Vanilla, 10 Strawberries, and 5 ....", "Achievement Description", false, false],
+		["2.1.2.6", "Pancake Tower", "Grow: 50 Wheat, 40 Sugar, 40 Maple, 30 Vanilla, 20 Strawberries, and 10....", "Achievement Description", false, false],
+		["2.1.2.7", "Pesto Pasta", "Grow: 5 Wheat, 4 Basil, 2 Garlic, 1 Sugar.", "Achievement Description", false, false]
 
 	]]
 ];
 
 function unlockAchievements() {
 	//Seeds planted
-	for(i = 1; i < achievements.length(); i++) {
+	for(i = 1; i < achievements[1][1].length(); i++) {
 		if (seedsHarvested > achievements[1][1][i][6] && achievements[1][1][i][5] == false) {
 			achievements[1][1][i][5] = true;
 			newAch = achievements[1][1][i][1];
 			createNewGardenSlot();
 			makeAlert(5);
 		}
+	}
+	if((true) && achievements[3][1][1][6] == false){
+		
 	}
 	//seeds unlocked
 	//recipes
@@ -431,7 +434,7 @@ function harvest(seed, bedData) {
 	bedData[0].style.border = "10px white groove";
 	seed[7]++;
 	mon = mon + (seed[6]*gardenValue);
-	seedsHavested++;
+	seedsHarvested++;
 	refreshVitals();
 }
 function buySeed(pack) {
