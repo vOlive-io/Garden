@@ -238,7 +238,7 @@ function displayAchievements() {
 ////////////////////////////////
 document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
 document.getElementById("value-spot").innerHTML = "Garden Value: " + gardenValue + "x";
-unlockSeed();
+unlockSeedInArray();
 refreshDropdown();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(refreshVitals, 1000);
@@ -266,7 +266,7 @@ function changeSeason() {
 	garden.style.backgroundColor = newColor;
 	seasonName.innerHTML = seasonNames[seasonNum];
 }
-function unlockSeed() {
+function unlockSeedInArray() {
 	document.getElementById("seed-slots").innerHTML = "";	
 	for (let i = 1; i < seeds.length; i++) {
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
@@ -360,7 +360,7 @@ function refreshVitals() {
 	else {document.getElementById("mythic-unlock-pack-price").innerHTML = mythicPrice + "$";}
 	
 	document.getElementById("seed-pack-price").innerHTML = seedPackPrice + "$";
-	unlockSeed();
+	unlockSeedInArray()
 	findSeed();
 	unlockAchievements()
 	
