@@ -193,7 +193,7 @@ var achievements = [
 
 function unlockAchievements() {
 	//Seeds planted
-	for(i = 1; i < achievements[1][1].length(); i++) {
+	for(i = 1; i < achievements[1][1].length; i++) {
 		if (seedsHarvested > achievements[1][1][i][5] && achievements[1][1][i][4] == false) {
 			achievements[1][1][i][4] = true;
 			newAch = achievements[1][1][i][1];
