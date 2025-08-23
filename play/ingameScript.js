@@ -194,15 +194,15 @@ var achievements = [
 function unlockAchievements() {
 	//Seeds planted
 	for(i = 1; i < achievements[1][1].length(); i++) {
-		if (seedsHarvested > achievements[1][1][i][6] && achievements[1][1][i][5] == false) {
-			achievements[1][1][i][5] = true;
+		if (seedsHarvested > achievements[1][1][i][5] && achievements[1][1][i][4] == false) {
+			achievements[1][1][i][4] = true;
 			newAch = achievements[1][1][i][1];
 			createNewGardenSlot();
 			makeAlert(5);
 		}
 	}
-	if((true) && achievements[3][1][1][6] == false){
-		
+	if((true) && achievements[3][1][1][5] == false){
+
 	}
 	//seeds unlocked
 	//recipes
