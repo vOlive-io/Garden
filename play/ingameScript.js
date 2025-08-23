@@ -362,6 +362,7 @@ function refreshVitals() {
 	document.getElementById("seed-pack-price").innerHTML = seedPackPrice + "$";
 	unlockSeed();
 	findSeed();
+	unlockAchievements()
 	
 }
 function createNewGardenSlot() {
