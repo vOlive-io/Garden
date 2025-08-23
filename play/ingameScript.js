@@ -33,7 +33,7 @@ var rareUp = 1.2;
 var epicUp = 1.2;
 var mythicUp = 1.5;
 
-
+var newAch = "";
 
 var seeds = [
 	["Start of seeds", ["Seed Types", [
@@ -196,6 +196,7 @@ function unlockAchievements() {
 	for(i = 1; i < achievements.length(); i++) {
 		if (seedsHarvested > achievements[1][1][i][6] && achievements[1][1][i][5] == false) {
 			achievements[1][1][i][5] = true;
+			newAch = achievements[1][1][i][1];
 			createNewGardenSlot();
 			makeAlert(5);
 		}
@@ -596,7 +597,7 @@ function makeAlert(alertCode) {
 	}
 	if (alertCode == 5) {
 		document.getElementById("alert-h").innerHTML = "NEW ACHIEVEMENT!";
-		document.getElementById("alert-p").innerHTML = "You just earned a brand new achievement: "+"! Good job!.";
+		document.getElementById("alert-p").innerHTML = "You just earned a brand new achievement: " + newAch + "! Good job!.";
 		document.getElementById("alert").style.display = "block";}
 }
 ////////////////////////////////
