@@ -357,7 +357,6 @@ function refreshVitals() {
 	
 	document.getElementById("seed-pack-price").innerHTML = seedPackPrice + "$";
 	unlockSeed();
-	refreshDropdown();
 	findSeed();
 	
 }
@@ -595,7 +594,10 @@ function makeAlert(alertCode) {
 		document.getElementById("alert-p").innerHTML = "This pack is sold out! You cannot buy anymore from this pack, try buying some other seeds instead.";
 		document.getElementById("alert").style.display = "block";
 	}
-	if (alertCode == 4) {}
+	if (alertCode == 5) {
+		document.getElementById("alert-h").innerHTML = "NEW ACHIEVEMENT!";
+		document.getElementById("alert-p").innerHTML = "You just earned a brand new achievement: "+"! Good job!.";
+		document.getElementById("alert").style.display = "block";}
 }
 ////////////////////////////////
 ///         COOKIES          ///
