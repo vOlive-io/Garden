@@ -511,7 +511,7 @@ function buySeed(pack) {
 
 function checkGoodPull(unlockSeed, pack) {
 	if(pack == 0) {
-		if (unlockSeed[8] == true) {
+		if (unlockSeed[9] == true) {
 				unlockSeed[3] = unlockSeed[3] + 10;
 				mon = mon - seedPackPrice;
 				seedPackPrice = Math.round(seedPackPrice * seedPackUp);
@@ -519,8 +519,8 @@ function checkGoodPull(unlockSeed, pack) {
 		} else {buySeed(pack);}
 	}
 	if(pack == 1) {
-		if (unlockSeed[8] == false) {
-				unlockSeed[8] = true;
+		if (unlockSeed[9] == false) {
+				unlockSeed[9] = true;
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - commonPrice;
 				commonPrice = Math.round(commonPrice * commonUp);
@@ -531,8 +531,8 @@ function checkGoodPull(unlockSeed, pack) {
 		} else {buySeed(pack);}
 	}
 	if(pack == 2) {
-		if (unlockSeed[8] == false) {
-				unlockSeed[8] = true;
+		if (unlockSeed[9] == false) {
+				unlockSeed[9] = true;
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - uncommonPrice;
 				uncommonPrice = Math.round(uncommonPrice * uncommonUp);
@@ -543,8 +543,8 @@ function checkGoodPull(unlockSeed, pack) {
 		} else {buySeed(pack);}
 	}
 	if(pack == 3) {
-		if (unlockSeed[8] == false) {
-				unlockSeed[8] = true;
+		if (unlockSeed[9] == false) {
+				unlockSeed[9] = true;
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - rarePrice;
 				rarePrice = Math.round(rarePrice * rareUp);
@@ -555,8 +555,8 @@ function checkGoodPull(unlockSeed, pack) {
 		} else {buySeed(pack);}
 	}
 	if(pack == 4) {
-		if (unlockSeed[8] == false) {
-				unlockSeed[8] = true;
+		if (unlockSeed[9] == false) {
+				unlockSeed[9] = true;
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - epicPrice;
 				epicPrice = Math.round(epicPrice * epicUp);
@@ -567,8 +567,8 @@ function checkGoodPull(unlockSeed, pack) {
 		} else {buySeed(pack);}
 	}
 	if(pack == 5) {
-		if (unlockSeed[8] == false) {
-				unlockSeed[8] = true;
+		if (unlockSeed[9] == false) {
+				unlockSeed[9] = true;
 				unlockSeed[3] = unlockSeed[3] + 5;
 				mon = mon - mythicPrice;
 				mythicPrice = Math.round(mythicPrice * mythicUp);
