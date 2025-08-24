@@ -1,7 +1,20 @@
 callSavedData_cookies();
+checkScreenSize()
 ////////////////////////////////
 ///        VARIABLES         ///
 ////////////////////////////////
+function checkScreenSize() {
+  let screenSize = window.innerWidth;
+
+  if (screenSize > 975) {
+    document.getElementById('body').style.display = 'none';
+    //document.getElementById('sizeCom').style.display = 'block';
+    //size.innerText = screenSize + "px ";
+  } else {
+    //document.getElementById('sizeCom').style.display = 'none';
+  }
+}
+
 
 
 
@@ -236,6 +249,8 @@ refreshDropdown();
 setInterval(makeSavedData_cookies, 1000);
 setInterval(refreshVitals, 1000);
 setInterval(changeSeason, 15000);
+setInterval(checkScreenSize, 1000);
+
 //setInterval(refreshDropdown, 1000);
 document.getElementById('garden-slots').addEventListener('click', function(event) {
 	if (event.target.tagName === 'BUTTON') { 
