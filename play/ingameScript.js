@@ -304,11 +304,12 @@ function unlockSeedInArray() {
 				seedContainer.id = placement;
 				document.getElementById("seed-slots").appendChild(seedContainer);
 				seeds[i][1][i3][9] = true;
-				document.getElementById(placement).classList.add('unlockedSeeds');
+				
 				if (seeds[i][1][i3][10] == "Mythic") {
 					document.getElementById(placement).style.background = seeds[i][1][i3][12];
 					document.getElementById(placement).style.border = "#000000 groove 10px";
 				} else { 
+					document.getElementById(placement).classList.add('unlockedSeedsNormal');
 					document.getElementById(placement).style.background = "#fff3d6";
 					document.getElementById(placement).style.border = "#5e502d groove 10px";
   
