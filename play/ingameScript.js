@@ -7,10 +7,11 @@ function checkScreenSize() {
   let screenSize = window.innerWidth;
 
   if (screenSize > 975) {
-    document.body.style.display = 'none';
+    document.body.style.display = "block";
     //document.getElementById('sizeCom').style.display = 'block';
     //size.innerText = screenSize + "px ";
   } else {
+	document.body.style.display = "none";
     //document.getElementById('sizeCom').style.display = 'none';
   }
 }
