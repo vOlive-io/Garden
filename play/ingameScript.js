@@ -214,7 +214,7 @@ function unlockAchievements() {
 
 function displayAchievements() {
 	document.getElementById("achGallaryWing").innerHTML = "";	
-	for(i = 1; i < achievements.length(); i++) {
+	for(i = 1; i < achievements.length; i++) {
 		if (achievements[1][1][i][5] == true) {
 			const achContainer = document.createElement("div");
 			const ach_h1 = document.createElement("h1");
