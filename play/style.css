@@ -7,21 +7,10 @@
 
 
 /*  INVENTORY STUFF */
-.left {
-  left: 0;
-  background-color: white;
-}
 
-.left p {
-  margin-bottom: 5px;
-}
-
-.right {
-  right: 0;
-}
 .garden {
   display: grid;
-  grid-template-columns: 80px 80px 80px 80px 80px 80px;;
+  grid-template-columns: 80px 80px 80px 80px;
   grid-gap: 1em;
 }
 
@@ -56,14 +45,36 @@
   height: 20em;
 }
 
-.split {
+.split-l {
   height: 100%;
-  width: 50%;
+  width: 65%;
   position: fixed;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
+}
+
+.split-r {
+  height: 100%;
+  width: 35%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+}
+.left p {
+  margin-bottom: 5px;
+}
+
+.right {
+  right: 0;
 }
 
 #alert {
@@ -80,6 +91,3 @@
   background: #d9c7b6;
 }
 
-.f5bc42 {
-  background-color: #f5bc42;
-}

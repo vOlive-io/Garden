@@ -5,7 +5,6 @@ checkScreenSize()
 ////////////////////////////////
 function checkScreenSize() {
   let screenSize = window.innerWidth;
-
   if (screenSize > 975) {
     document.body.style.display = "block";
     //document.getElementById('sizeCom').style.display = 'block';
