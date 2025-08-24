@@ -144,10 +144,6 @@ var seeds = [
 		["1.1.7.5", "", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 6]
 	]]
 ];
-
-
-
-
 //ACHEVMENTS
 var achievements = [
 	["Start of Achevments", ["Achievement Types", [
@@ -189,11 +185,8 @@ var achievements = [
 		["2.1.2.7", "Apple Crisp", "Grow: 5 Red Apple, 5 Green Apple, 5 Black Diamond Apple, and 4 Sugar.", "Achievement Description", false, false],
 		["2.1.2.8", "Full Apple Crisp", "Grow: 10 Golden Apple, 10 Red Apple, 10 Green Apple, 10 Black Diamond Apple, and 8 Sugar.", "Achievement Description", false, false]
 		["2.1.2.9", "Pesto Pasta", "Grow: 5 Wheat, 4 Basil, 2 Garlic, 1 Sugar.", "Achievement Description", false, false]
-
-
 	]]
 ];
-
 function unlockAchievements() {
 	//Seeds planted
 	for(i = 0; i < achievements[1][1].length; i++) {
@@ -211,7 +204,6 @@ function unlockAchievements() {
 	//recipes
 	//
 }
-
 function displayAchievements() {
 	document.getElementById("achGallaryWing").innerHTML = "";	
 	for(i = 1; i < achievements.length; i++) {
@@ -232,9 +224,7 @@ function displayAchievements() {
 		}
 	}
 	
-}
-	
-
+}	
 
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
@@ -282,10 +272,13 @@ function unlockSeedInArray() {
 				if (seeds[i][1][i3][5] == 2) {seasonNameInput = "autumn";}
 				if (seeds[i][1][i3][5] == 1) {seasonNameInput = "summer";}
 				if (seeds[i][1][i3][5] == 0) {seasonNameInput = "spring";}
-				const seed_br_1 = document.createElement("br");
-				const seed_br_2 = document.createElement("br");
-				const seed_br_3 = document.createElement("br");
-				const seed_p = document.createElement("p");
+
+				const seed_p = document.createElement("ul");
+                const seed_li = document.createElement("li");
+                const seed_li_1 = document.createElement("li");
+                const seed_li_2 = document.createElement("li");
+                const seed_li_3 = document.createElement("li");
+                
 				const p_part_1 = "Grows slower in " + seasonNameInput + ".";
 				const p_part_2 = "Grows for " + (seeds[i][1][i3][6]*gardenValue) + "$" + " (" + seeds[i][1][i3][6] + " * garden value)"; 
 				const p_part_3 = "Takes " + seeds[i][1][i3][4] + " season(s) to grow"; 
@@ -293,13 +286,18 @@ function unlockSeedInArray() {
 				const seed_p_text_1 = document.createTextNode(p_part_1);
 				const seed_p_text_2 = document.createTextNode(p_part_2);
 				const seed_p_text_3 = document.createTextNode(p_part_3);
-				seed_p.appendChild(seed_p_text);
-				seed_p.appendChild(seed_br_1);
-				seed_p.appendChild(seed_p_text_1);
-				seed_p.appendChild(seed_br_2);
-				seed_p.appendChild(seed_p_text_2);
-				seed_p.appendChild(seed_br_3);
-				seed_p.appendChild(seed_p_text_3);
+
+                seed_li.appendChild(seed_p_text);
+                seed_li_1.appendChild(seed_p_text_1);
+                seed_li_2.appendChild(seed_p_text_2);
+                seed_li_3.appendChild(seed_p_text_3);
+                
+
+				seed_p.appendChild(seed_li);
+				seed_p.appendChild(seed_li_1);
+				seed_p.appendChild(seed_li_2);
+				seed_p.appendChild(seed_li_3);
+                
 				seedContainer.appendChild(seed_h1);
 				seedContainer.appendChild(seed_p);
 				const placement = "seed-" + seeds[i][1][i3][0];
@@ -310,13 +308,21 @@ function unlockSeedInArray() {
 				if (seeds[i][1][i3][10] == "Mythic") {
 					document.getElementById(placement).style.background = seeds[i][1][i3][12];
 					document.getElementById(placement).style.border = "#000000 groove 10px";
+                    document.getElementById(placement).style.width = "250px";
+                    document.getElementById(placement).style.height = "500px";
+        			document.getElementById(placement).style.paddingLeft = "50x";
+    				document.getElementById(placement).style.paddingRight = "50px";
 				} else { 
 					document.getElementById(placement).style.background = "#fff3d6";
 					document.getElementById(placement).style.border = "#5e502d groove 10px";
+                    document.getElementById(placement).style.width = "250px";
+                    document.getElementById(placement).style.height = "250px";
+    				document.getElementById(placement).style.paddingLeft = "50x";
+    				document.getElementById(placement).style.paddingRight = "50px";
 				}
-				document.getElementById(placement).style.width = "65%";
-				document.getElementById(placement).style.paddingLeft = "50x";
-				document.getElementById(placement).style.paddingRight = "50px";
+				document.getElementById("seed-slots").style.display = "grid";
+				document.getElementById("seed-slots").style.gridTemplateColumns = "100fr 100fr";
+				
 			}
 		}
 	}
@@ -342,7 +348,6 @@ function refreshDropdown() {
 	seedContainer.id = "seed-list";
 	document.getElementById("seed-list").replaceWith(seedContainer);
 }
-
 function refreshVitals() {
 	document.getElementById("mon-spot").innerHTML = "You have " + mon + "$";
 	document.getElementById("value-spot").innerHTML = "Garden Value: " + gardenValue + "x";
@@ -441,8 +446,6 @@ function harvest(seed, bedData) {
 	seedsHarvested++;
 	refreshVitals();
 }
-
-
 function buySeed(pack) {
     if(pack == 0) {
         if (mon >= seedPackPrice) {
@@ -561,8 +564,6 @@ function buySeed(pack) {
     }
 	refreshVitals();
 }
-
-
 function makeAlert(alertCode) {
 	if (alertCode == 0) {
 		document.getElementById("alert").style.display = "none";
