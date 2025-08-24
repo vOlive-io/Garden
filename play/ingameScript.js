@@ -196,8 +196,8 @@ var achievements = [
 
 function unlockAchievements() {
 	//Seeds planted
-	for(i = 0; i <= achievements[1][1].length; i++) {
-		if (seedsHarvested > achievements[1][1][i][5] && achievements[1][1][i][4] == false) {
+	for(i = 0; i < achievements[1][1].length; i++) {
+		if (seedsHarvested >= achievements[1][1][i][5] && achievements[1][1][i][4] == false) {
 			achievements[1][1][i][4] = true;
 			newAch = achievements[1][1][i][1];
 			createNewGardenSlot();
