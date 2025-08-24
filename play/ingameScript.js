@@ -447,7 +447,7 @@ function buySeed(pack) {
     if(pack == 0) {
         if (mon >= seedPackPrice) {
             let allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);
-            let lockedSeeds = allIndividualSeeds.filter(seed => seed[9] == false);
+            let lockedSeeds = allIndividualSeeds.filter(seed => seed[9] == true);
             if (lockedSeeds.length === 0) {
 				seedPackPrice = 0;
                 makeAlert(4);
