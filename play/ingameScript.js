@@ -442,7 +442,7 @@ function harvest(seed, bedData) {
 	refreshVitals();
 }
 
-JavaScript
+
 function buySeed(pack) {
     if(pack == 0) {
         if (mon >= seedPackPrice) {
