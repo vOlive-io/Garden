@@ -449,6 +449,7 @@ function buySeed(pack) {
             let allIndividualSeeds = seeds.slice(1).flatMap(categoryEntry => categoryEntry[1]);
             let lockedSeeds = allIndividualSeeds.filter(seed => seed[9] == false);
             if (lockedSeeds.length === 0) {
+				seedPackPrice = 0;
                 makeAlert(4);
                 return;
             }
@@ -464,6 +465,7 @@ function buySeed(pack) {
                 let allIndividualSeeds = seeds[1][1];
                 let lockedSeeds = allIndividualSeeds.filter(seed => seed[9] == false);
                 if (lockedSeeds.length === 0) {
+					commonPrice = 0;
                     makeAlert(4);
                     return;
                 }
@@ -480,6 +482,7 @@ function buySeed(pack) {
                 let allIndividualSeeds = seeds[2][1];
                 let lockedSeeds = allIndividualSeeds.filter(seed => seed[9] == false);
                 if (lockedSeeds.length === 0) {
+					uncommonPrice = 0;
                     makeAlert(4);
                     return;
                 }
@@ -496,6 +499,7 @@ function buySeed(pack) {
                 let allIndividualSeeds = seeds[3][1];
                 let lockedSeeds = allIndividualSeeds.filter(seed => seed[9] == false);
                 if (lockedSeeds.length === 0) {
+					rarePrice = 0;
                     makeAlert(4);
                     return;
                 }
@@ -512,6 +516,7 @@ function buySeed(pack) {
                 let allIndividualSeeds = seeds[4][1];
                 let lockedSeeds = allIndividualSeeds.filter(seed => seed[9] == false);
                 if (lockedSeeds.length === 0) {
+					epicPrice = 0
                     makeAlert(4);
                     return;
                 }
@@ -528,6 +533,7 @@ function buySeed(pack) {
                 let allIndividualSeeds = seeds[5][1];
                 let lockedSeeds = allIndividualSeeds.filter(seed => seed[9] == false);
                 if (lockedSeeds.length === 0) {
+					mythicPrice = 0;
                     makeAlert(4);
                     return;
                 }
