@@ -315,10 +315,10 @@ function unlockSeedInArray() {
 					document.getElementById(placement).style.border = "#5e502d groove 10px";
 				}
 				document.getElementById("seed-slots").style.display = "grid";
-				document.getElementById("seed-slots").style.gridTemplateColumns = "100fr 100fr";
-				document.getElementById(placement).style.width = "40%";
-				document.getElementById(placement).style.paddingLeft = "5%";
-				document.getElementById(placement).style.paddingRight = "5%";
+				document.getElementById("seed-slots").style.gridTemplateColumns = "100fr 100fr 100fr";
+				document.getElementById(placement).style.width = "65%";
+				document.getElementById(placement).style.paddingLeft = "50x";
+				document.getElementById(placement).style.paddingRight = "50px";
 			}
 		}
 	}
