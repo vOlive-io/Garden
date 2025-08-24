@@ -454,7 +454,9 @@ function buySeed(pack) {
                 return;
             }
             let unlockSeed = lockedSeeds[Math.floor(Math.random() * lockedSeeds.length)];
-            checkGoodPull(unlockSeed, pack);
+			unlockSeed[3] = unlockSeed[3] + 10;
+     		mon = mon - seedPackPrice;
+        	seedPackPrice = Math.round(seedPackPrice * seedPackUp);
         } else { makeAlert(2); }
     }
     if(pack == 1) {
@@ -470,7 +472,10 @@ function buySeed(pack) {
                     return;
                 }
                 let unlockSeed = lockedSeeds[Math.floor(Math.random() * lockedSeeds.length)];
-                checkGoodPull(unlockSeed, pack);
+                unlockSeed[9] = true;
+       			unlockSeed[3] = unlockSeed[3] + 5;
+        		mon = mon - commonPrice;
+        		commonPrice = Math.round(commonPrice * commonUp);
             } else { makeAlert(2); }
         }
     }
@@ -487,7 +492,10 @@ function buySeed(pack) {
                     return;
                 }
                 let unlockSeed = lockedSeeds[Math.floor(Math.random() * lockedSeeds.length)];
-                checkGoodPull(unlockSeed, pack);
+                unlockSeed[9] = true;
+        		unlockSeed[3] = unlockSeed[3] + 5;
+        		mon = mon - uncommonPrice;
+        		uncommonPrice = Math.round(uncommonPrice * uncommonUp);
             } else { makeAlert(2); }
         }
     }
@@ -504,7 +512,10 @@ function buySeed(pack) {
                     return;
                 }
                 let unlockSeed = lockedSeeds[Math.floor(Math.random() * lockedSeeds.length)];
-                checkGoodPull(unlockSeed, pack);
+                unlockSeed[9] = true;
+     			unlockSeed[3] = unlockSeed[3] + 5;
+        		mon = mon - rarePrice;
+        		rarePrice = Math.round(rarePrice * rareUp);
             } else { makeAlert(2); }
         }
     }
@@ -521,7 +532,10 @@ function buySeed(pack) {
                     return;
                 }
                 let unlockSeed = lockedSeeds[Math.floor(Math.random() * lockedSeeds.length)];
-                checkGoodPull(unlockSeed, pack);
+                unlockSeed[9] = true;
+        		unlockSeed[3] = unlockSeed[3] + 5;
+        		mon = mon - epicPrice;
+        		epicPrice = Math.round(epicPrice * epicUp);
             } else { makeAlert(2); }
         }
     }
@@ -538,66 +552,15 @@ function buySeed(pack) {
                     return;
                 }
                 let unlockSeed = lockedSeeds[Math.floor(Math.random() * lockedSeeds.length)];
-                checkGoodPull(unlockSeed, pack);
+                unlockSeed[9] = true;
+        		unlockSeed[3] = unlockSeed[3] + 5;
+        		mon = mon - mythicPrice;
+        		mythicPrice = Math.round(mythicPrice * mythicUp);
             } else { makeAlert(2); }
         }
     }
 }
 
-function checkGoodPull(unlockSeed, pack) {
-    if(pack == 0) {
-        unlockSeed[9] = true;
-        unlockSeed[3] = unlockSeed[3] + 10;
-        mon = mon - seedPackPrice;
-        seedPackPrice = Math.round(seedPackPrice * seedPackUp);
-    }
-    if(pack == 1) {
-        unlockSeed[9] = true;
-        unlockSeed[3] = unlockSeed[3] + 5;
-        mon = mon - commonPrice;
-        commonPrice = Math.round(commonPrice * commonUp);
-        if (commonPrice == 1597) {
-            commonPrice = 0;
-        }
-    }
-    if(pack == 2) {
-        unlockSeed[9] = true;
-        unlockSeed[3] = unlockSeed[3] + 5;
-        mon = mon - uncommonPrice;
-        uncommonPrice = Math.round(uncommonPrice * uncommonUp);
-        if (uncommonPrice == 13313) {
-            uncommonPrice = 0;
-        }
-    }
-    if(pack == 3) {
-        unlockSeed[9] = true;
-        unlockSeed[3] = unlockSeed[3] + 5;
-        mon = mon - rarePrice;
-        rarePrice = Math.round(rarePrice * rareUp);
-        if (rarePrice == 77035) {
-            rarePrice = 0;
-        }
-    }
-    if(pack == 4) {
-        unlockSeed[9] = true;
-        unlockSeed[3] = unlockSeed[3] + 5;
-        mon = mon - epicPrice;
-        epicPrice = Math.round(epicPrice * epicUp);
-        if (epicPrice == 371504) {
-            epicPrice = 0;
-        }
-    }
-    if(pack == 5) {
-        unlockSeed[9] = true;
-        unlockSeed[3] = unlockSeed[3] + 5;
-        mon = mon - mythicPrice;
-        mythicPrice = Math.round(mythicPrice * mythicUp);
-        if (mythicPrice == 1139063) {
-            mythicPrice = 0;
-        }
-    }
-	refreshVitals();
-}
 
 function makeAlert(alertCode) {
 	if (alertCode == 0) {
