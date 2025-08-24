@@ -308,22 +308,12 @@ function unlockSeedInArray() {
 				if (seeds[i][1][i3][10] == "Mythic") {
 					document.getElementById(placement).style.background = seeds[i][1][i3][12];
 					document.getElementById(placement).style.border = "#000000 groove 10px";
-                    document.getElementById(placement).style.width = "250px";
-                    document.getElementById(placement).style.height = "500px";
-        			document.getElementById(placement).style.paddingLeft = "10px";
-    				document.getElementById(placement).style.marginRight = "10px";
-                    document.getElementById(placement).style.marginBottom = "10px";
 				} else { 
 					document.getElementById(placement).style.background = "#fff3d6";
 					document.getElementById(placement).style.border = "#5e502d groove 10px";
-                    document.getElementById(placement).style.width = "85%";
-                    document.getElementById(placement).style.height = "250px";
-    				document.getElementById(placement).style.paddingLeft = "10px";
-    				document.getElementById(placement).style.marginRight = "5px";
-                    document.getElementById(placement).style.marginBottom = "5px";
+  
 				}
-				document.getElementById("seed-slots").style.display = "grid";
-				document.getElementById("seed-slots").style.gridTemplateColumns = "100fr 100fr";
+				
 				
 			}
 		}
