@@ -35,8 +35,6 @@
 }
 
 .unlockedSeeds {
-  display: grid;
-  grid-template-columns: 80px 80px 80px 80px 80px 80px;;
   width: 80%;
   padding-left: 5%;
   padding-right: 5%;
