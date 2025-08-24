@@ -260,7 +260,8 @@ function changeSeason() {
 	seasonName.innerHTML = seasonNames[seasonNum];
 }
 function unlockSeedInArray() {
-	document.getElementById("seed-slots").innerHTML = "";	
+	document.getElementById("seed-slots").innerHTML = "";
+	document.getElementById("super-seed-slots").innerHTML = "";	
 	for (let i = 1; i < seeds.length; i++) {
 		for (let i3 = 0; i3 < seeds[i][1].length; i3++) {
 			if (seeds[i][1][i3][9] == true) {
@@ -302,13 +303,14 @@ function unlockSeedInArray() {
 				seedContainer.appendChild(seed_p);
 				const placement = "seed-" + seeds[i][1][i3][0];
 				seedContainer.id = placement;
-				document.getElementById("seed-slots").appendChild(seedContainer);
-				seeds[i][1][i3][9] = true;
 				
 				if (seeds[i][1][i3][10] == "Mythic") {
+					document.getElementById("super-seed-slots").appendChild(seedContainer);
+					document.getElementById(placement).classList.add('unlockedSeedsSuper');
 					document.getElementById(placement).style.background = seeds[i][1][i3][12];
 					document.getElementById(placement).style.border = "#000000 groove 10px";
 				} else { 
+					document.getElementById("seed-slots").appendChild(seedContainer);
 					document.getElementById(placement).classList.add('unlockedSeedsNormal');
 					document.getElementById(placement).style.background = "#fff3d6";
 					document.getElementById(placement).style.border = "#5e502d groove 10px";
