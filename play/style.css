@@ -38,12 +38,13 @@
   grid-template-columns: 100fr 100fr;
 }
 
-.unlockedSeeds {
+.unlockedSeedsNormal {
   padding-left: 10px;
   margin-right: 5px;
+  margin-left: 5px;
   margin-bottom: 10px;
   width: 80%;
-  height: 200%;
+  height: 20em;
 }
 
 .split {
