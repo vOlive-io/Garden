@@ -33,11 +33,17 @@
 #gardenUI {
    transition: background-color 2s ease-in;
 }
+#seed-slots {
+  display: grid;
+  grid-template-columns: 100fr 100fr;
+}
 
 .unlockedSeeds {
+  padding-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
   width: 80%;
-  padding-left: 5%;
-  padding-right: 5%;
+  height: 200%;
 }
 
 .split {
