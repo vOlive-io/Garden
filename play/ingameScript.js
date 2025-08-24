@@ -559,6 +559,7 @@ function buySeed(pack) {
             } else { makeAlert(2); }
         }
     }
+	refreshVitals();
 }
 
 
@@ -571,27 +572,33 @@ function makeAlert(alertCode) {
 	if (alertCode == 1) {
 		document.getElementById("alert-h").innerHTML = "Not Enough Seeds!";
 		document.getElementById("alert-p").innerHTML = "You do not have enough " + selectedSeed[1] + " seeds in your inventory! If you want more, buy them in the store.";
+		document.getElementById("alert").style.background = "#ffc9ba";
 		document.getElementById("alert").style.display = "block";
 	} 
 	if (alertCode == 2) {
 		document.getElementById("alert-h").innerHTML = "Not Enough Money!";
 		document.getElementById("alert-p").innerHTML = "You dont have enough money! If you want more, try planting seeds in the garden.";
+		document.getElementById("alert").style.background = "#ffc9ba";
 		document.getElementById("alert").style.display = "block";
 	}
 	if (alertCode == 3) {
 		document.getElementById("alert-h").innerHTML = "Wrong type of bed!";
 		document.getElementById("alert-p").innerHTML = "This is the wrong type of bed, try plating in a diffrent bed, or if you dont own any of the right kinds of beds then you may have to restart....";
+		document.getElementById("alert").style.background = "#ffc9ba";
 		document.getElementById("alert").style.display = "block";
 	}
 	if (alertCode == 4) {
 		document.getElementById("alert-h").innerHTML = "Sold Out!";
 		document.getElementById("alert-p").innerHTML = "This pack is sold out! You cannot buy anymore from this pack, try buying some other seeds instead.";
+		document.getElementById("alert").style.background = "#ffc9ba";
 		document.getElementById("alert").style.display = "block";
 	}
 	if (alertCode == 5) {
 		document.getElementById("alert-h").innerHTML = "NEW ACHIEVEMENT!";
 		document.getElementById("alert-p").innerHTML = "You just earned a brand new achievement: " + newAch + "! Good job!.";
+		document.getElementById("alert").style.background = "#fffead";
 		document.getElementById("alert").style.display = "block";}
+		
 }
 ////////////////////////////////
 ///         COOKIES          ///
