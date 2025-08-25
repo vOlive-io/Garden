@@ -22,17 +22,19 @@
 }
 #seed-slots {
   display: grid;
-  grid-template-columns: 100fr 100fr;
+  grid-template-columns: 100fr 100fr 100fr;
 }
 
 .unlockedSeedsNormal {
-  padding-left: 10px;
+  padding-left: 11px;
   margin-right: 5px;
   margin-left: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   width: 80%;
   height: 20em;
+  font-size: 10px;
 }
+
 
 .unlockedSeedsSuper {
   padding-left: 10px;
