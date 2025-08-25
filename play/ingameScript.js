@@ -92,7 +92,7 @@ var seeds = [
 		["1.1.2.7", "Rhubarb", "My mom makes great strawberry and rhubarb pie..... hint hint", 0, 2, 3, 8.00, 0, 0, false, "Uncommon", 0],
 		["1.1.2.8", "Lettuce", "Seed Description", 0, 1, 3, 7.00, 0, 0, false, "Uncommon", 0],
 		["1.1.2.9", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, 0, false, "Uncommon", 0],
-		["1.1.2.10", "Thime", "Seed Description", 0, 1, 3, 7.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.10", "Camomile", "Seed Description", 0, 1, 3, 7.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.11", "Sugar", "Seed Description", 0, 2, 3, 15.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.12", "Lavender", "Seed Description", 0, 2, 3, 15.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.13", "Nutmeg", "Seed Description", 0, 2, 3, 10.00, 0, 0, false, "Uncommon", 1],
@@ -104,7 +104,7 @@ var seeds = [
 		["1.1.2.19", "Poppy", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Uncommon", 6]
 	]],
 	["Rare Seeds", [
-		["1.1.3.3", "Camomile", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 1],
+		["1.1.3.3", "Seaweed", "Seed Description", 0, 0, 3, 0.00, 0, 2, false, "Rare", 1],
 		["1.1.3.4", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 2],
 		["1.1.3.5", "Green Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
 		["1.1.3.6", "Elderberry", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
@@ -117,11 +117,11 @@ var seeds = [
 		["1.1.3.14", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
 		["1.1.3.15", "Honeydew", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
 		["1.1.3.16", "Cantolope", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
-		["1.1.3.17", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
+		["1.1.3.17", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 3, false, "Rare", 4],
 		["1.1.3.18", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, 0, false, "Rare", 5]
 	]],
 	["Epic Seeds", [
-		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 0],
+		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, 3, false, "Epic", 0],
 		["1.1.4.2", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 1],
 		["1.1.4.3", "Vanilla", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 1],
 		["1.1.4.4", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Epic", 5],
@@ -144,7 +144,7 @@ var seeds = [
 	]],
 	["Alchemy Seeds", [
 		["1.1.6.1", "Romor Vine", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 4],
-		["1.1.6.2", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 4],
+		["1.1.6.2", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, 1, false, "Alchemy", 4],
 		["1.1.6.3", "Tree of Eternal Truths", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 5],
 		["1.1.6.4", "Queen Orcid", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 5],
 		["1.1.6.5", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 6]
@@ -196,8 +196,12 @@ var achievements = [
 		["2.1.2.5", "Pancake Stack", "Grow: 25 Wheat, 20 Sugar, 20 Maple, 15 Vanilla, 10 Strawberries, and 5 ....", "Achievement Description", false, false],
 		["2.1.2.6", "Pancake Tower", "Grow: 50 Wheat, 40 Sugar, 40 Maple, 30 Vanilla, 20 Strawberries, and 10....", "Achievement Description", false, false],
 		["2.1.2.7", "Apple Crisp", "Grow: 5 Red Apple, 5 Green Apple, 5 Black Diamond Apple, and 4 Sugar.", "Achievement Description", false, false],
-		["2.1.2.8", "Full Apple Crisp", "Grow: 10 Golden Apple, 10 Red Apple, 10 Green Apple, 10 Black Diamond Apple, and 8 Sugar.", "Achievement Description", false, false]
+		["2.1.2.8", "Golden Apple Crisp", "Grow: 10 Golden Apple, 10 Red Apple, 10 Green Apple, 10 Black Diamond Apple, and 8 Sugar.", "Achievement Description", false, false]
 		["2.1.2.9", "Pesto Pasta", "Grow: 5 Wheat, 4 Basil, 2 Garlic, 1 Sugar.", "Achievement Description", false, false]
+		["2.1.2.10", "Vegetable Soup", "Grow: 3 Carrot (Orange), 3 Celery, 3 Cabbage, 3 Potato, and 1 Onion.", "Achievement Description", false, false]
+		["2.1.2.11", "Sushi", "Grow: 10 Rice, 8 Seaweed, .", "Achievement Description", false, false]
+
+
 	]]
 ];
 function unlockAchievements() {
