@@ -201,6 +201,7 @@ var achievements = [
 		["2.1.2.9", "Pesto Pasta", "Grow: 5 Wheat, 4 Basil, 2 Garlic, 1 Sugar.", "Achievement Description", false, false],
 		["2.1.2.10", "Vegetable Soup", "Grow: 3 Carrot (Orange), 3 Celery, 3 Cabbage, 3 Potato, and 1 Onion.", "Achievement Description", false, false],
 		["2.1.2.11", "Sushi", "Grow: 10 Rice, 8 Seaweed, 4 Avocado and 1 Wasabi.", "Achievement Description", false, false],
+		["2.1.2.12", "Avocado Toast", "Grow: 5 Wheat, 4 Avocado, 2 Onion and 1 Sugar.", "Achievement Description", false, false]
 
 
 	]]
