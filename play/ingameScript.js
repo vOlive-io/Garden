@@ -329,12 +329,12 @@ function unlockSeedInArray() {
 					document.getElementById("super-seed-slots").appendChild(seedContainer);
 					document.getElementById(placement).classList.add('unlockedSeedsSuper');
 					document.getElementById(placement).style.background = seeds[i][1][i3][12];
-					document.getElementById(placement).style.border = "#000000 groove 10px";
+					document.getElementById(placement).style.border = "#000000 groove 2px";
 				} else { 
 					document.getElementById("seed-slots").appendChild(seedContainer);
 					document.getElementById(placement).classList.add('unlockedSeedsNormal');
 					document.getElementById(placement).style.background = "#fff3d6";
-					document.getElementById(placement).style.border = "#5e502d groove 10px";
+					document.getElementById(placement).style.border = "#5e502d groove 2px";
   
 				}
 				
@@ -611,11 +611,10 @@ function makeAlert(alertCode) {
 		document.getElementById("alert").style.display = "block";
 	}
 	if (alertCode == 5) {
-		document.getElementById("alert-h").innerHTML = "NEW ACHIEVEMENT!";
+		document.getElementById("alert-h").innerHTML = "NEW ACHIEVEMENT: " + newAch +"!";
 		document.getElementById("alert-p").innerHTML = "You just earned a brand new achievement: " + newAch + "! Good job!.";
 		document.getElementById("alert").style.background = "#fffead";
 		document.getElementById("alert").style.display = "block";}
-		
 }
 ////////////////////////////////
 ///         COOKIES          ///
